@@ -1,0 +1,29 @@
+
+<div id="pf-my-treasure-chest"></div>
+
+<script type="text/javascript">
+    var chest = document.getElementById('pf-my-treasure-chest');
+    var data = [];
+    function createList(){
+        chest.innerHTML = '';
+
+        var saved = data.filter(function (elem){
+            return treasure[elem.pirate_id] 
+        })
+        for(var i=0; i<saved.length; i++){
+            chest.append(buildPirate(saved[i]));
+            if(i<saved.length-1)
+            chest.append(getSeperator());
+        }
+    }
+
+    treasureStr = localStorage.getItem('treasure');
+    treasure = treasureStr ? JSON.parse(treasureStr) : {};
+
+    fetch('/assets/repositories.json')
+        .then(response => response.json())
+        .then(extData => {
+            data = extData;
+            createList()
+        });
+</script>

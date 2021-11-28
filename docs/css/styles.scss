@@ -1,0 +1,292 @@
+---
+---
+
+@font-face {
+  font-family: 'Estonia';
+  src: url('../assets/fonts/estonia-regular-webfont.woff2') format('woff2'),
+       url('../assets/fonts/estonia-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-stack: 'Times New Roman', serif;
+$font-accent: 'Estonia', cursive;
+$water: #111 ;
+$life: #fff ;
+$primary-color: #333;
+
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $font-accent;
+  font-weight: normal;
+}
+h1.pf-title{
+  margin: 30px 10px 0;
+  font-size: 5em;
+  line-height: 3rem;
+}
+.pf-under-title{
+  font-size: 0.8em;
+}
+body{
+  font-family: $font-stack;
+  letter-spacing: 0.1em;
+  background-color: $water;
+  color: $life;
+  font-size: 1.3em;
+  margin: 0;
+}
+main{
+  margin: 0 10px;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+img{
+  width: 100%;
+}
+.sable{
+  cursor: url('../assets/saebel.png'), auto;
+}
+.pf-flag{
+  margin: 40px 20px 20px 0;
+  flex-direction: column;
+}
+.pf-flag > *:first-child{
+  width: 400px;
+}
+.pf-ship{
+  padding: 30px 0 30px 20px ;
+}
+.pf-ship h3, .pf-ship .h3{
+  font-family: $font-accent;
+  font-size: 2rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 0.2em;
+  font-weight: bold;
+}
+.pf-ship p{
+  margin: 0.2em 0 0.2em;
+}
+.pf-ship-list > *:last-child .pf-ship{
+  border-bottom: none;
+}
+.pf-row{
+  display: flex;
+  flex-direction: row;
+}
+.pf-column{
+  display: flex;
+  flex-direction: column;
+}
+.pf-treasure{
+  font-family: $font-accent;
+  font-size: 4rem;
+  line-height: 2rem;
+}
+.pf-treasure-add{
+  img{
+    max-width: 25px;
+  }
+}
+#pf-treasure-stack{
+  position: relative;
+  width: 50px;
+}
+#pf-treasure-stack > *{
+  position: absolute;
+  counter-increment: my-sec-counter;
+  bottom: calc(10* counter(my-sec-counter));
+  width: 25px;
+}
+.pf-treasure-selected .pf-treasure-add{
+  display: none;
+}
+
+.pf-pirate-actions > *{
+  text-align: center;
+  margin: 20px 0;
+  display: block;
+}
+.pf-treasure-remove{
+  font-size: 0.8rem;
+}
+.pf-treasure-selected  .pf-treasure-remove{
+  img{
+    max-width: 25px;
+  }
+}
+.pf-owner-name{
+  font-size: 0.9rem;
+}
+.pf-grow{
+  flex-grow: 1;
+}
+.pf-meta{
+  font-size: 1rem;
+  justify-content: space-between;
+}
+.pf-meta-lang::before, .pf-meta-star::before, .pf-meta-license::before{
+  content: ' ';
+  display: inline-block;
+  margin-right: 10px;
+  width: 1rem;
+  height: 1rem;
+  background-image: url('../assets/icons/brackets.svg');
+  background-size: 1rem 1rem;
+}
+.pf-meta-star::before{
+  background-image: url('../assets/icons/star.svg');
+}
+.pf-meta-license::before{
+  background-image: url('../assets/icons/license.svg');
+}
+.pf-openext::after{
+  content: ' ';
+  display: inline-block;
+  margin-left: 10px;
+  width: 1rem;
+  height: 1rem;
+  background-size: 1rem 1rem;
+  background-image: url('../assets/icons/openext.svg');
+}
+.pf-footer-wave, .pf-footer-wave::before, .pf-footer-wave::after{
+  content: '.';
+  top: 0;
+  position: absolute;
+  display: block;
+  height: 100px;
+  width: 100%;
+  //transform: translate(0px, -50px);
+  background-image: url('../assets/wave.svg');
+  background-repeat: repeat-x;
+  background-size: auto 60px;
+  animation: linear infinite;
+  animation-duration: 4s;
+}
+
+.pf-footer-wave::before{
+  animation-duration: 5s;
+  animation-name: run;
+}
+.pf-footer-wave::after{
+  animation-duration: 6s;
+  animation-name: run2;
+}
+.pf-footer-wave{
+  position: relative;
+  width: 100%;
+  color: black;
+  animation-name: run3;
+  transform: translateY(38px);
+}
+.pf-ship-sailing{
+  top: -70px;
+  position: absolute;
+  display: block;
+  height: 150px;
+  width: 150px;
+  background-image: url('../assets/ship.svg');
+  background-repeat: no-repeat;
+
+  background-size: auto 150px;
+  animation: linear infinite;
+  animation-duration: 50s;
+  animation-name: ship;
+}
+.pf-pirate-avatar::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  background-image: url('../assets/pirate-border.svg');
+  background-size: 75px 75px;
+  display: block;
+  width: 75px;
+  height: 75px;
+}
+hr.gf-seperator{
+  height: 20px;
+  border:none;
+  position: relative;
+  display: block;
+  background-image: url('../assets/icons/selector.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 80% 10px;
+  margin: 50px 0;
+}
+.pf-pirate-avatar{
+  margin: 0 auto;
+  position: relative;
+  height: 75px;
+  width: 75px;
+}
+.pf-pirate-avatar img{
+  border-radius: 50%;
+  display: block;
+}
+ul.pf-topics{
+  list-style: none;
+  list-style-position: inside;
+  padding: 0;
+}
+.pf-topics li{
+  display: inline-block;
+  font-size: 0.6em;
+  margin: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .pf-flag{
+    flex-direction: column;
+  }
+  .pf-flag > *:first-child{
+    width: 100%;
+  }
+}
+
+@keyframes run {
+  0% {
+    background-position: 0px 20px;
+  }
+  50% {
+    background-position: 20px 30px;
+  }
+  100% {
+    background-position: 0px 20px;
+  }
+}
+@keyframes run2 {
+  0% {
+    background-position: 320px 50px;
+  }
+  50% {
+    background-position: 300px 40px;
+  }
+  100% {
+    background-position: 320px 50px;
+  }
+}
+@keyframes run3 {
+  0% {
+    background-position: 500px 10px;
+  }
+  50% {
+    background-position: 520px 0px;
+  }
+  100% {
+    background-position: 500px 10px;
+  }
+}
+
+@keyframes ship {
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 110%;
+  }
+}

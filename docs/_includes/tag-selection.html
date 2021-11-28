@@ -1,0 +1,10 @@
+<div class="pf-ship-list">
+    {% for tag in site.data.tags %}
+    <a href="tags/{{ tag.url }}">
+      <div class="pf-ship">
+          <h3>{{ tag.title }}</h3>
+      </div>
+    </a>
+    {% endfor %}
+</div>
+

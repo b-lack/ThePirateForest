@@ -1,0 +1,38 @@
+{
+  "name": "thepirateforest",
+  "version": "1.0.0",
+  "description": "List of repository for forest-related open source software",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "type": "module",
+  "scripts": {
+    "add-github-repo": "node process/add-repo.js --owner --repo",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b-lack/ThePirateForest.git"
+  },
+  "author": "Gerrit Balindt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b-lack/ThePirateForest/issues"
+  },
+  "homepage": "https://github.com/b-lack/ThePirateForest#readme",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "minimist": "^1.2.5",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@octokit/core": "^3.5.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nanoid": "^3.1.30",
+    "node-fetch": "^3.1.0",
+    "nodemon": "^2.0.15"
+  }
+}

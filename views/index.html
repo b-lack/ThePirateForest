@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="pf-input">Owner</label>
+            <input id="pf-input" />
+        </div>
+        
+        
+        <button type="button" onclick="addRepo()">ADD</button>
+    </form>
+    
+    <script>
+        const addRepo = () => {
+
+            var [owner, repo] = document.getElementById('pf-input').value.split('/')
+            if(!owner || !repo) return;
+
+            fetch('./add-repo', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    repo,
+                    owner
+                }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</body>
+</html>

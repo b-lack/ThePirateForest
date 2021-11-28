@@ -1,0 +1,102 @@
+[
+  {
+    "pirate_id": "t_lTb-tB6E5WWJrE9Rbzp",
+    "added": 1638107118827,
+    "id": 405073306,
+    "name": "vwm-brandenburg",
+    "full_name": "b-lack/vwm-brandenburg",
+    "description": "Illustration of regeneration condition and wildlife impact monitoring.",
+    "html_url": "https://github.com/b-lack/vwm-brandenburg",
+    "language": "JavaScript",
+    "topics": [
+      "forestry",
+      "forstwirtschaft",
+      "monitoring",
+      "visualization"
+    ],
+    "stargazers_count": 1,
+    "license_name": "MIT License",
+    "owner_login": "b-lack",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/11278402?v=4",
+    "owner_html_url": "https://github.com/b-lack",
+    "updated_at": "2021-10-18T21:22:38Z"
+  },
+  {
+    "pirate_id": "pHUnCo_GWtZ_bdbr06uHG",
+    "added": 1638107138310,
+    "id": 385726766,
+    "name": "awesome-forests",
+    "full_name": "blutjens/awesome-forests",
+    "description": "🌳 A curated list of ground-truth forest datasets for the machine learning and forestry community.",
+    "html_url": "https://github.com/blutjens/awesome-forests",
+    "language": null,
+    "topics": [
+      "biodiversity",
+      "carbon",
+      "climate-change",
+      "datasets",
+      "deep-learning",
+      "ecosystems",
+      "forestry",
+      "machine-learning"
+    ],
+    "stargazers_count": 21,
+    "license_name": "Creative Commons Zero v1.0 Universal",
+    "owner_login": "blutjens",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/29470205?v=4",
+    "owner_html_url": "https://github.com/blutjens",
+    "updated_at": "2021-11-21T22:19:14Z"
+  },
+  {
+    "pirate_id": "aJnOMbBzFihijI-bylEMY",
+    "added": 1638132860056,
+    "id": 51918783,
+    "name": "lidR",
+    "full_name": "r-lidar/lidR",
+    "description": "R package for airborne LiDAR data manipulation and visualisation for forestry application",
+    "html_url": "https://github.com/r-lidar/lidR",
+    "language": "R",
+    "topics": [
+      "als",
+      "forestry",
+      "las",
+      "laz",
+      "lidar",
+      "point-cloud",
+      "r"
+    ],
+    "stargazers_count": 345,
+    "license_name": "GNU General Public License v3.0",
+    "owner_login": "r-lidar",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/93974705?v=4",
+    "owner_html_url": "https://github.com/r-lidar",
+    "updated_at": "2021-11-23T03:22:17Z"
+  },
+  {
+    "pirate_id": "0TLY97pCwJUcVygV0vlhe",
+    "added": 1638132921378,
+    "id": 205518529,
+    "name": "AdTree",
+    "full_name": "tudelft3d/AdTree",
+    "description": "Accurate, Detailed, and Automatic Modelling of Laser-Scanned Trees",
+    "html_url": "https://github.com/tudelft3d/AdTree",
+    "language": "C++",
+    "topics": [
+      "3d-model",
+      "forestry",
+      "laser-scanning",
+      "laser-scans",
+      "modeling",
+      "point-clouds",
+      "reconstruction",
+      "tree",
+      "urban-environment"
+    ],
+    "stargazers_count": 73,
+    "license_name": "GNU General Public License v3.0",
+    "owner_login": "tudelft3d",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/1544391?v=4",
+    "owner_html_url": "https://github.com/tudelft3d",
+    "updated_at": "2021-11-05T03:45:24Z"
+  }
+]

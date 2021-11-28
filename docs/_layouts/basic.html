@@ -1,0 +1,26 @@
+{% include html-header.html %}
+
+<div class="pf-flag pf-row">
+    <div>
+        <img src="/assets/Export.svg" alt="logo">
+    </div>
+    <div class="pf-column pf-grow">
+        {% if page.jumbo==true %}
+            {% include jumbo.html %}
+        {% endif %}
+        {% if page.jumbo==false %}
+            {{ content }}
+        {% endif %}
+    </div>
+</div>
+    {% if page.jumbo==true %}
+        <div class="pf-flag pf-row">
+            <div></div>
+            <div class="pf-grow">
+                <main>
+                    {{ content }}
+                </main>
+            </div>
+        </div>
+    {% endif %}
+{% include html-footer.html %}
