@@ -1,26 +1,19 @@
 {% include html-header.html %}
-
-<div class="pf-flag pf-row">
-    <div>
-        <img src="./assets/Export.svg" alt="logo">
-    </div>
-    <div class="pf-column pf-grow">
-        {% if page.jumbo==true %}
-            {% include jumbo.html %}
-        {% endif %}
-        {% if page.jumbo==false %}
+<div class="{{ page.type }}">
+    <div class="pf-flag pf-row">
+        <header class="pf-column">
+           <div>
+                <a href="{{ '/' | relative_url }}">
+                    <img src="./assets/Export.svg" alt="The Pirate Forest" width="100%">
+                </a>
+           </div>
+            <div class="pf-grow">
+                {% include filter.html %}
+            </div>
+        </header>
+        <main class="pf-column pf-grow">
             {{ content }}
-        {% endif %}
+        </main>
     </div>
 </div>
-    {% if page.jumbo==true %}
-        <div class="pf-flag pf-row">
-            <div></div>
-            <div class="pf-grow">
-                <main>
-                    {{ content }}
-                </main>
-            </div>
-        </div>
-    {% endif %}
 {% include html-footer.html %}

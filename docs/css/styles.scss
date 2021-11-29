@@ -16,7 +16,7 @@ $life: #fff ;
 $primary-color: #333;
 
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, .h4{
   font-family: $font-accent;
   font-weight: normal;
 }
@@ -27,6 +27,8 @@ h1.pf-title{
 }
 .pf-under-title{
   font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 100px;
 }
 body{
   font-family: $font-stack;
@@ -38,14 +40,32 @@ body{
 }
 main{
   margin: 0 10px;
+  max-width: 700px;
 }
 a{
   color: inherit;
   text-decoration: none;
   cursor: pointer;
+  user-select: none;
 }
 img{
-  width: 100%;
+  max-width: 100%;
+}
+.m-2{
+  margin: 0 0 1em 1em;
+}
+.pf-filter-col{
+  margin: 100px 10px;
+}
+.pf-filter-col.pf-no-data #gf-sorting{
+  display: none;
+}
+#gf-sorting{
+  margin-top: 20px;
+}
+.pf-sticky-top{
+  position: sticky;
+  top: 10px;
 }
 .sable{
   cursor: url('../assets/saebel.png'), auto;
@@ -58,7 +78,13 @@ img{
   width: 400px;
 }
 .pf-ship{
-  padding: 30px 0 30px 20px ;
+  padding: 0px 0 0px 20px ;
+}
+.pf-timestamp{
+  font-size: 0.6em;
+}
+.pf-inline-icon{
+  height: 1em;
 }
 .pf-ship h3, .pf-ship .h3{
   font-family: $font-accent;
@@ -86,12 +112,17 @@ img{
   font-family: $font-accent;
   font-size: 4rem;
   line-height: 2rem;
+  margin-top: 30px;
 }
 .pf-treasure-add{
   img{
     max-width: 25px;
   }
 }
+.pf-treasure-selected .pf-treasure-add{
+  display: none;
+}
+
 #pf-treasure-stack{
   position: relative;
   width: 50px;
@@ -102,16 +133,18 @@ img{
   bottom: calc(10* counter(my-sec-counter));
   width: 25px;
 }
-.pf-treasure-selected .pf-treasure-add{
-  display: none;
-}
 
+
+.text-center{
+  text-align: center;
+}
 .pf-pirate-actions > *{
   text-align: center;
   margin: 20px 0;
   display: block;
 }
 .pf-treasure-remove{
+  display: block;
   font-size: 0.8rem;
 }
 .pf-treasure-selected  .pf-treasure-remove{
@@ -119,8 +152,21 @@ img{
     max-width: 25px;
   }
 }
+.pf-type-index .pf-treasure-remove{
+  display: none;
+}
+.pf-type-treasure #gf-to-chest{
+  display: none;
+}
+.pf-type-index #gf-to-list{
+  display: none;
+}
 .pf-owner-name{
   font-size: 0.9rem;
+}
+.pf-owner-spacer{
+  margin: 0 10px;
+  display: inline-block;
 }
 .pf-grow{
   flex-grow: 1;
@@ -237,7 +283,20 @@ ul.pf-topics{
 .pf-topics li{
   display: inline-block;
   font-size: 0.6em;
-  margin: 5px;
+  margin: 5px 10px 0 0;
+}
+.pf-fallback{
+  display: none;
+}
+.pf-no-data > .pf-fallback {
+  display: block;
+}
+
+.pf-treasure-selected .pf-topics, .pf-treasure-selected .pf-meta{
+  display:none;
+}
+.pf-treasure-selected{
+  opacity: .8;
 }
 @media only screen and (max-width: 600px) {
   .pf-flag{

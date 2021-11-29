@@ -1,29 +1,9 @@
 
-<div id="pf-my-treasure-chest"></div>
+<div class="pf-has-fallback pf-no-data">
+    <div id="pf-ship-list"></div>
+    <p class="pf-fallback">You haven't found any treasures yet? Discover new repositories regularly and save them with the <img class="pf-inline-icon" src="./assets/coin.svg" alt="treasure">.</p>
+</div>
 
 <script type="text/javascript">
-    var chest = document.getElementById('pf-my-treasure-chest');
-    var data = [];
-    function createList(){
-        chest.innerHTML = '';
-
-        var saved = data.filter(function (elem){
-            return treasure[elem.pirate_id] 
-        })
-        for(var i=0; i<saved.length; i++){
-            chest.append(buildPirate(saved[i]));
-            if(i<saved.length-1)
-            chest.append(getSeperator());
-        }
-    }
-
-    treasureStr = localStorage.getItem('treasure');
-    treasure = treasureStr ? JSON.parse(treasureStr) : {};
-
-    fetch('/assets/repositories.json')
-        .then(response => response.json())
-        .then(extData => {
-            data = extData;
-            createList()
-        });
+    var pageType = 'myTreasure';
 </script>

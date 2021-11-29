@@ -5,6 +5,7 @@
 layout: basic
 title: The Pirate Forest
 jumbo: false
+type: pf-type-treasure
 ---
 
 

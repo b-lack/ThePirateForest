@@ -1,3 +1,5 @@
+var pageType;
+var data = [];
 var treasureStr, treasure, treasureCounter;
 
 function saveTreasure(){
@@ -33,7 +35,7 @@ function updateIsland(){
     treasureCounter = 0;
     for(var i in treasure){
         var img = document.createElement('img')
-        img.src = '/assets/coin-stacked.svg';
+        img.src = './assets/coin-stacked.svg';
         img.style.bottom = (treasureCounter*5) + 'px';
         img.style.left = (Math.random() * 8 - 4) + 'px';
         img.style.zIndex = treasureCounter;
@@ -132,6 +134,7 @@ function buildRepoLink(dataset){
     wrapper.appendChild(ownerSpan);
 
     var ownerSpacerSpan = document.createElement('span');
+    ownerSpacerSpan.classList.add('pf-owner-spacer');
     ownerSpacerSpan.innerText = '/';
     wrapper.appendChild(ownerSpacerSpan);
 
@@ -168,17 +171,118 @@ function buildAvatar(dataset){
 
     var actionsWrapper = document.createElement('div');
     actionsWrapper.classList.add('pf-pirate-actions')
+
     var removeLink = document.createElement('a');
     removeLink.classList.add('pf-treasure-remove');
     removeLink.innerText = 'remove';
     removeLink.addEventListener('click', function(){
         throwAway(dataset.pirate_id);
-        createList();
+        createList('pf-ship-list');
     });
-    actionsWrapper.appendChild(removeLink);
+    
+    
+    var addLink = document.createElement('a');
+    addLink.classList.add('pf-treasure-add');
+
+    var coinImg = document.createElement('img');
+    coinImg.src = './assets/coin.svg';
+    coinImg.alt = 'Add';
+    addLink.appendChild(coinImg);
+
+    addLink.alt = dataset.owner_login;
+    addLink.addEventListener('click', function(){
+        collect(dataset.pirate_id);
+        createList('pf-ship-list');
+    });
+
+    if(treasure[dataset.pirate_id]){
+        console.log('remove');
+        actionsWrapper.appendChild(removeLink);
+    }else{
+        actionsWrapper.appendChild(addLink);
+    }
 
     wrapper.appendChild(actionsWrapper);
 
     return wrapper;
 }
 
+function createList(id, showSavedOnly){
+    var saved;
+    showSavedOnly = pageType == 'myTreasure' ? true : false;
+    
+
+    if(showSavedOnly){
+        saved = data.filter(function (elem){
+            return treasure[elem.pirate_id] 
+        })
+        saved = sortPirates(saved);
+    }else{
+        saved = sortPirates(data);
+    }
+
+    var chest = document.getElementById(id);
+    chest.innerHTML = '';
+
+    var filter = document.getElementById('pf-filter')
+
+    if(!saved.length){
+        chest.parentNode.classList.add('pf-no-data')
+        filter.classList.add('pf-no-data')
+        return ;
+    }else{
+        chest.parentNode.classList.remove('pf-no-data')
+        filter.classList.remove('pf-no-data')
+    }
+
+    for(var i=0; i<saved.length; i++){
+        chest.append(buildPirate(saved[i]));
+        if(i<saved.length-1)
+        chest.append(getSeperator());
+    }
+}
+
+var sorted = {
+    type: 'time',
+    dir: false
+};
+function setSorting(type){
+    if(sorted.type === type) {
+        sorted.dir = !sorted.dir;
+    }else{
+        sorted.type = type;
+        sorted.dir = true;
+    }
+    createList('pf-ship-list');
+}
+
+function sortPirates(toSort){
+    if(sorted.type === 'time'){
+        return toSort.sort(function(prev, curr){
+            return sorted.dir ? prev.added - curr.added : curr.added - prev.added;
+        });
+    }else if(sorted.type === 'stars'){
+        return toSort.sort(function(prev, curr){
+            return sorted.dir ? prev.stargazers_count - curr.stargazers_count : curr.stargazers_count - prev.stargazers_count;
+        });
+    }
+    return toSort;
+
+    
+}
+
+function initData(){
+    fetch('./assets/repositories.json')
+        .then(response => response.json())
+        .then(extData => {
+            data = extData;
+            sortPirates(data);
+            if(pageType == 'myTreasure') createList('pf-ship-list');
+        });
+}
+if (document.readyState === "complete" || document.readyState === "interactive") {
+    // call on next available tick
+    setTimeout(initData, 1);
+} else {
+    document.addEventListener("DOMContentLoaded", initData);
+}
