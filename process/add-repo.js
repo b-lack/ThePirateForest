@@ -38,7 +38,6 @@ if(typeof argv.owner === "undefined") {
 const octokit = new Octokit();
 
 const getRepoInfo = (data) => {
-    console.log(data)
     let repoInfo = {
         "pirate_id": nanoid(),
         "added": (new Date()).getTime(),
@@ -62,6 +61,7 @@ const getRepoInfo = (data) => {
 
 
 const addRepo = async (owner, repo) => {
+    console.log('ADD REPO');
     try{
         const exists = await checkIfExists();
         const data = await getRepo(owner, repo)
@@ -77,8 +77,12 @@ const addRepo = async (owner, repo) => {
             if(exists)  throw 'Repository already exists!';
 
             repositories.push(getRepoInfo(data.data));
+            console.log('ADD REPO');
             await fs.writeFile("docs/_data/repositories.json", JSON.stringify(repositories, null, 2));
             await fs.writeFile("docs/assets/repositories.json", JSON.stringify(repositories, null, 2));
+            console.log('ADD REPO SUCCESS');
+        }else{
+            console.log('ADD REPO ERROR', data);
         }
         return {status: 200, response: {msg: 'Successfully added!'}}
     }catch(error){
@@ -111,6 +115,3 @@ const getRepo = async (owner, repo) => {
 }
 
 export default addRepo;
-
-// TODO SPLIT
-//addRepo(GITHUB);

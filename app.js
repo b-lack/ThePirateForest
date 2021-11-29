@@ -7,7 +7,6 @@ console.log(addRepo);
 
 
 const __dirname = new URL('.', import.meta.url).pathname;
-console.log(__dirname);
 
 const app = express()
 app.use(express.json())
