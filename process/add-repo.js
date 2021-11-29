@@ -38,6 +38,7 @@ if(typeof argv.owner === "undefined") {
 const octokit = new Octokit();
 
 const getRepoInfo = (data) => {
+    console.log(data);
     let repoInfo = {
         "pirate_id": nanoid(),
         "added": (new Date()).getTime(),
@@ -47,9 +48,9 @@ const getRepoInfo = (data) => {
         "description": data.description,
         "html_url": data.html_url,
         "language": data.language,
-        "topics": data.topics,
+        "topics": data.topics || [],
         "stargazers_count": data.stargazers_count,
-        "license_name": data.license.name,
+        "license_name": data.license ? data.license.name : '',
         "owner_login": data.owner.login,
         "owner_avatar_url": data.owner.avatar_url,
         "owner_html_url": data.owner.html_url,
@@ -65,17 +66,20 @@ const addRepo = async (owner, repo) => {
     try{
         const exists = await checkIfExists();
         const data = await getRepo(owner, repo)
-
+        
         if(exists && data && data.status === 200 && data.data){
-
+            
             if(data.private === true || data.data.visibility !== 'public') throw 'repository is private';
+
+            
 
             const rawdata = await fs.readFile("docs/_data/repositories.json");
             let repositories = JSON.parse(rawdata);
 
             const exists = await checkRepoExists(data.data.id, repositories);
+            
             if(exists)  throw 'Repository already exists!';
-
+            console.log(getRepoInfo(data.data));
             repositories.push(getRepoInfo(data.data));
             console.log('ADD REPO');
             await fs.writeFile("docs/_data/repositories.json", JSON.stringify(repositories, null, 2));
@@ -108,9 +112,12 @@ const checkRepoExists = async (id, repositories) => {
 }
 
 const getRepo = async (owner, repo) => {
+    
     return await octokit.request('GET /repos/{owner}/{repo}', {
         owner,
         repo
+    }).catch(e => {
+        console.log('ERROR', e);
     })
 }
 

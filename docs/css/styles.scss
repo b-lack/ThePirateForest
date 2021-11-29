@@ -42,14 +42,20 @@ main{
   margin: 0 10px;
   max-width: 700px;
 }
-a{
+a, .pf-clickable{
   color: inherit;
   text-decoration: none;
   cursor: pointer;
   user-select: none;
 }
+a:hover, .pf-active{
+  color:#61d202;
+}
 img{
   max-width: 100%;
+}
+header{
+  margin-bottom: 50px;
 }
 .m-2{
   margin: 0 0 1em 1em;
@@ -61,7 +67,7 @@ img{
   display: none;
 }
 #gf-sorting{
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .pf-sticky-top{
   position: sticky;
@@ -110,8 +116,8 @@ img{
 }
 .pf-treasure{
   font-family: $font-accent;
-  font-size: 4rem;
-  line-height: 2rem;
+  font-size: 3em;
+  line-height: 0.5em;
   margin-top: 30px;
 }
 .pf-treasure-add{
@@ -155,6 +161,9 @@ img{
 .pf-type-index .pf-treasure-remove{
   display: none;
 }
+#gf-to-chest, #gf-to-list{
+  font-size: 0.6em;
+}
 .pf-type-treasure #gf-to-chest{
   display: none;
 }
@@ -175,7 +184,11 @@ img{
   font-size: 1rem;
   justify-content: space-between;
 }
-.pf-meta-lang::before, .pf-meta-star::before, .pf-meta-license::before{
+.pf-meta-lang::before, 
+.pf-meta-star::before, 
+.pf-meta-license::before, 
+.pf-meta-timeglass::before, 
+.pf-coin-bronze::before, .pf-coin-silver::before, .pf-coin-gold::before{
   content: ' ';
   display: inline-block;
   margin-right: 10px;
@@ -190,6 +203,30 @@ img{
 .pf-meta-license::before{
   background-image: url('../assets/icons/license.svg');
 }
+.pf-meta-timeglass::before{
+  background-image: url('../assets/icons/timeglass.svg');
+}
+.pf-coin-bronze::before{
+  background-image: url('../assets/coin-bronce.svg');
+}
+.pf-coin-silver::before{
+  background-image: url('../assets/coin-silver.svg');
+}
+.pf-coin-gold::before{
+  background-image: url('../assets/coin-stacked.svg');
+}
+.pf-inline-men > *{
+  display: inline-block;
+  margin: 0 15px 8px 0;
+  font-size: .8em;
+}
+.pf-icon-telescope{
+  height: 1em;
+  width: 1em;
+  background-image: url('../assets/icons/telescope.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .pf-openext::after{
   content: ' ';
   display: inline-block;
@@ -201,7 +238,7 @@ img{
 }
 .pf-footer-wave, .pf-footer-wave::before, .pf-footer-wave::after{
   content: '.';
-  top: 0;
+  bottom: 0;
   position: absolute;
   display: block;
   height: 100px;
@@ -227,32 +264,20 @@ img{
   width: 100%;
   color: black;
   animation-name: run3;
-  transform: translateY(38px);
+  height: 170px;
+overflow-x: hidden;
 }
 .pf-ship-sailing{
-  top: -70px;
   position: absolute;
   display: block;
   height: 150px;
   width: 150px;
   background-image: url('../assets/ship.svg');
   background-repeat: no-repeat;
-
   background-size: auto 150px;
   animation: linear infinite;
   animation-duration: 50s;
   animation-name: ship;
-}
-.pf-pirate-avatar::before{
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: '';
-  background-image: url('../assets/pirate-border.svg');
-  background-size: 75px 75px;
-  display: block;
-  width: 75px;
-  height: 75px;
 }
 hr.gf-seperator{
   height: 20px;
@@ -262,7 +287,7 @@ hr.gf-seperator{
   background-image: url('../assets/icons/selector.svg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: 80% 10px;
+  background-size: 70% 7px;
   margin: 50px 0;
 }
 .pf-pirate-avatar{
@@ -271,10 +296,69 @@ hr.gf-seperator{
   height: 75px;
   width: 75px;
 }
+.pf-type-index .pf-pirate-avatar::after{
+  position: absolute;
+  top: -29px;
+  left: -23px;
+  content: '';
+  background-image: url('../assets/icons/flag.svg');
+  background-size: 75px 75px;
+  display: block;
+  width: 75px;
+  height: 75px;
+  z-index:-1;
+  transform: rotate(180deg);
+  transition: transform 250ms;
+}
+.pf-type-index .pf-pirate:hover:not(.pf-treasure-selected) .pf-pirate-avatar::after{
+  transform: rotate(0deg);
+}
+.pf-type-index .pf-pirate:hover:not(.pf-treasure-selected) .pf-pirate-avatar::after{
+  transform: rotate(0deg);
+}
+.pf-pirate-avatar::before{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  background-image: url('../assets/pirate-border.svg');
+  background-size: 75px 75px;
+  display: block;
+  width: 75px;
+  height: 75px;
+}
 .pf-pirate-avatar img{
   border-radius: 50%;
   display: block;
+  background-color: #333;
 }
+.pf-type-index .pf-pirate:hover:not(.pf-treasure-selected) .pf-cross{
+  background-color: rgba(238, 238, 238, 0.6);
+  background-image: url('../assets/icons/cross.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 50%;
+}
+/*.pf-cross::after{
+  content:' ';
+  background-image: url('../assets/icons/cross.svg');
+  background-size: contain;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 50%;
+}*/
 ul.pf-topics{
   list-style: none;
   list-style-position: inside;
@@ -296,7 +380,49 @@ ul.pf-topics{
   display:none;
 }
 .pf-treasure-selected{
-  opacity: .8;
+  opacity: 0.5;
+}
+.pf-process-coin{
+  position: absolute;
+  z-index: 1;
+  bottom: -10px;
+  left: -10px;
+  //background-image: url('../assets/coin-bronce.svg');
+  background-image: url('../assets/icons/coin-bronce.svg');
+  min-width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  > *{
+    display: none;
+  }
+}
+.pf-flat-coin-bronze{
+  background-image: url('../assets/icons/coin-bronce.svg');
+}
+.pf-flat-coin-silver{
+  background-image: url('../assets/icons/coin-silver.svg');
+}
+.pf-flat-coin-gold{
+  background-image: url('../assets/icons/coin-gold.svg');
+}
+.pf-process-coin:hover > *{
+  display: block;
+}
+.pf-process-coin .pf-process-coin-select{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-color: #222;
+  padding: 5px 5px 5px 5px;
+  border: none;
+  box-shadow: 0 0 3px #111;
+  font-size: 0.8em;
+}
+.pf-process-coin .pf-process-coin-select > *{
+  white-space: nowrap;
+  display: block;
+  margin: 8px;
 }
 @media only screen and (max-width: 600px) {
   .pf-flag{
@@ -331,19 +457,19 @@ ul.pf-topics{
 }
 @keyframes run3 {
   0% {
-    background-position: 500px 10px;
+    background-position: 500px 80px;
   }
   50% {
-    background-position: 520px 0px;
+    background-position: 520px 70px;
   }
   100% {
-    background-position: 500px 10px;
+    background-position: 500px 80px;
   }
 }
 
 @keyframes ship {
   0% {
-    left: -10%;
+    left: -15%;
   }
   100% {
     left: 110%;

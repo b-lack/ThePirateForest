@@ -4,7 +4,7 @@
 
 layout: basic
 title: The Pirate Forest
-jumbo: false
+filter: true
 type: pf-type-index
 ---
 
@@ -12,11 +12,13 @@ type: pf-type-index
 
 {% include tag-selection.html %}-->
 
-<div class="text-center">
+<header class="text-center">
     <h1 class="pf-title">The Pirate Forest</h1>
     <p class="pf-under-title">
-        Discover Treasures of <b>Forest</b>-related <b>Open Source</b> Software.
+        Discover Treasures of Forest-related<br/> Open Source Software.
     </p>
-</div>
+    <div class="h4">Filter by Topic</div>
+    <div id="pf-tag-men" class="pf-inline-men"></div>
+</header>
 
 {% include list.html %}

@@ -8,10 +8,12 @@ function saveTreasure(){
 function collect(id){
     treasure[id] = {
         time: (new Date()).getTime(),
-        flag: ['saved']
+        flag: [],
+        processId: 'toDo'
     };
     updateIsland();
     saveTreasure();
+    console.log('collected');
 }
 function throwAway(id){
     delete treasure[id];
@@ -62,7 +64,9 @@ function getSeperator(){
 function buildPirate(dataset){
     var wrapper = document.createElement('div');
     wrapper.classList.add('pf-row','pf-pirate');
-    wrapper.setAttribute('data-pirate.id', dataset.pirate_id)
+    if(treasure[dataset.pirate_id] && pageType == 'default') wrapper.classList.add('pf-treasure-selected');
+    console.log(pageType);
+    wrapper.setAttribute('data-pirate-id', dataset.pirate_id)
 
     wrapper.append(buildAvatar(dataset));
 
@@ -71,7 +75,13 @@ function buildPirate(dataset){
 
     return wrapper;
 }
-var blackList = ['forestry', 'forstwirtschaft']
+var tags = {
+    'remote-sensing': ['remote-sensing', 'las', 'lidar', 'point-cloud', 'laz', 'laser', 'laser-scanning'],
+    'forest-inventory': ['forest-inventory', 'trees', 'tree'],
+    'climate-change': ['climate-change', 'biomass', 'carbon', 'emissions', 'climatechange', 'biodiversity'],
+    'urban-forestry': ['urban-planning', 'urban-forestry', 'urban']
+}
+var blackList = ['forestry', 'forstwirtschaft', 'django-rest-framework', 'r-package', 'forest']
 function filterTopics(dataset){
     var resultList = [];
     for(var i = 0; i < dataset.topics.length; i++){
@@ -116,11 +126,12 @@ function buildBody(dataset){
         metaLangWrapper.innerText = dataset.language;
         metaWrapper.appendChild(metaLangWrapper);
     }
-
-    var metaLicenseWrapper = document.createElement('div');
-    metaLicenseWrapper.classList.add('pf-meta-license');
-    metaLicenseWrapper.innerText = dataset.license_name;
-    metaWrapper.appendChild(metaLicenseWrapper);
+    if(dataset.license_name){
+        var metaLicenseWrapper = document.createElement('div');
+        metaLicenseWrapper.classList.add('pf-meta-license');
+        metaLicenseWrapper.innerText = dataset.license_name;
+        metaWrapper.appendChild(metaLicenseWrapper);
+    }
 
     return wrapper;
 }
@@ -150,18 +161,188 @@ function buildRepoLink(dataset){
 
     return wrapper;
 }
+var selections = [
+    {
+        id: 'toDo',
+        title: 'ToDo',
+        icon: 'pf-coin-bronze'
+    },
+    {
+        id: 'inProcess',
+        title: 'in Process',
+        icon: 'pf-coin-silver'
+    },
+    {
+        id: 'done',
+        title: 'Done',
+        icon: 'pf-coin-gold'
+    }
+]
+
+function setCoin(data, dataset){
+    var pirateId = dataset.pirate_id;
+
+    treasure[pirateId].processId = data.id
+    
+
+    updateIsland();
+    saveTreasure();
+    createList('pf-ship-list')
+}
+var tagFilters = [];
+function updateTagFilterMen(){
+
+    var parent = document.getElementById('pf-tag-men');
+    parent.innerHTML = ''
+
+    for(var key in tags){
+        var selectionLink = document.createElement('a');
+        if(tagFilters.includes(key)) selectionLink.classList.add('pf-active');
+        selectionLink.innerText = key;
+        (function () {
+            var id = key;
+            selectionLink.addEventListener('click', function(){
+                addTagFilter(id);
+            })
+        }());
+            
+        parent.appendChild(selectionLink);
+    }
+}
+function addTagFilter(key){
+    
+    var pos = tagFilters.indexOf(key)
+    if(pos === -1){
+        tagFilters = [];
+        tagFilters.push(key);
+    }else tagFilters.splice(pos, 1)
+
+    createList('pf-ship-list')
+    updateTagFilterMen();
+}
+function filterByTags(data){
+    var whiteList = [];
+    for(var i of tagFilters){
+        whiteList = whiteList.concat(tags[i])
+    }
+    
+    var filtered = data.filter(function(elem){
+        return elem.topics.some(r=> whiteList.includes(r))
+
+    });
+    return filtered;
+}
+
+var selectedProcess = null
+function updateProcessMen(){
+    var parent = document.getElementById('pf-process-men');
+    parent.innerHTML = ''
+    for(var select of selections){
+        console.log();
+        var selectionLink = document.createElement('a');
+        selectionLink.classList.add(select.icon);
+        if(select.id === selectedProcess) selectionLink.classList.add('pf-active');
+        selectionLink.innerText = select.title;
+        (function () {
+            var id = select.id;
+            selectionLink.addEventListener('click', function(){
+                filterProcess(id);
+            })
+        }());
+           
+        parent.appendChild(selectionLink);
+    }
+}
+function filterProcess(type){
+    if(selectedProcess === type) selectedProcess = null;
+    else selectedProcess = type;
+    createList('pf-ship-list')
+    updateProcessMen();
+}
+function filterByProcess(data){
+    var filtered = data.filter(function(elem){
+        console.log(treasure[elem.pirate_id].processId, selectedProcess);
+        return treasure[elem.pirate_id] && treasure[elem.pirate_id].processId === selectedProcess;
+    });
+    return filtered;
+}
+function getCoinClass(pirateId){
+    if(!treasure[pirateId]) return null;
+
+    if(treasure[pirateId].processId === 'done')
+        return 'pf-flat-coin-gold';
+    else if (treasure[pirateId].processId === 'inProcess')
+        return 'pf-flat-coin-silver';
+    else
+        return 'pf-flat-coin-bronze';
+}
+function buildCoin(dataset){
+    var coinWrapper = document.createElement('div');
+    
+
+    //var coinSelectWrapper = document.createElement('div');
+
+    if(treasure[dataset.pirate_id] && pageType == 'myTreasure'){
+        coinWrapper.classList.add('pf-process-coin', getCoinClass(dataset.pirate_id));
+        var coinSelect = document.createElement('div');
+        coinSelect.classList.add('pf-process-coin-select', );
+        for(var i=0; i< selections.length; i++){
+            if(treasure[dataset.pirate_id] && treasure[dataset.pirate_id].processId === selections[i].id) continue;
+
+            var coinOption= document.createElement('a');
+            (function () {
+                var data = selections[i]
+                var parentData = dataset;
+                coinOption.addEventListener('click', function(){setCoin(data, parentData)}, false)
+            }());
+            coinOption.classList.add(selections[i].icon);
+            coinOption.innerText = selections[i].title;
+            coinSelect.appendChild(coinOption);
+        }
+
+        var coinOption= document.createElement('a');
+            (function () {
+                var data = selections[i]
+                var parentData = dataset;
+                coinOption.addEventListener('click', function(){
+                    throwAway(parentData.pirate_id)
+                    createList('pf-ship-list');
+                }, false)
+            }());
+            coinOption.innerText = 'remove';
+            coinSelect.appendChild(coinOption);
+
+        coinWrapper.appendChild(coinSelect);
+    }else if(treasure[dataset.pirate_id] && pageType == 'default'){
+        coinWrapper.classList.add('pf-process-coin', getCoinClass(dataset.pirate_id));
+        /*coinWrapper.addEventListener('click', function(){
+            collect(dataset.pirate_id);
+            createList('pf-ship-list');
+        }, false)*/
+    }else if(!treasure[dataset.pirate_id] && pageType == 'default'){
+        coinWrapper.classList.add('pf-cross', 'pf-clickable');
+        coinWrapper.addEventListener('click', function(){
+            collect(dataset.pirate_id)
+        }, false)
+    }
+    
+    return coinWrapper;
+}
 
 function buildAvatar(dataset){
     var wrapper = document.createElement('div');
     
-    var ownerLink = document.createElement('a');
+    /*var ownerLink = document.createElement('a');
     ownerLink.href = dataset.owner_html_url;
     ownerLink.target = 'blank';
-    wrapper.appendChild(ownerLink);
+    wrapper.appendChild(ownerLink);*/
 
     var ownerWrapper = document.createElement('div');
     ownerWrapper.classList.add('pf-pirate-avatar');
-    ownerLink.appendChild(ownerWrapper);
+
+    ownerWrapper.appendChild(buildCoin(dataset));
+
+    wrapper.appendChild(ownerWrapper);
 
     var ownerImg = document.createElement('img');
     ownerImg.src = dataset.owner_avatar_url;
@@ -181,7 +362,7 @@ function buildAvatar(dataset){
     });
     
     
-    var addLink = document.createElement('a');
+    /*var addLink = document.createElement('a');
     addLink.classList.add('pf-treasure-add');
 
     var coinImg = document.createElement('img');
@@ -200,7 +381,7 @@ function buildAvatar(dataset){
         actionsWrapper.appendChild(removeLink);
     }else{
         actionsWrapper.appendChild(addLink);
-    }
+    }*/
 
     wrapper.appendChild(actionsWrapper);
 
@@ -208,6 +389,7 @@ function buildAvatar(dataset){
 }
 
 function createList(id, showSavedOnly){
+    console.log('createList');
     var saved;
     showSavedOnly = pageType == 'myTreasure' ? true : false;
     
@@ -217,8 +399,12 @@ function createList(id, showSavedOnly){
             return treasure[elem.pirate_id] 
         })
         saved = sortPirates(saved);
+        if(selectedProcess) saved = filterByProcess(saved);        
     }else{
-        saved = sortPirates(data);
+        saved = data;
+        if(tagFilters.length) saved = filterByTags(saved);
+
+        saved = sortPirates(saved);
     }
 
     var chest = document.getElementById(id);
@@ -267,9 +453,9 @@ function sortPirates(toSort){
         });
     }
     return toSort;
-
-    
 }
+
+
 
 function initData(){
     fetch('./assets/repositories.json')
@@ -278,6 +464,7 @@ function initData(){
             data = extData;
             sortPirates(data);
             if(pageType == 'myTreasure') createList('pf-ship-list');
+            else if(pageType == 'default') updateTagFilterMen();
         });
 }
 if (document.readyState === "complete" || document.readyState === "interactive") {

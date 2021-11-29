@@ -1,20 +1,21 @@
-{% assign sorted_repos = site.data.repositories | sort_natural: "stargazers_count" | reverse %}
+{% assign sorted_repos = site.data.repositories | sort_natural: "added" | reverse %}
 
 <div id="pf-ship-list" class="pf-ship-list">
     {% for repository in sorted_repos %}
     <div class="pf-row pf-pirate" data-pirate-id="{{repository.pirate_id}}">
       <div>
-        <a href="{{ repository.owner_html_url }}" target="blank">
+        <!--<a href="{{ repository.owner_html_url }}" target="blank">-->
           <div class="pf-pirate-avatar">
+            <div class="pf-cross pf-clickable"  onclick="collect('{{ repository.pirate_id }}'); return false;"></div>
             <img src="{{ repository.owner_avatar_url}}" title="{{ repository.owner_login }}" alt="{{ repository.owner_login }}"/>
-          </div>
-        </a>
+        </div>
+        <!--</a>
         <div class="pf-pirate-actions">
           <a class="pf-treasure-add"  title="save in my treasure chest" onclick="collect('{{ repository.pirate_id }}'); return false;" href="#">
             <img src="./assets/coin.svg" alt="treasure"/>
           </a>
           <a class="pf-treasure-remove" onclick="throwAway('{{ repository.pirate_id }}'); return false;">remove</a>
-        </div>
+        </div>-->
       </div>
       <div class="pf-ship">
         <!--{% if repository.added %}
@@ -41,7 +42,10 @@
           {% if repository.language %}
             <div class="pf-meta-lang">{{ repository.language }}</div>
           {% endif %}
-          <div class="pf-meta-license">{{ repository.license_name }}</div>
+          {% if repository.license_name && repository.license_name != '' %}
+            <div class="pf-meta-license">{{ repository.license_name }}</div>
+          {% endif %}
+          
         </div>
       </div>
     </div>

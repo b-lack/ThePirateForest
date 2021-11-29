@@ -6,26 +6,28 @@
             <div class="pf-treasure pf-row">
                 <div id="pf-treasure-stack"></div>
                 <span id="pf-treasure-counter"></span>
+                <span>Treasure Chest</span>
             </div>
         </a>
     </div>
     <div id="gf-to-list">
         <a href="./">
             <div class="pf-treasure pf-row">
-                <div id="pf-treasure-stack"></div>
-                Discover more
+                <i class="pf-icon-telescope"></i>
+                <span>Discover more</span>
             </div>
         </a>
     </div>
+    {% if page.filter == true %}
     <div id="gf-sorting" class="pf-row">
         <div class="h4">
             Sort by
         </div>
         <div class="pf-grow pf-column">
-            <a class="m-2" title="Filter By Time added" onclick="setSorting('time'); return false;" >Time Added</a>
-            <a class="m-2" title="Filter By Stars" onclick="setSorting('stars'); return false;" >Stars</a>
+            <a class="m-2 pf-meta-timeglass" title="Filter By Time added" onclick="setSorting('time'); return false;" >Time Added</a>
+            <a class="m-2 pf-meta-star" title="Filter By Stars" onclick="setSorting('stars'); return false;" >Stars</a>
         </div>
         
     </div>
-    
+    {% endif %}
 </div>
