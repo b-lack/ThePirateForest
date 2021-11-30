@@ -536,12 +536,81 @@
     "description": "ForestGapR: An R Package for Airborne Laser Scanning-derived Tropical Forest Gaps Analysis ",
     "html_url": "https://github.com/carlos-alberto-silva/ForestGapR",
     "language": "R",
-    "topics": ["laser"],
+    "topics": [
+      "laser"
+    ],
     "stargazers_count": 15,
     "license_name": "",
     "owner_login": "carlos-alberto-silva",
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/6352657?v=4",
     "owner_html_url": "https://github.com/carlos-alberto-silva",
     "updated_at": "2021-10-19T09:08:27Z"
+  },
+  {
+    "pirate_id": "kwSPJI3Iw2iypFAhXVMGp",
+    "added": 1638259764799,
+    "id": 124290023,
+    "name": "DeepForest",
+    "full_name": "weecology/DeepForest",
+    "description": "Python Package for Tree Crown Detection in Airborne RGB imagery",
+    "html_url": "https://github.com/weecology/DeepForest",
+    "language": "JavaScript",
+    "topics": [
+      "remote-sensing",
+      "pytorch",
+      "python",
+      "deep-learning",
+      "airborne-image"
+    ],
+    "stargazers_count": 199,
+    "license_name": "MIT License",
+    "owner_login": "weecology",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/1156696?v=4",
+    "owner_html_url": "https://github.com/weecology",
+    "updated_at": "2021-11-27T07:17:50Z"
+  },
+  {
+    "pirate_id": "U9b1N1lECLkin0zZibIb8",
+    "added": 1638262630492,
+    "id": 374011071,
+    "name": "deepforestr",
+    "full_name": "weecology/deepforestr",
+    "description": "R interface for DeepForest Python package, a deep learning package detecting individual organisms in airborne RGB images.",
+    "html_url": "https://github.com/weecology/deepforestr",
+    "language": "TeX",
+    "topics": [
+      "remote-sensing",
+      "deep-learning",
+      "R",
+      "airborne-image"
+    ],
+    "stargazers_count": 1,
+    "license_name": "MIT License",
+    "owner_login": "weecology",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/1156696?v=4",
+    "owner_html_url": "https://github.com/weecology",
+    "updated_at": "2021-10-04T20:55:54Z"
+  },
+  {
+    "pirate_id": "wq9MBPMpzu_-MVWOtAfZ7",
+    "added": 1638262763566,
+    "id": 379154239,
+    "name": "FSCT",
+    "full_name": "SKrisanski/FSCT",
+    "description": "Allow plot scale measurements to be extracted automatically from most high-resolution forest point clouds.",
+    "html_url": "https://github.com/SKrisanski/FSCT",
+    "language": "Python",
+    "topics": [
+      "laser-scanning",
+      "sensors",
+      "segmentation",
+      "photogrammetry"
+    ],
+    "stargazers_count": 25,
+    "license_name": "GNU General Public License v3.0",
+    "owner_login": "SKrisanski",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/16696855?v=4",
+    "owner_html_url": "https://github.com/SKrisanski",
+    "updated_at": "2021-11-30T08:01:28Z"
   }
 ]
