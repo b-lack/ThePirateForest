@@ -612,5 +612,78 @@
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/16696855?v=4",
     "owner_html_url": "https://github.com/SKrisanski",
     "updated_at": "2021-11-30T08:01:28Z"
+  },
+  {
+    "pirate_id": "r2nxT9qpvKkN47bQMS5kW",
+    "added": 1638346146037,
+    "id": 202789309,
+    "name": "LeWoS",
+    "full_name": "dwang520/LeWoS",
+    "description": "Unsupervised leaf-wood classification from laser scanning point clouds",
+    "html_url": "https://github.com/dwang520/LeWoS",
+    "language": "MATLAB",
+    "topics": [
+      "classification",
+      "laser-scanning",
+      "point-cloud"
+    ],
+    "stargazers_count": 12,
+    "license_name": "MIT License",
+    "owner_login": "dwang520",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/34278700?v=4",
+    "owner_html_url": "https://github.com/dwang520",
+    "updated_at": "2021-07-08T08:17:46Z",
+    "preview_images": [
+      "/dwang520/LeWoS/raw/master/plot.png",
+      "/dwang520/LeWoS/raw/master/crown.png",
+      "/dwang520/LeWoS/raw/master/e3.png"
+    ]
+  },
+  {
+    "pirate_id": "bRjzPAh-ZWuvvKY1KPx8Q",
+    "added": 1638346157538,
+    "id": 58948958,
+    "name": "TreeLS",
+    "full_name": "tiagodc/TreeLS",
+    "description": "R functions for processing individual tree TLS point clouds",
+    "html_url": "https://github.com/tiagodc/TreeLS",
+    "language": "C++",
+    "topics": [
+      "tree-detection",
+      "laser-scanning",
+      "point-cloud",
+      "stem-segmentation"
+    ],
+    "stargazers_count": 41,
+    "license_name": "GNU General Public License v3.0",
+    "owner_login": "tiagodc",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/19391644?v=4",
+    "owner_html_url": "https://github.com/tiagodc",
+    "updated_at": "2021-11-25T15:44:30Z",
+    "preview_images":[
+      "/tiagodc/Scripts/master/animations/treedt.gif"
+    ]
+  },
+  {
+    "pirate_id": "B6SEjfU2E62T1q9LbJbGr",
+    "added": 1638346389087,
+    "id": 100592530,
+    "name": "TreeQSM",
+    "full_name": "InverseTampere/TreeQSM",
+    "description": "Quantitative Structure Models of Single Trees from Laser Scanner Data",
+    "html_url": "https://github.com/InverseTampere/TreeQSM",
+    "language": "MATLAB",
+    "topics": [
+      "terrestrial-laser-scanning",
+      "single-tree",
+      "point-cloud",
+      "stem-segmentation"
+    ],
+    "stargazers_count": 48,
+    "license_name": "Other",
+    "owner_login": "InverseTampere",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/27767416?v=4",
+    "owner_html_url": "https://github.com/InverseTampere",
+    "updated_at": "2021-11-04T07:43:21Z"
   }
 ]
