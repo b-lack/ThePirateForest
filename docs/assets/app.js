@@ -13,7 +13,6 @@ function collect(id){
     };
     updateIsland();
     saveTreasure();
-    console.log('collected');
 }
 function throwAway(id){
     delete treasure[id];
@@ -65,7 +64,7 @@ function buildPirate(dataset){
     var wrapper = document.createElement('div');
     wrapper.classList.add('pf-row','pf-pirate');
     if(treasure[dataset.pirate_id] && pageType == 'default') wrapper.classList.add('pf-treasure-selected');
-    console.log(pageType);
+
     wrapper.setAttribute('data-pirate-id', dataset.pirate_id)
 
     wrapper.append(buildAvatar(dataset));
@@ -169,12 +168,12 @@ var selections = [
     },
     {
         id: 'inProcess',
-        title: 'in Process',
+        title: 'Checking out',
         icon: 'pf-coin-silver'
     },
     {
         id: 'done',
-        title: 'Done',
+        title: 'Approved',
         icon: 'pf-coin-gold'
     }
 ]
@@ -238,7 +237,6 @@ function updateProcessMen(){
     var parent = document.getElementById('pf-process-men');
     parent.innerHTML = ''
     for(var select of selections){
-        console.log();
         var selectionLink = document.createElement('a');
         selectionLink.classList.add(select.icon);
         if(select.id === selectedProcess) selectionLink.classList.add('pf-active');
@@ -261,7 +259,6 @@ function filterProcess(type){
 }
 function filterByProcess(data){
     var filtered = data.filter(function(elem){
-        console.log(treasure[elem.pirate_id].processId, selectedProcess);
         return treasure[elem.pirate_id] && treasure[elem.pirate_id].processId === selectedProcess;
     });
     return filtered;
@@ -299,8 +296,9 @@ function buildCoin(dataset){
             coinOption.innerText = selections[i].title;
             coinSelect.appendChild(coinOption);
         }
-
+        
         var coinOption= document.createElement('a');
+        coinOption.classList.add('pf-remove-list');
             (function () {
                 var data = selections[i]
                 var parentData = dataset;
@@ -389,7 +387,6 @@ function buildAvatar(dataset){
 }
 
 function createList(id, showSavedOnly){
-    console.log('createList');
     var saved;
     showSavedOnly = pageType == 'myTreasure' ? true : false;
     
@@ -468,7 +465,7 @@ function initData(){
         });
 }
 if (document.readyState === "complete" || document.readyState === "interactive") {
-    // call on next available tick
+    localStorage.setItem('last_visit', (new Date()).getTime()+ (60*60*1000));
     setTimeout(initData, 1);
 } else {
     document.addEventListener("DOMContentLoaded", initData);

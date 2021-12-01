@@ -19,6 +19,10 @@ $primary-color: #333;
 h1, h2, h3, h4, h5, h6, .h4{
   font-family: $font-accent;
   font-weight: normal;
+  text-align: center;
+}
+.h4{
+  font-size: 1.2rem;
 }
 h1.pf-title{
   margin: 30px 10px 0;
@@ -119,6 +123,7 @@ header{
   font-size: 3em;
   line-height: 0.5em;
   margin-top: 30px;
+  position: relative;
 }
 .pf-treasure-add{
   img{
@@ -316,7 +321,7 @@ hr.gf-seperator{
 .pf-type-index .pf-pirate:hover:not(.pf-treasure-selected) .pf-pirate-avatar::after{
   transform: rotate(0deg);
 }
-.pf-pirate-avatar::before{
+.pf-pirate-avatar::before, #pf-treasure-counter{
   position: absolute;
   bottom: 0;
   left: 0;
@@ -333,7 +338,7 @@ hr.gf-seperator{
   background-color: #333;
 }
 .pf-type-index .pf-pirate:hover:not(.pf-treasure-selected) .pf-cross{
-  background-color: rgba(238, 238, 238, 0.6);
+  background-color: rgba(238, 238, 238, 1);
   background-image: url('../assets/icons/cross.svg');
   background-position: center;
   background-repeat: no-repeat;
@@ -374,6 +379,13 @@ ul.pf-topics{
 }
 .pf-no-data > .pf-fallback {
   display: block;
+}
+
+.pf-remove-list{
+  text-align: center;
+  border-top: 1px solid #333;
+  margin-top: 15px;
+  padding-top: 5px;
 }
 
 .pf-treasure-selected .pf-topics, .pf-treasure-selected .pf-meta{
@@ -424,6 +436,33 @@ ul.pf-topics{
   display: block;
   margin: 8px;
 }
+
+.pf-unterlines{
+  text-decoration: underline;
+}
+
+#pf-treasure-counter{
+  position:absolute;
+  left: 20px;
+  bottom: -10px;
+  background: #eee;
+  color: #111;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+  transform: rotate(-30deg);
+}
+
+footer > *{
+  margin: 20px auto 20px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
   .pf-flag{
     flex-direction: column;
