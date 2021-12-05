@@ -4,23 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Pirate Forest</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <form>
-        <div>
-            <label for="pf-input">Owner</label>
-            <input id="pf-input" />
-        </div>
-        
-        
-        <button type="button" onclick="addRepo()">ADD</button>
-    </form>
+    <div class="container">
+        <form class="container m-3">
+
+            <div class="mb-3">
+                <label for="pf-input">owner/repo</label>
+                <input class="form-control" id="pf-input" placeholder="b-lack/ThePirateForest" />
+            </div>
+
+            <div class="mb-3">
+                <label for="pf-topics">Tags</label>
+                <textarea class="form-control" id="pf-topics" placeholder="open-source,software,forestry"></textarea>
+            </div>
+            
+            <button class="btn btn-primary" type="button" onclick="addRepo()">add repository</button>
+
+        </form>
+    </div>
     
     <script>
         const addRepo = () => {
 
             var [owner, repo] = document.getElementById('pf-input').value.split('/')
+            var topics = document.getElementById('pf-topics').value.split(',')
             if(!owner || !repo) return;
 
             fetch('./add-repo', {
@@ -30,7 +40,8 @@
                 },
                 body: JSON.stringify({
                     repo,
-                    owner
+                    owner,
+                    topics
                 }),
             })
             .then(response => response.json())

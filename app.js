@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 })
 app.post("/add-repo",  async (req, res) => {
   console.log(req.body.repo, req.body.owner);
-  const response = await addRepo(req.body.owner, req.body.repo);
+  const response = await addRepo(req.body.owner, req.body.repo, req.body.topics);
   
   res.setHeader('Content-Type', 'application/json');
   res.status(response.status);

@@ -211,6 +211,13 @@ header{
 .pf-meta-timeglass::before{
   background-image: url('../assets/icons/timeglass.svg');
 }
+.pf-meta-timeglass.pf-is-new::before{
+  background-image: url('../assets/icons/timeglass-new.svg');
+}
+.pf-is-new{
+  color: #d1a805;
+  font-size: 0.8em;
+}
 .pf-coin-bronze::before{
   background-image: url('../assets/coin-bronce.svg');
 }
