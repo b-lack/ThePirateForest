@@ -853,8 +853,7 @@
       "sensing",
       "shape",
       "tree",
-      "trees",
-      ""
+      "trees"
     ],
     "stargazers_count": 42,
     "license_name": "GNU General Public License v3.0",
@@ -878,8 +877,7 @@
       "plants",
       "qt5",
       "tree-generator",
-      "trees",
-      ""
+      "trees"
     ],
     "stargazers_count": 12,
     "license_name": "GNU General Public License v3.0",
@@ -887,6 +885,103 @@
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/11012029?v=4",
     "owner_html_url": "https://github.com/FlorisCreyf",
     "updated_at": "2021-10-21T17:49:26Z",
+    "homepage": ""
+  },
+  {
+    "pirate_id": "m1xIiJTTvwf-xtALh_jpZ",
+    "added": 1638953832531,
+    "id": 167548152,
+    "name": "weblidar-treetop",
+    "full_name": "carlos-alberto-silva/weblidar-treetop",
+    "description": null,
+    "html_url": "https://github.com/carlos-alberto-silva/weblidar-treetop",
+    "language": "R",
+    "topics": [
+      "individual-trees",
+      "lidar",
+      "canopy-height",
+      "crown-level",
+      "3D",
+      "2D"
+    ],
+    "stargazers_count": 79,
+    "license_name": "",
+    "owner_login": "carlos-alberto-silva",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/6352657?v=4",
+    "owner_html_url": "https://github.com/carlos-alberto-silva",
+    "updated_at": "2021-12-06T11:16:05Z",
+    "homepage": null
+  },
+  {
+    "pirate_id": "fg-cXMxxIk5HGo7upj0Sa",
+    "added": 1638954056775,
+    "id": 296934807,
+    "name": "TreeTool",
+    "full_name": "porteratzo/TreeTool",
+    "description": null,
+    "html_url": "https://github.com/porteratzo/TreeTool",
+    "language": "Jupyter Notebook",
+    "topics": [
+      "carbon-content",
+      "detect-trees",
+      "point-cloud",
+      "photogrammetry",
+      "3D",
+      "lidar"
+    ],
+    "stargazers_count": 1,
+    "license_name": "MIT License",
+    "owner_login": "porteratzo",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/44075849?v=4",
+    "owner_html_url": "https://github.com/porteratzo",
+    "updated_at": "2021-12-08T01:02:16Z",
+    "homepage": null
+  },
+  {
+    "pirate_id": "9q6yUS4Rd9UP29vOSTTfh",
+    "added": 1638954216002,
+    "id": 248560494,
+    "name": "SSSC",
+    "full_name": "dwang520/SSSC",
+    "description": "An Unsupervised and Joint Framework for Single Tree Isolation  and Leaf-wood Classification",
+    "html_url": "https://github.com/dwang520/SSSC",
+    "language": "MATLAB",
+    "topics": [
+      "tree-isolation",
+      "leaf-wood-classification",
+      "single-tree"
+    ],
+    "stargazers_count": 6,
+    "license_name": "GNU General Public License v3.0",
+    "owner_login": "dwang520",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/34278700?v=4",
+    "owner_html_url": "https://github.com/dwang520",
+    "updated_at": "2021-04-14T08:08:50Z",
+    "homepage": null
+  },
+  {
+    "pirate_id": "TYYTbzLa4T9Irk-CxgWr-",
+    "added": 1638954353370,
+    "id": 390706039,
+    "name": "tree_detection",
+    "full_name": "leggedrobotics/tree_detection",
+    "description": "This package implements a simple tree detector from point cloud data. It makes no assumptions about the ground plane and can handle arbitrary terrains.",
+    "html_url": "https://github.com/leggedrobotics/tree_detection",
+    "language": "C++",
+    "topics": [
+      "cpp",
+      "detection",
+      "point-cloud",
+      "ros",
+      "tree",
+      "tree-detection"
+    ],
+    "stargazers_count": 5,
+    "license_name": "",
+    "owner_login": "leggedrobotics",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/20533298?v=4",
+    "owner_html_url": "https://github.com/leggedrobotics",
+    "updated_at": "2021-11-30T17:34:43Z",
     "homepage": ""
   }
 ]
