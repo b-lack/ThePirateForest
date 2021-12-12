@@ -983,5 +983,28 @@
     "owner_html_url": "https://github.com/leggedrobotics",
     "updated_at": "2021-11-30T17:34:43Z",
     "homepage": ""
+  },
+  {
+    "pirate_id": "7SZ4Ojghsbd3TuZarR8xg",
+    "added": 1639325263066,
+    "id": 245827485,
+    "name": "stanfordclassicr",
+    "full_name": "hbelbo/stanfordclassicr",
+    "description": "Functions to read StanForD classic forest machine reports",
+    "html_url": "https://github.com/hbelbo/stanfordclassicr",
+    "language": "R",
+    "topics": [
+      "StanForD",
+      "forest-machines",
+      "machine-data",
+      "communication"
+    ],
+    "stargazers_count": 1,
+    "license_name": "Other",
+    "owner_login": "hbelbo",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/61940406?v=4",
+    "owner_html_url": "https://github.com/hbelbo",
+    "updated_at": "2021-02-15T14:12:01Z",
+    "homepage": ""
   }
 ]
