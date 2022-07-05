@@ -22,7 +22,10 @@ Send me a message in a bottle or create an [issue](https://github.com/b-lack/The
 <a href="https://github.com/chrik5">
   <img src="https://github.com/chrik5.png?size=50" alt="drawing" width="50"/>
 </a>
-  
+<a href="https://github.com/stefp">
+  <img src="https://github.com/stefp.png?size=50" alt="drawing" width="50"/>
+</a>
+
 ## Credits
 Thanks go to all the pirates listed on thepirateforest.
 
