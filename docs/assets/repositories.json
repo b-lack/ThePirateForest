@@ -1006,5 +1006,27 @@
     "owner_html_url": "https://github.com/hbelbo",
     "updated_at": "2021-02-15T14:12:01Z",
     "homepage": ""
+  },
+  {
+    "pirate_id": "7p60Fzj_D9q9Z7drJc-k_",
+    "added": 1657052417059,
+    "id": 485352880,
+    "name": "wheelRuts_semanticSegmentation",
+    "full_name": "SmartForest-no/wheelRuts_semanticSegmentation",
+    "description": null,
+    "html_url": "https://github.com/SmartForest-no/wheelRuts_semanticSegmentation",
+    "language": "Python",
+    "topics": [
+      "forest-machines",
+      "segmentation",
+      "detection"
+    ],
+    "stargazers_count": 5,
+    "license_name": "",
+    "owner_login": "SmartForest-no",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/104361828?v=4",
+    "owner_html_url": "https://github.com/SmartForest-no",
+    "updated_at": "2022-07-05T15:02:07Z",
+    "homepage": null
   }
 ]
