@@ -1013,7 +1013,7 @@
     "id": 485352880,
     "name": "wheelRuts_semanticSegmentation",
     "full_name": "SmartForest-no/wheelRuts_semanticSegmentation",
-    "description": null,
+    "description": "semantic segmentation of wheel-ruts caused by forestry machinery",
     "html_url": "https://github.com/SmartForest-no/wheelRuts_semanticSegmentation",
     "language": "Python",
     "topics": [
