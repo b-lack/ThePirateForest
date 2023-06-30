@@ -8,10 +8,6 @@ filter: true
 type: pf-type-index
 ---
 
-<!--## Tag selection
-
-{% include tag-selection.html %}-->
-
 <header class="text-center">
     <h1 class="pf-title">The Pirate Forest</h1>
     <p class="pf-under-title">
