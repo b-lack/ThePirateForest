@@ -241,6 +241,12 @@ header{
   background-repeat: no-repeat;
   background-size: contain;
 }
+.pf-openext{
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 .pf-openext::after{
   content: ' ';
   display: inline-block;
@@ -482,6 +488,9 @@ footer > *{
   }
   .pf-flag > *:first-child{
     width: 100%;
+  }
+  .pf-small-column{
+    flex-direction: column;
   }
 }
 
