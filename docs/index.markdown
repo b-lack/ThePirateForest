@@ -9,10 +9,13 @@ type: pf-type-index
 ---
 
 <header class="text-center">
-    <h1 class="pf-title">The Pirate Forest</h1>
-    <p class="pf-under-title">
-        Discover Treasures of Forest-related<br/> Open Source Software.
-    </p>
+    <div class="pf-ad">
+        <h1 class="pf-title">The Pirate Forests</h1>
+        <p class="pf-under-title">
+            Discover Treasures of Forest-related<br/> Open Source Software.
+        </p>
+    </div>
+
     <div class="h4">Filter by Topic</div>
     <div id="pf-tag-men" class="pf-inline-men"></div>
 </header>

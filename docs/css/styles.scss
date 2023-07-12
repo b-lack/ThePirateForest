@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "mastodon-feed.scss";
+
 @font-face {
   font-family: 'Estonia';
   src: url('../assets/fonts/estonia-regular-webfont.woff2') format('woff2'),
@@ -471,8 +473,12 @@ footer > *{
 }
 
 @media only screen and (max-width: 600px) {
+  .pf-ad{
+    display: none;
+  }
   .pf-flag{
     flex-direction: column;
+    margin-right: 0;
   }
   .pf-flag > *:first-child{
     width: 100%;

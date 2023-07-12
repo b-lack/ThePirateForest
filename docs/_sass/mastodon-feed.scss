@@ -1,0 +1,40 @@
+
+.scroll-wrapper{
+    overflow: scroll;
+    width: 100%;
+    margin: 50px 0;
+}
+
+#mt-body{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    width: fit-content;
+
+    article{
+        background-color: rgba(0,0,0,.3);
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mt-avatar, .mt-user{
+        display: none;
+    }
+    .img-ratio14_7{
+        aspect-ratio: 16/9;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #mt-body{
+        display: flex;
+        flex-direction: row;
+        overflow: scroll;
+        width: fit-content;
+    }
+}
