@@ -455,7 +455,7 @@ function sortPirates(toSort){
 
 
 function initData(){
-    fetch('./assets/repositories.json')
+    fetch('/assets/repositories.json')
         .then(response => response.json())
         .then(extData => {
             data = extData;

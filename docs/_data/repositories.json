@@ -441,7 +441,7 @@
     "id": 144327733,
     "name": "treeco",
     "full_name": "tyluRp/treeco",
-    "description": ":deciduous_tree: Ecosystem benefits of Trees",
+    "description": "Ecosystem benefits of Trees",
     "html_url": "https://github.com/tyluRp/treeco",
     "language": "R",
     "topics": [
@@ -533,7 +533,7 @@
     "id": 162212015,
     "name": "ForestGapR",
     "full_name": "carlos-alberto-silva/ForestGapR",
-    "description": "ForestGapR: An R Package for Airborne Laser Scanning-derived Tropical Forest Gaps Analysis ",
+    "description": "An R Package for Airborne Laser Scanning-derived Tropical Forest Gaps Analysis ",
     "html_url": "https://github.com/carlos-alberto-silva/ForestGapR",
     "language": "R",
     "topics": [
