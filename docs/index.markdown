@@ -10,6 +10,7 @@ type: pf-type-index
 
 <header class="text-center">
     <div class="pf-ad">
+        <div id="pf-night-sky" data-stars="{{stargazers_count}}" data-owner="b-lack" data-repo="ThePirateForest"></div>
         <h1 class="pf-title">The Pirate Forests</h1>
         <p class="pf-under-title">
             Discover Treasures of Forest-related<br/> Open Source Software.

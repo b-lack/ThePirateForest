@@ -19,7 +19,14 @@
     "owner_login": "b-lack",
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/11278402?v=4",
     "owner_html_url": "https://github.com/b-lack",
-    "updated_at": "2021-10-18T21:22:38Z"
+    "updated_at": "2021-10-18T21:22:38Z",
+    "images":[
+      {
+        "url": "https://repository-images.githubusercontent.com/405073306/af23bec9-be60-4466-9da2-a5044994ef03",
+        "alt": "vwm-brandenburg"
+      }
+    ],
+    "ogimage": "https://repository-images.githubusercontent.com/405073306/af23bec9-be60-4466-9da2-a5044994ef03"
   },
   {
     "pirate_id": "pHUnCo_GWtZ_bdbr06uHG",

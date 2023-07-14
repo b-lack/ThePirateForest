@@ -36,6 +36,7 @@ collections:
   journeys:
     output: true
   treasure:
+    permalink: /:collection/:title
     output: true
 
 sass:

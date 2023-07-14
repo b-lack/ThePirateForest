@@ -2,8 +2,20 @@ import * as fs from 'fs';
 
 // https://www.npmjs.com/package/liquid
 import Liquid  from 'liquid';
-const engine = new Liquid.Engine()
+import renderer from 'hexo-renderer-liquid';
+//const engine = new Liquid.Engine("../docs")
 
+var engine = new Liquid.Engine(new Liquid.LocalFileSystem("../docs/_includes"));
+
+
+  
+  engine.registerFileSystem(new Liquid.LocalFileSystem("../docs/_includes"));
+  
+
+/*
+const engine = renderer.Engine;
+engine.registerFileSystem(new Liquid.LocalFileSystem("../docs"));
+*/
 
 const loadJson = () => {
     let rawdata = fs.readFileSync("../docs/_data/repositories.json");
@@ -26,6 +38,7 @@ const template = loadTemplate();
 
 for (let i = 0; i < jsonObj.length; i++) {
     const element = jsonObj[i];
+    element.repository = jsonObj[i];
     engine
         .parseAndRender(template, element)
         .then(result => {

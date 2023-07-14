@@ -1,0 +1,53 @@
+<div class="pf-row pf-pirate pf-small-column" data-pirate-id="{{repository.pirate_id}}">
+    <div>
+      <!--<a href="{{ repository.owner_html_url }}" target="blank">-->
+        <div class="pf-pirate-avatar">
+          <div class="pf-cross pf-clickable"  onclick="collect('{{ repository.pirate_id }}'); return false;"></div>
+          <img src="{{ repository.owner_avatar_url}}" title="{{ repository.owner_login }}" alt="{{ repository.owner_login }}"/>
+      </div>
+      <!--</a>
+      <div class="pf-pirate-actions">
+        <a class="pf-treasure-add"  title="save in my treasure chest" onclick="collect('{{ repository.pirate_id }}'); return false;" href="#">
+          <img src="./assets/coin.svg" alt="treasure"/>
+        </a>
+        <a class="pf-treasure-remove" onclick="throwAway('{{ repository.pirate_id }}'); return false;">remove</a>
+      </div>-->
+    </div>
+    <div class="pf-ship">
+      {% if repository.added %}
+        <span class="pf-timestamp">added {{ repository.added  | divided_by: 1000 | date: '%B %d, %Y' }}</span>
+      {% endif %}
+      
+      <p>
+        <span class="pf-owner-name">{{ repository.owner_login }}</span> / 
+        <a href="{{ repository.html_url }}" target="blank">
+          <span class="h3 pf-openext">{{repository.name}}</span>
+        </a>
+      </p>
+
+      <p>{{ repository.description }}</p>
+
+      {% if repository.images %}
+        <div class="pf-repo-image">
+            <img style="filter:sepia(50%)" src="{{images[0].url}}" alt="{{name}}">
+        </div>
+      {% endif %}
+
+      <ul class="pf-topics">
+        {% for topic in repository.topics %}
+          <li>{{ topic }}</li>
+        {% endfor %}
+      </ul>
+
+      <div class="pf-row pf-meta">
+        <div class="pf-meta-star">{{ repository.stargazers_count }}</div>
+        {% if repository.language %}
+          <div class="pf-meta-lang">{{ repository.language }}</div>
+        {% endif %}
+        {% if repository.license_name && repository.license_name != '' %}
+          <div class="pf-meta-license">{{ repository.license_name }}</div>
+        {% endif %}
+        
+      </div>
+    </div>
+  </div>

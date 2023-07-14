@@ -453,8 +453,59 @@ function sortPirates(toSort){
 }
 
 
+function createStars(sky, stars){
+    //stars = sky.dataset.stars;
+    for(var i = 0; i < stars.length; i++){
+        var star = document.createElement('div');
+        
+        star.classList.add('pf-meta-star');
+        star.style.left = Math.random() * 100 + '%';
+        star.style.top = Math.random() * 100 + '%';
+        star.style.position = 'absolute';
+        star.style.scale = Math.random() * 1+0.5;
+        star.style.animationDuration = Math.random() * 10 + 's';
+        star.style.animationDelay = Math.random() * 10 + 's';
+        star.style.animationIterationCount = 'infinite';
+        star.style.animationName = 'pf-star-flicker';
+
+        var avatarDialog = document.createElement('div');
+
+        //star.setAttribute('data-star-avatar', stars[i].avatar_url);
+        avatarDialog.classList.add('pf-pirate-avatar');
+        avatarDialog.classList.add('data-star-avatar');
+        avatarDialog.style.backgroundImage = `url(${stars[i].avatar_url})`;
+        star.appendChild(avatarDialog);
+
+        sky.appendChild(star);
+    }
+}
+function getStargazers(sky, owner, repo){
+    fetch(`https://api.github.com/repos/${owner}/${repo}/stargazers`)
+        .then(response => response.json())
+        .then(extData => {
+            createStars(sky, extData);
+        });
+    
+}
+
+
+function starsSky(){
+    const sky = document.querySelector("#pf-night-sky");
+    if(!sky) return;
+
+    owner = sky.dataset.owner;
+    repo = sky.dataset.repo;
+
+    if(owner && repo)
+        getStargazers(sky, owner, repo);
+
+}
+
 
 function initData(){
+    starsSky();
+
+
     fetch('/assets/repositories.json')
         .then(response => response.json())
         .then(extData => {
@@ -464,6 +515,7 @@ function initData(){
             else if(pageType == 'default') updateTagFilterMen();
         });
 }
+
 if (document.readyState === "complete" || document.readyState === "interactive") {
     localStorage.setItem('last_visit', (new Date()).getTime()+ (60*60*1000));
     setTimeout(initData, 1);

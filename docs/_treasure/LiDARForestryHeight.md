@@ -1,24 +1,90 @@
 ---
 layout: post
-title: LiDARForestryHeight
+title: "LiDARForestryHeight | The Pirate Forest"
 description: Plugin generates heights raster maps from LiDAR classified point clouds (las and laz formats)
 tags:  dem dsm dtm forest forestry geotif lidar python3 qgis3-plugin raster
 url: /LiDARForestryHeight
 published: 2021-11-29
 updated: 2021-11-26T09:29:59Z
+ogimage: 
 
 sharing:
-    mastodon: "New Treasure found: LiDARForestryHeight"
+    mastodon: "New Treasure discovered: LiDARForestryHeight, Plugin generates heights raster maps from LiDAR classified point clouds (las and laz formats)"
 ---
+<div class="pf-night-sky-spacer">
+    <div id="pf-night-sky" data-stars="10" data-owner="PANOimagen" data-repo="LiDARForestryHeight"></div>
+    <div class="">
+        <dialog>
+            Inhalt des Dialogs
+        </dialog>
+    </div>
+</div>
 
-## Journey to LiDARForestryHeight
 
-### Problem
+<div class="pf-row pf-pirate pf-small-column" data-pirate-id="l07H92vfqHmwCT4ZfhJDs">
+    <div>
+      <!--<a href="https://github.com/PANOimagen" target="blank">-->
+        <div class="pf-pirate-avatar">
+          <div class="pf-cross pf-clickable"  onclick="collect('l07H92vfqHmwCT4ZfhJDs'); return false;"></div>
+          <img src="https://avatars.githubusercontent.com/u/31689564?v=4" title="PANOimagen" alt="PANOimagen"/>
+      </div>
+      <!--</a>
+      <div class="pf-pirate-actions">
+        <a class="pf-treasure-add"  title="save in my treasure chest" onclick="collect('l07H92vfqHmwCT4ZfhJDs'); return false;" href="#">
+          <img src="./assets/coin.svg" alt="treasure"/>
+        </a>
+        <a class="pf-treasure-remove" onclick="throwAway('l07H92vfqHmwCT4ZfhJDs'); return false;">remove</a>
+      </div>-->
+    </div>
+    <div class="pf-ship">
+      
+        <span class="pf-timestamp">added January 20, 1970</span>
+      
+      
+      <p>
+        <span class="pf-owner-name">PANOimagen</span> / 
+        <a href="https://github.com/PANOimagen/LiDARForestryHeight" target="blank">
+          <span class="h3 pf-openext">LiDARForestryHeight</span>
+        </a>
+      </p>
 
-We want to... 
+      <p>Plugin generates heights raster maps from LiDAR classified point clouds (las and laz formats)</p>
 
-### Requirements
+      
 
-### Solution
+      <ul class="pf-topics">
+        
+          <li>dem</li>
+        
+          <li>dsm</li>
+        
+          <li>dtm</li>
+        
+          <li>forest</li>
+        
+          <li>forestry</li>
+        
+          <li>geotif</li>
+        
+          <li>lidar</li>
+        
+          <li>python3</li>
+        
+          <li>qgis3-plugin</li>
+        
+          <li>raster</li>
+        
+      </ul>
 
-### Result
+      <div class="pf-row pf-meta">
+        <div class="pf-meta-star">10</div>
+        
+          <div class="pf-meta-lang">Python</div>
+        
+        
+          <div class="pf-meta-license">Other</div>
+        
+        
+      </div>
+    </div>
+  </div>
