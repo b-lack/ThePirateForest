@@ -42,12 +42,3 @@ body{
         overflow: hidden;
     }
 }
-
-@media only screen and (max-width: 600px) {
-    #mt-body{
-        display: flex;
-        flex-direction: row;
-        overflow: scroll;
-        width: fit-content;
-    }
-}
