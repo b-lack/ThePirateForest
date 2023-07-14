@@ -292,7 +292,8 @@ header{
   color: black;
   animation-name: run3;
   height: 170px;
-overflow-x: hidden;
+  overflow-x: hidden;
+  margin-top: 50px;
 }
 .pf-ship-sailing{
   position: absolute;
@@ -323,7 +324,7 @@ hr.gf-seperator{
   height: 75px;
   width: 75px;
 }
-.pf-type-index .pf-pirate-avatar::after{
+.pf-type-index .pf-pirate-avatar:not(.data-star-avatar)::after{
   position: absolute;
   top: -29px;
   left: -23px;
@@ -553,7 +554,12 @@ footer > *{
   width: 100%;
   height: 240px;
   margin-bottom: 30px;
-  z-index: -1;
+  
+  pointer-events:none;
+  & > *{
+    pointer-events: auto;
+  }
+
 }
 .pf-night-sky-spacer{
   height: 240px;

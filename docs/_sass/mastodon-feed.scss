@@ -1,25 +1,38 @@
 
 .scroll-wrapper{
-    overflow: scroll;
-    width: 100%;
-    margin: 50px 0;
+    
+}
+body{
+    left: 300px;
 }
 
 #mt-body{
-    display: flex;
-    flex-direction: column;
     overflow: scroll;
     width: fit-content;
+    overflow: scroll;
+    position:fixed;
+    left: -350px;
+    width: 350px;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: 1;
+    transition: left .5s ease-in-out;
+    background-color: #222;
+
+    a{
+        text-decoration: underline;
+    }
 
     article{
         background-color: rgba(0,0,0,.3);
         border-radius: 10px;
         padding: 10px;
         margin: 10px;
-        width: 300px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        overflow-x: hidden;
     }
     .mt-avatar, .mt-user{
         display: none;
