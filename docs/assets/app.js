@@ -503,16 +503,20 @@ function starsSky(){
 
 function setShareLink(){
 
-    const shareData = {
-        title: document.title,
-        text: document.description,
-        url: window.location.href,
-    };
+    console.log(document.title, document.description, window.location.href);
+    
+    
 
     if (!navigator.canShare) {
         document.getElementById('pf-share').classList.add('pf-hidden');
         return;
     }
+
+    const shareData = {
+        title: document.title,
+        text: "Just discovered a treasure of #OpenSource #Software on @ThePirateForest",
+        url: window.location.href,
+    };
     
     if (navigator.canShare(shareData)) {
         const btn = document.querySelector("#pf-share");
