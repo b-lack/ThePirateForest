@@ -503,28 +503,28 @@ function starsSky(){
 
 function setShareLink(){
 
-    console.log(navigator.share);
-
-    if(!navigator.share){
-        //document.getElementById('pf-share').classList.add('pf-hidden');
-        return;
-    }
     const shareData = {
         title: document.title,
         text: document.description,
         url: window.location.href,
-      };
+    };
+
+    if (!navigator.canShare({ shareData })) {
+        document.getElementById('pf-share').classList.add('pf-hidden');
+        return;
+    }
+    
       
-      const btn = document.querySelector("#pf-share");
-      
-      // Share must be triggered by "user activation"
-      btn.addEventListener("click", async () => {
+    const btn = document.querySelector("#pf-share");
+    
+    // Share must be triggered by "user activation"
+    btn.addEventListener("click", async () => {
         try {
-          await navigator.share(shareData);
+            await navigator.share(shareData);
         } catch (err) {
-          console.log(err);
+            console.log(err);
         }
-      });
+    });
 }
 
 function initData(){
