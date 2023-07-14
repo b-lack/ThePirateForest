@@ -509,22 +509,23 @@ function setShareLink(){
         url: window.location.href,
     };
 
-    if (!navigator.canShare({ shareData })) {
+    if (!navigator.canShare) {
         document.getElementById('pf-share').classList.add('pf-hidden');
         return;
     }
     
-      
-    const btn = document.querySelector("#pf-share");
-    
-    // Share must be triggered by "user activation"
-    btn.addEventListener("click", async () => {
-        try {
-            await navigator.share(shareData);
-        } catch (err) {
-            console.log(err);
-        }
-    });
+    if (navigator.canShare(shareData)) {
+        const btn = document.querySelector("#pf-share");
+        
+        // Share must be triggered by "user activation"
+        btn.addEventListener("click", async () => {
+            try {
+                await navigator.share(shareData);
+            } catch (err) {
+                console.log(err);
+            }
+        });
+    }
 }
 
 function initData(){
