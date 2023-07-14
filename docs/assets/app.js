@@ -501,14 +501,23 @@ function starsSky(){
 
 }
 async function getFileFromUrl(url, name, defaultType = 'image/jpeg'){
-    const response = await fetch(url);
-    const data = await response.blob();
-    return new File([data], name, {
-      type: data.type || defaultType,
-    });
+    try{
+        const response = await fetch(url);
+        const data = await response.blob();
+        return new File([data], name, {
+        type: data.type || defaultType,
+        });
+    }catch(e){
+        console.log(e);
+        return null;
+    }
 }
 async function setShareLink(){
 
+    /*ogImage = document.querySelector('meta[property="og:image"]').content;
+    if(ogImage) {
+        file = await getFileFromUrl(ogImage, 'og-image.jpg')
+    }*/
 
     if (!navigator.canShare) {
         document.getElementById('pf-share').classList.add('pf-hidden');
@@ -517,7 +526,7 @@ async function setShareLink(){
 
     const shareData = {
         title: document.title,
-        text: "Just discovered a treasure of #OpenSource #Software on @ThePirateForest",
+        text: "Just discovered a treasure of #OpenSource #Software on @ThePirateForest 🏴‍☠️",
         url: window.location.href,
     };
 
