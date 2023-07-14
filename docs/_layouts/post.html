@@ -1,17 +1,18 @@
 {% include html-header.html %}
 <div class="{{ page.type }}">
     <div class="pf-flag pf-row">
-        <div class="pf-column">
-            <div>
-                <img src="{{ site.baseurl }}/assets/Export.svg" alt="The Pirate Forest" width="100%">
+        <div class="pf-column pf-main-men">
+            <div class="pf-skelleton-img">
+                <a href="{{ site.baseurl }}/" title="The Pirate Forest">
+                    <img src="{{ site.baseurl }}/assets/Export.svg" alt="The Pirate Forest" width="100%">
+                </a>
             </div>
-                <div class="pf-grow">
-                    {% include filter.html %}
-                    
-                </div>
-                
-                
+            <div class="pf-grow pf-hidden-big"></div>
+            <div>
+                {% include filter.html %}
+            </div>
         </div>
+        
         <main class="pf-column pf-grow">
             {{ content }}
         </main>

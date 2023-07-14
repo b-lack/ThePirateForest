@@ -36,6 +36,9 @@ h1.pf-title{
   font-weight: bold;
   margin-bottom: 100px;
 }
+.pf-skelleton-img{
+  min-width: 100px;
+}
 .pf-hidden{
   display: none;
 }
@@ -70,7 +73,9 @@ header{
   margin: 0 0 1em 1em;
 }
 .pf-filter-col{
-  margin: 100px 10px;
+  & > *{
+    margin: 50px 10px;
+  }
 }
 .pf-filter-col.pf-no-data #gf-sorting{
   display: none;
@@ -86,7 +91,7 @@ header{
   cursor: url('../assets/saebel.png'), auto;
 }
 .pf-flag{
-  margin: 40px 20px 20px 0;
+  margin: 0px 20px 20px 0;
   flex-direction: column;
 }
 .pf-flag > *:first-child{
@@ -127,7 +132,6 @@ header{
   font-family: $font-accent;
   font-size: 3em;
   line-height: 0.5em;
-  margin-top: 30px;
   position: relative;
 }
 .pf-treasure-add{
@@ -473,6 +477,7 @@ ul.pf-topics{
   text-align: center;
   line-height: 25px;
   transform: rotate(-30deg);
+  font-weight: bolder;
 }
 
 footer > *{
@@ -481,26 +486,7 @@ footer > *{
   text-align: center;
 }
 
-@media only screen and (max-width: 800px) {
-  .pf-ad{
-    display: none;
-  }
-  .pf-flag{
-    flex-direction: column;
-    margin-right: 0;
-  }
-  .pf-flag > *:first-child{
-    width: 100%;
-  }
-  .pf-small-column{
-    flex-direction: column;
-  }
 
-  .pf-footer-wave{
-    position: sticky;
-    bottom: 0;
-  }
-}
 
 @keyframes run {
   0% {
@@ -577,5 +563,52 @@ footer > *{
   }
   100% {
     opacity: 0.9;
+  }
+}
+
+.pf-hidden-big{
+  display: none;
+}
+.pf-hidden-small{
+  display: block;
+}
+
+@media only screen and (max-width: 800px) {
+  .pf-hidden-big{
+    display: block;
+  }
+  .pf-hidden-small{
+    display: none;
+  }
+  .pf-ad{
+    display: none;
+  }
+  .pf-flag{
+    flex-direction: column;
+    margin-right: 0;
+  }
+  .pf-flag > *:first-child{
+    width: 100%;
+    flex-direction: row;
+    .pf-filter-col{
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      & > *{
+        margin: 10px 10px;
+      }
+    }
+  }
+  .pf-small-column{
+    flex-direction: column;
+  }
+
+  .pf-footer-wave{
+    position: sticky;
+    bottom: 0;
+  }
+
+  .pf-night-sky-spacer, .pf-night-sky{
+    height: 100px !important;
   }
 }
