@@ -500,12 +500,15 @@ function starsSky(){
         getStargazers(sky, owner, repo);
 
 }
+async function getFileFromUrl(url, name, defaultType = 'image/jpeg'){
+    const response = await fetch(url);
+    const data = await response.blob();
+    return new File([data], name, {
+      type: data.type || defaultType,
+    });
+}
+async function setShareLink(){
 
-function setShareLink(){
-
-    console.log(document.title, document.description, window.location.href);
-    
-    
 
     if (!navigator.canShare) {
         document.getElementById('pf-share').classList.add('pf-hidden');
@@ -517,6 +520,10 @@ function setShareLink(){
         text: "Just discovered a treasure of #OpenSource #Software on @ThePirateForest",
         url: window.location.href,
     };
+
+    if(false && file && navigator.canShare({ files: [file] })){
+        shareData.files = [file];
+    }
     
     if (navigator.canShare(shareData)) {
         const btn = document.querySelector("#pf-share");

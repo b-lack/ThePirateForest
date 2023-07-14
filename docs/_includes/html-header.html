@@ -4,17 +4,42 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        {% if page.title %}
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
-        <meta name="description" content="Discover Treasures of Forest-related Open Source Software.">
         <meta property="og:title" content="{{ page.title }}" />
+        {% else %}
+        <title>{{ site.title }}</title>
+        <meta property="og:title" content="{{ site.title }}" />
+        {% endif %}
+
+        {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+        <meta property="og:description" content="{{ page.description }}" />
+        {% else %}
+        <meta name="description" content="{{ site.description }}">
+        <meta property="og:description" content="{{ site.description }}" />
+        {% endif %}
+        
+        {% if page.layout == 'basic' %}
         <meta property="og:type" content="website" />
+        {% else %}
+        <meta property="og:type" content="article" />
+        {% endif %}
+
+        {% if page.ogimage %}
+        <meta property="og:image" content="{{ site.baseurl }}{{ page.ogimage }}" />
+        {% else %}
         <meta property="og:image" content="https://b-lack.github.io/ThePirateForest/assets/og/thepirateforest.png" />
-        <meta property="og:description" content="Discover Treasures of Forest-related Open Source Software." />
+        {% endif %}
+
+        
+
         <link rel="shortcut icon" type="image/png" href="https://b-lack.github.io/ThePirateForest/assets/icons/favicon/android-icon-192x192.png">
         <link rel="shortcut icon" sizes="192x192" href="https://b-lack.github.io/ThePirateForest/assets/icons/favicon/android-icon-192x192.png">
         <link rel="apple-touch-icon" href="https://b-lack.github.io/ThePirateForest/assets/icons/favicon/android-icon-192x192.png">
 
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
         <script async="" src="{{ site.baseurl }}/assets/mastodon-feed.js"></script>
     </head>
-    <body>
+<body>
