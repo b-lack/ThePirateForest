@@ -19,6 +19,17 @@ type: pf-type-index
 
     <div class="h4">Filter by Topic</div>
     <div id="pf-tag-men" class="pf-inline-men"></div>
+
+    <div id="gf-sorting" class="pf-column">
+        <div class="h4">
+            Sort by
+        </div>
+        <div class="pf-grow pf-inline-men">
+            <a class="m-2 pf-meta-timeglass" title="Filter By Time added" onclick="setSorting('time'); return false;" >Time Added</a>
+            <a class="m-2 pf-meta-star" title="Filter By Stars" onclick="setSorting('stars'); return false;" >Stars</a>
+        </div>
+        
+    </div>
 </header>
 
 {% include list.html %}

@@ -81,7 +81,7 @@ header{
   display: none;
 }
 #gf-sorting{
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .pf-sticky-top{
   position: sticky;
@@ -131,7 +131,7 @@ header{
 .pf-treasure{
   font-family: $font-accent;
   font-size: 3em;
-  line-height: 0.5em;
+  line-height: 0.8em;
   position: relative;
 }
 .pf-treasure-add{
@@ -553,6 +553,7 @@ footer > *{
   width: 100%;
   height: 240px;
   margin-bottom: 30px;
+  z-index: -1;
 }
 .pf-night-sky-spacer{
   height: 240px;
@@ -572,7 +573,9 @@ footer > *{
 .pf-hidden-small{
   display: block;
 }
-
+.pf-ad{
+  margin: 50px 0;
+}
 @media only screen and (max-width: 800px) {
   .pf-hidden-big{
     display: block;
@@ -610,5 +613,8 @@ footer > *{
 
   .pf-night-sky-spacer, .pf-night-sky{
     height: 100px !important;
+  }
+  #pf-night-sky{
+    top: 75px;
   }
 }
