@@ -481,7 +481,7 @@ footer > *{
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .pf-ad{
     display: none;
   }
@@ -494,6 +494,11 @@ footer > *{
   }
   .pf-small-column{
     flex-direction: column;
+  }
+
+  .pf-footer-wave{
+    position: sticky;
+    bottom: 0;
   }
 }
 
