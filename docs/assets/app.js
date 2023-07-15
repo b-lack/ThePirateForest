@@ -548,9 +548,23 @@ async function setShareLink(){
     }
 }
 
+function toggleFeed(){
+    const body = document.getElementsByTagName('html')[0];
+    if(body.classList.contains('pf-feed-active')){
+        body.classList.remove('pf-feed-active');
+    }else{
+        body.classList.add('pf-feed-active');
+    }
+}
+
 function initData(){
     starsSky();
     setShareLink();
+
+    const toggleFeedBtn = document.getElementById("pf-toggle-feed");
+    if(toggleFeedBtn){
+        toggleFeedBtn.addEventListener("click", toggleFeed);
+    }
 
     fetch('/assets/repositories.json')
         .then(response => response.json())

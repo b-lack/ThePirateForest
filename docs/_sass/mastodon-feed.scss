@@ -3,7 +3,7 @@
     
 }
 body{
-    left: 300px;
+    //left: 300px;
 }
 
 #mt-body{
@@ -17,7 +17,7 @@ body{
     bottom: 0;
     height: 100vh;
     z-index: 1;
-    transition: left .5s ease-in-out;
+    transition: left .2s ease-in-out;
     background-color: #222;
 
     a{
@@ -38,7 +38,19 @@ body{
         display: none;
     }
     .img-ratio14_7{
-        aspect-ratio: 16/9;
+        //aspect-ratio: 16/9;
         overflow: hidden;
     }
+}
+
+.pf-feed-active{
+    #mt-body{
+        left: 0;
+    }
+    .pf-main{
+        position: relative;
+        left: 350px;
+    }
+    overflow-x: hidden;
+    width: 100%;
 }

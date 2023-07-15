@@ -124,6 +124,9 @@ header{
   display: flex;
   flex-direction: row;
 }
+.pf-row-bottom{
+  align-self: flex-end;
+}
 .pf-column{
   display: flex;
   flex-direction: column;
@@ -374,6 +377,9 @@ hr.gf-seperator{
   height: 100%;
   position: absolute;
   border-radius: 50%;
+}
+.pf-nowrap{
+  white-space: nowrap;
 }
 /*.pf-cross::after{
   content:' ';
