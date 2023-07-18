@@ -181,6 +181,11 @@ header{
 .pf-type-index .pf-treasure-remove{
   display: none;
 }
+#gf-to-chest{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 #gf-to-chest, #gf-to-list{
   font-size: 0.6em;
 }

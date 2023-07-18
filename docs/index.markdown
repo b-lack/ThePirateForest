@@ -10,7 +10,7 @@ type: pf-type-index
 <div class="pf-feed">
     <div class="pf-row pf-feed-line">
         <div><img style="max-width:50px;" src="/assets/birdy.svg" alt="Birdy"></div>
-        <div class="pf-row-bottom"><a rel="me" href="https://mastodon.social/@ThePirateForest" target="_blank"><small>more</small></a></div>
+        <div class="pf-row-bottom"><a rel="me" href="https://mastodon.social/@ThePirateForest" target="_blank"><small>News Feed!</small></a></div>
         <div class="pf-grow"></div>
     </div>
     {% include mastodon-feed.html %}
