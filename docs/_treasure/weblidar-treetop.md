@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: weblidar-treetop, "
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="79" data-owner="carlos-alberto-silva" data-repo="weblidar-treetop"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="m1xIiJTTvwf-xtALh_jpZ">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="m1xIiJTTvwf-xtALh_jpZ">
     <div>
       <!--<a href="https://github.com/carlos-alberto-silva" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -78,3 +79,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

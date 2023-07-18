@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: DeepForest, Python Package for Tree Crown Detection in Airborne RGB imagery"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="199" data-owner="weecology" data-repo="DeepForest"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="kwSPJI3Iw2iypFAhXVMGp">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="kwSPJI3Iw2iypFAhXVMGp">
     <div>
       <!--<a href="https://github.com/weecology" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -78,3 +79,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

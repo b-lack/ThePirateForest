@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: SEILAPLAN, SEILAPLAN is a QGIS Plugin to support forest harvest operations by optimizing the layout of cable roads."
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="2" data-owner="piMoll" data-repo="SEILAPLAN"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="onDxyBroi0FHer9QQh-Bo">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="onDxyBroi0FHer9QQh-Bo">
     <div>
       <!--<a href="https://github.com/piMoll" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -74,3 +75,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

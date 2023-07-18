@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: treeco, Ecosystem benefits of Trees"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="3" data-owner="tyluRp" data-repo="treeco"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="u5RyFsuLVSicf6lw3xAcg">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="u5RyFsuLVSicf6lw3xAcg">
     <div>
       <!--<a href="https://github.com/tyluRp" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -76,3 +77,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

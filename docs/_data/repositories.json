@@ -1035,6 +1035,13 @@
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/104361828?v=4",
     "owner_html_url": "https://github.com/SmartForest-no",
     "updated_at": "2022-07-05T15:02:07Z",
-    "homepage": null
+    "homepage": null,
+    "images":[
+      {
+        "url": "https://user-images.githubusercontent.com/5663984/169524083-197f2a17-fbc9-4b87-b0fb-324217caade5.png",
+        "alt": "vwm-brandenburg"
+      }
+    ],
+    "ogimage": "https://user-images.githubusercontent.com/5663984/169524083-197f2a17-fbc9-4b87-b0fb-324217caade5.png"
   }
 ]

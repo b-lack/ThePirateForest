@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: awesome-forests, 🌳 A curated list of ground-truth forest datasets for the machine learning and forestry community."
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="21" data-owner="blutjens" data-repo="awesome-forests"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="pHUnCo_GWtZ_bdbr06uHG">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="pHUnCo_GWtZ_bdbr06uHG">
     <div>
       <!--<a href="https://github.com/blutjens" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -82,3 +83,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

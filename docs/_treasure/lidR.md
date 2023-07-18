@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: lidR, R package for airborne LiDAR data manipulation and visualisation for forestry application"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="345" data-owner="r-lidar" data-repo="lidR"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="aJnOMbBzFihijI-bylEMY">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="aJnOMbBzFihijI-bylEMY">
     <div>
       <!--<a href="https://github.com/r-lidar" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -82,3 +83,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: forvol, An R package for tree volume equations."
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="2" data-owner="brycefrank" data-repo="forvol"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="upg-x7nKQbL-ji61mHKZ7">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="upg-x7nKQbL-ji61mHKZ7">
     <div>
       <!--<a href="https://github.com/brycefrank" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -70,3 +71,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

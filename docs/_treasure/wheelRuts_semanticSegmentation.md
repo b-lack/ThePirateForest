@@ -6,11 +6,12 @@ tags:  forest-machines segmentation detection remote-sensing
 url: /wheelRuts_semanticSegmentation
 published: 2022-07-05
 updated: 2022-07-05T15:02:07Z
-ogimage: 
+ogimage: https://user-images.githubusercontent.com/5663984/169524083-197f2a17-fbc9-4b87-b0fb-324217caade5.png
 
 sharing:
     mastodon: "New Treasure discovered: wheelRuts_semanticSegmentation, semantic segmentation of wheel-ruts caused by forestry machinery"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="5" data-owner="SmartForest-no" data-repo="wheelRuts_semanticSegmentation"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="7p60Fzj_D9q9Z7drJc-k_">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="7p60Fzj_D9q9Z7drJc-k_">
     <div>
       <!--<a href="https://github.com/SmartForest-no" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -51,6 +52,10 @@ sharing:
       <p>semantic segmentation of wheel-ruts caused by forestry machinery</p>
 
       
+        <div class="pf-repo-image">
+            <img src="https://user-images.githubusercontent.com/5663984/169524083-197f2a17-fbc9-4b87-b0fb-324217caade5.png" alt="wheelRuts_semanticSegmentation">
+        </div>
+      
 
       <ul class="pf-topics">
         
@@ -74,3 +79,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

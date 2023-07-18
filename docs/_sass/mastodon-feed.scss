@@ -52,8 +52,14 @@ body{
     }
 }
 .pf-feed{
-    margin: 50px 0;
+    position: relative;
+    margin: 150px 0;
 }
+.pf-feed-line{
+    position: absolute;
+    left: 30px;
+    top: -50px;
+  }
 .pf-feed-active{
     #mt-body{
         left: 0;

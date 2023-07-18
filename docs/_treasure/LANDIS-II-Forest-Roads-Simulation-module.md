@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: LANDIS-II-Forest-Roads-Simulation-module, An extension for the spatially explicit forest landscape model LANDIS-II that allows for the dynamic simulation of the construction of forest roads due to forest management."
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="3" data-owner="Klemet" data-repo="LANDIS-II-Forest-Roads-Simulation-module"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="lFLeD7ba7CZwtcMb1p6Ma">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="lFLeD7ba7CZwtcMb1p6Ma">
     <div>
       <!--<a href="https://github.com/Klemet" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -76,3 +77,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

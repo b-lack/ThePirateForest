@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: FSCT, Allow plot scale measurements to be extracted automatically from most high-resolution forest point clouds."
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="25" data-owner="SKrisanski" data-repo="FSCT"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="wq9MBPMpzu_-MVWOtAfZ7">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="wq9MBPMpzu_-MVWOtAfZ7">
     <div>
       <!--<a href="https://github.com/SKrisanski" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -76,3 +77,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: AdTree, Accurate, Detailed, and Automatic Modelling of Laser-Scanned Trees"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="73" data-owner="tudelft3d" data-repo="AdTree"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="0TLY97pCwJUcVygV0vlhe">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="0TLY97pCwJUcVygV0vlhe">
     <div>
       <!--<a href="https://github.com/tudelft3d" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -86,3 +87,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

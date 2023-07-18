@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: Biomassr, Shiny app to calculate above ground biomass for forest plots."
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="4" data-owner="jperkins12" data-repo="Biomassr"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="PKBI__W3TfGSM_6JUy3K0">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="PKBI__W3TfGSM_6JUy3K0">
     <div>
       <!--<a href="https://github.com/jperkins12" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -70,3 +71,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

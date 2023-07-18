@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: deepforestr, R interface for DeepForest Python package, a deep learning package detecting individual organisms in airborne RGB images."
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="1" data-owner="weecology" data-repo="deepforestr"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="U9b1N1lECLkin0zZibIb8">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="U9b1N1lECLkin0zZibIb8">
     <div>
       <!--<a href="https://github.com/weecology" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -76,3 +77,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

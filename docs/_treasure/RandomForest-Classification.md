@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: RandomForest-Classification, Classifying remote sensing data with random forest"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="42" data-owner="florianbeyer" data-repo="RandomForest-Classification"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="o8UiFoMoVz02sO80W3q-c">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="o8UiFoMoVz02sO80W3q-c">
     <div>
       <!--<a href="https://github.com/florianbeyer" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -84,3 +85,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

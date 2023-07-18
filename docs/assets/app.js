@@ -36,7 +36,7 @@ function updateIsland(){
     treasureCounter = 0;
     for(var i in treasure){
         var img = document.createElement('img')
-        img.src = './assets/coin-stacked.svg';
+        img.src = '/assets/coin-stacked.svg';
         img.style.bottom = (treasureCounter*5) + 'px';
         img.style.left = (Math.random() * 8 - 4) + 'px';
         img.style.zIndex = treasureCounter;
@@ -571,14 +571,14 @@ function initData(){
         backDrop.addEventListener("click", toggleFeed);
     }
 
-    fetch('/assets/repositories.json')
+    /*fetch('/assets/repositories.json')
         .then(response => response.json())
         .then(extData => {
             data = extData;
             sortPirates(data);
             if(pageType == 'myTreasure') createList('pf-ship-list');
             else if(pageType == 'default') updateTagFilterMen();
-        });
+        });*/
 }
 
 if (document.readyState === "complete" || document.readyState === "interactive") {

@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: LeWoS, Unsupervised leaf-wood classification from laser scanning point clouds"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="12" data-owner="dwang520" data-repo="LeWoS"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="r2nxT9qpvKkN47bQMS5kW">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="r2nxT9qpvKkN47bQMS5kW">
     <div>
       <!--<a href="https://github.com/dwang520" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -74,3 +75,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

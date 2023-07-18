@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: Digital-Forestry-Toolbox, A collection of digital forestry tools for Matlab/Octave"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="32" data-owner="mparkan" data-repo="Digital-Forestry-Toolbox"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="gWFwciQf2Oh0NH-5QHpMT">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="gWFwciQf2Oh0NH-5QHpMT">
     <div>
       <!--<a href="https://github.com/mparkan" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -92,3 +93,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: pycrown, PyCrown - Fast raster-based individual tree segmentation for LiDAR data"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="74" data-owner="manaakiwhenua" data-repo="pycrown"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="t3ImgPW5ojxqejdF1rnxG">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="t3ImgPW5ojxqejdF1rnxG">
     <div>
       <!--<a href="https://github.com/manaakiwhenua" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -82,3 +83,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: SSSC, An Unsupervised and Joint Framework for Single Tree Isolation  and Leaf-wood Classification"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="6" data-owner="dwang520" data-repo="SSSC"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="9q6yUS4Rd9UP29vOSTTfh">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="9q6yUS4Rd9UP29vOSTTfh">
     <div>
       <!--<a href="https://github.com/dwang520" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -74,3 +75,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

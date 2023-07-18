@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: vinv-schema, Lightweight data standard for single-tree based forest management, visualisation & analytics"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="1" data-owner="vinv-group" data-repo="vinv-schema"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="NT0raUzgXDI3rRiBbAc3p">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="NT0raUzgXDI3rRiBbAc3p">
     <div>
       <!--<a href="https://github.com/vinv-group" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -80,3 +81,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

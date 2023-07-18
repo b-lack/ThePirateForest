@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: treeseg, A library of tree segmentation and detection algorithms."
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="13" data-owner="brycefrank" data-repo="treeseg"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="IBeU8hIYBAsSQSvVkyHuy">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="IBeU8hIYBAsSQSvVkyHuy">
     <div>
       <!--<a href="https://github.com/brycefrank" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -72,3 +73,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

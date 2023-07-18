@@ -21,5 +21,6 @@ sharing:
     </div>
 </div>
 
-
-{% include list-entry repository=repository %}
+<div class="pf-ship-list">
+    {% include list-entry repository=repository %}
+</div>

@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: TreeLS, R functions for processing individual tree TLS point clouds"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="41" data-owner="tiagodc" data-repo="TreeLS"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="bRjzPAh-ZWuvvKY1KPx8Q">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="bRjzPAh-ZWuvvKY1KPx8Q">
     <div>
       <!--<a href="https://github.com/tiagodc" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -76,3 +77,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: SBCM, The Simple Biomass Comparison Model"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="1" data-owner="Priestley-Centre" data-repo="SBCM"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="cs3LY_c4MlU8d6k2zzDnU">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="cs3LY_c4MlU8d6k2zzDnU">
     <div>
       <!--<a href="https://github.com/Priestley-Centre" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -84,3 +85,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

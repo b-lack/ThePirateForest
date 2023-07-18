@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: laselva, Fetch Forest Inventory data from many countries"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="7" data-owner="kunstler" data-repo="laselva"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="EhbkP3j2zxBEayacwY08U">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="EhbkP3j2zxBEayacwY08U">
     <div>
       <!--<a href="https://github.com/kunstler" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -84,3 +85,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

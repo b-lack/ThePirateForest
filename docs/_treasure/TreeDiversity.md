@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: TreeDiversity, Notebooks to calculate tree diversity indices (Shannon and Simpson) for planners, foresters, and ecologists!"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="12" data-owner="DiversiTree" data-repo="TreeDiversity"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="FK-MPIUBrO15iHKt0frCl">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="FK-MPIUBrO15iHKt0frCl">
     <div>
       <!--<a href="https://github.com/DiversiTree" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -74,3 +75,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

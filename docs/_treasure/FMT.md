@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: FMT, Forest Management Tool a C++ library for forest planning."
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="6" data-owner="gcyr" data-repo="FMT"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="ckYMV6ehXZHIRq2CdOe38">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="ckYMV6ehXZHIRq2CdOe38">
     <div>
       <!--<a href="https://github.com/gcyr" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -82,3 +83,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

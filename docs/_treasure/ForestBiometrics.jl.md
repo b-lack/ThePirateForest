@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: ForestBiometrics.jl, A library for various forest mensuration and biometrics functions in Julia"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="7" data-owner="Crghilardi" data-repo="ForestBiometrics.jl"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="R4MpS0RPCmbQZRHLaaHry">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="R4MpS0RPCmbQZRHLaaHry">
     <div>
       <!--<a href="https://github.com/Crghilardi" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -74,3 +75,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

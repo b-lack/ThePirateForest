@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: LiDARForestryHeight, Plugin generates heights raster maps from LiDAR classified point clouds (las and laz formats)"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="10" data-owner="PANOimagen" data-repo="LiDARForestryHeight"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="l07H92vfqHmwCT4ZfhJDs">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="l07H92vfqHmwCT4ZfhJDs">
     <div>
       <!--<a href="https://github.com/PANOimagen" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -88,3 +89,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

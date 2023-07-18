@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: forestfrag3d, Code for Reproducibility of Generalized 3D Fragmentation Index Paper (Petras et al. 2017)"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="5" data-owner="wenzeslaus" data-repo="forestfrag3d"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="wVavTK1bBHbJzvaV22KpZ">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="wVavTK1bBHbJzvaV22KpZ">
     <div>
       <!--<a href="https://github.com/wenzeslaus" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -100,3 +101,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

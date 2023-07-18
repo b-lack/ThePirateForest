@@ -34,7 +34,6 @@ h1.pf-title{
 .pf-under-title{
   font-size: 0.8em;
   font-weight: bold;
-  margin-bottom: 100px;
 }
 .pf-skelleton-img{
   min-width: 400px;
@@ -64,9 +63,6 @@ a:hover, .pf-active{
 }
 img{
   max-width: 100%;
-}
-header{
-  margin-bottom: 50px;
 }
 .m-2{
   margin: 0 0 1em 1em;
@@ -183,8 +179,9 @@ header{
 }
 #gf-to-chest{
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
+  white-space: nowrap;
 }
 #gf-to-chest, #gf-to-list{
   font-size: 0.6em;
@@ -566,7 +563,7 @@ footer > *{
   top: 0;
   left: 0;
   width: 100%;
-  height: 240px;
+  height: 100px;
   margin-bottom: 30px;
   
   pointer-events:none;
@@ -574,9 +571,6 @@ footer > *{
     pointer-events: auto;
   }
 
-}
-.pf-night-sky-spacer{
-  height: 240px;
 }
 @keyframes pf-star-flicker {
   0% {
@@ -593,9 +587,7 @@ footer > *{
 .pf-hidden-small{
   display: block;
 }
-.pf-ad{
-  margin: 50px 0;
-}
+
 .pf-flag{
   flex-direction: column;
   margin-right: 0;
@@ -603,6 +595,7 @@ footer > *{
 .pf-flag > *:first-child{
   width: 100%;
   flex-direction: row;
+  align-items: flex-end;
   .pf-filter-col{
     margin: 0;
     display: flex;
@@ -611,11 +604,6 @@ footer > *{
       margin: 10px 10px;
     }
   }
-}
-.pf-feed-line{
-  position: relative;
-  left: 30px;
-  top: 20px;
 }
 @media only screen and (max-width: 800px) {
   .pf-ship-list{
@@ -642,9 +630,7 @@ footer > *{
     bottom: 0;
   }
 
-  .pf-night-sky-spacer, .pf-night-sky{
-    height: 100px !important;
-  }
+
   #pf-night-sky{
     top: 75px;
   }

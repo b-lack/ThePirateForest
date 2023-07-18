@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: TreeQSM, Quantitative Structure Models of Single Trees from Laser Scanner Data"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="48" data-owner="InverseTampere" data-repo="TreeQSM"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="B6SEjfU2E62T1q9LbJbGr">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="B6SEjfU2E62T1q9LbJbGr">
     <div>
       <!--<a href="https://github.com/InverseTampere" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -76,3 +77,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

@@ -2,7 +2,6 @@
 
 
 
-
 <div class="pf-main {{ page.type }}">
     <div class="pf-flag pf-row">
         <div class="pf-column pf-main-men">
@@ -12,8 +11,11 @@
                 </a>
             </div>
 
+            
             <div class="pf-grow">
-                {% include the-pirate-forest.html %}
+                {% if page.url == '/' %}
+                    {% include the-pirate-forest.html %}
+                {% endif %}
             </div>
             <div>
                 {% include filter.html %}
@@ -25,6 +27,7 @@
         
     </div>
     <main class="pf-column pf-grow">
+        
         {{ content }}
     </main>
 </div>

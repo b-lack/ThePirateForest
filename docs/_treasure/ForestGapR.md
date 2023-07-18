@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: ForestGapR, An R Package for Airborne Laser Scanning-derived Tropical Forest Gaps Analysis "
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="15" data-owner="carlos-alberto-silva" data-repo="ForestGapR"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="laf-bJy9UyPNDCc_Sbwhy">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="laf-bJy9UyPNDCc_Sbwhy">
     <div>
       <!--<a href="https://github.com/carlos-alberto-silva" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -68,3 +69,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

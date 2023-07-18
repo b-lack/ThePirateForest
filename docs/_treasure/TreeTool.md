@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: TreeTool, "
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="1" data-owner="porteratzo" data-repo="TreeTool"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="fg-cXMxxIk5HGo7upj0Sa">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="fg-cXMxxIk5HGo7upj0Sa">
     <div>
       <!--<a href="https://github.com/porteratzo" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -80,3 +81,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

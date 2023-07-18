@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: plant-generator, Plant generator"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="12" data-owner="FlorisCreyf" data-repo="plant-generator"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="oiI7MuIfajgtCYnD9WxAe">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="oiI7MuIfajgtCYnD9WxAe">
     <div>
       <!--<a href="https://github.com/FlorisCreyf" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -78,3 +79,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

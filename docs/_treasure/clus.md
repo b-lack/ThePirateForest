@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: clus, Caribou and land use simulator- decision support model for caribou and forest management "
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="11" data-owner="bcgov" data-repo="clus"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="vwsV4cVp6N4TPe8GGGaer">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="vwsV4cVp6N4TPe8GGGaer">
     <div>
       <!--<a href="https://github.com/bcgov" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -76,3 +77,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

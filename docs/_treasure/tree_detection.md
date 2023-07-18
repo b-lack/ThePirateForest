@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: tree_detection, This package implements a simple tree detector from point cloud data. It makes no assumptions about the ground plane and can handle arbitrary terrains."
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="5" data-owner="leggedrobotics" data-repo="tree_detection"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="TYYTbzLa4T9Irk-CxgWr-">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="TYYTbzLa4T9Irk-CxgWr-">
     <div>
       <!--<a href="https://github.com/leggedrobotics" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -78,3 +79,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

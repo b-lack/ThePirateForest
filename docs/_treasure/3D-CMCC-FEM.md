@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: 3D-CMCC-FEM, 3D-CMCC-FEM code"
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="6" data-owner="Forest-Modelling-Lab" data-repo="3D-CMCC-FEM"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="QUQycrx5mAg1oDaEhyF6h">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="QUQycrx5mAg1oDaEhyF6h">
     <div>
       <!--<a href="https://github.com/Forest-Modelling-Lab" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -80,3 +81,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

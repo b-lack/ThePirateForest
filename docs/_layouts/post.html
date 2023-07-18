@@ -1,5 +1,7 @@
 {% include html-header.html %}
-<div class="{{ page.type }}">
+
+
+<div class="pf-main {{ page.type }}">
     <div class="pf-flag pf-row">
         <div class="pf-column pf-main-men">
             <div class="pf-skelleton-img">
@@ -7,15 +9,23 @@
                     <img src="{{ site.baseurl }}/assets/Export.svg" alt="The Pirate Forest" width="100%">
                 </a>
             </div>
-            <div class="pf-grow pf-hidden-big"></div>
+
+            <div class="pf-grow">
+                {% if page.url == '/' %}
+                    {% include the-pirate-forest.html %}
+                {% endif %}
+            </div>
             <div>
                 {% include filter.html %}
             </div>
         </div>
+        <div>
+            
+        </div>
         
-        <main class="pf-column pf-grow">
-            {{ content }}
-        </main>
     </div>
+    <main class="pf-column pf-grow">
+        {{ content }}
+    </main>
 </div>
 {% include html-footer.html %}

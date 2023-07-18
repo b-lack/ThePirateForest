@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: giessdenkiez-de, The consequences of climate change, especially the dry and hot summers, are putting a strain on Berlin's ecosystem. Our urban trees are drying out and suffering long-term damage. Gieß den Kiez is made to enable coordinated citizen participation in the irrigation of urban trees. "
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="46" data-owner="technologiestiftung" data-repo="giessdenkiez-de"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="7EgPXLHDCiDYw7h3LNtjV">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="7EgPXLHDCiDYw7h3LNtjV">
     <div>
       <!--<a href="https://github.com/technologiestiftung" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -84,3 +85,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

@@ -11,6 +11,7 @@ ogimage: https://repository-images.githubusercontent.com/405073306/af23bec9-be60
 sharing:
     mastodon: "New Treasure discovered: vwm-brandenburg, Illustration of regeneration condition and wildlife impact monitoring."
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="1" data-owner="b-lack" data-repo="vwm-brandenburg"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="t_lTb-tB6E5WWJrE9Rbzp">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="t_lTb-tB6E5WWJrE9Rbzp">
     <div>
       <!--<a href="https://github.com/b-lack" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -52,7 +53,7 @@ sharing:
 
       
         <div class="pf-repo-image">
-            <img style="filter:sepia(50%)" src="https://repository-images.githubusercontent.com/405073306/af23bec9-be60-4466-9da2-a5044994ef03" alt="vwm-brandenburg">
+            <img src="https://repository-images.githubusercontent.com/405073306/af23bec9-be60-4466-9da2-a5044994ef03" alt="vwm-brandenburg">
         </div>
       
 
@@ -80,3 +81,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>

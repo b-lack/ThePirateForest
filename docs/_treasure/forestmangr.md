@@ -11,6 +11,7 @@ ogimage:
 sharing:
     mastodon: "New Treasure discovered: forestmangr, R package for forest mensuration and management "
 ---
+
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="10" data-owner="sollano" data-repo="forestmangr"></div>
     <div class="">
@@ -20,8 +21,8 @@ sharing:
     </div>
 </div>
 
-
-<div class="pf-row pf-pirate pf-small-column" data-pirate-id="SEE6Axt3D6S7Ec41F2SH_">
+<div class="pf-ship-list">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="SEE6Axt3D6S7Ec41F2SH_">
     <div>
       <!--<a href="https://github.com/sollano" target="blank">-->
         <div class="pf-pirate-avatar">
@@ -76,3 +77,4 @@ sharing:
       </div>
     </div>
   </div>
+</div>
