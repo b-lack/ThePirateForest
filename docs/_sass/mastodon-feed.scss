@@ -10,29 +10,30 @@ body{
     overflow: scroll;
     width: fit-content;
     overflow: scroll;
-    position:fixed;
-    left: -350px;
-    width: 350px;
+    
+    width: 100%;
     top: 0;
     bottom: 0;
-    height: 100vh;
+    height: 350px;
     z-index: 1;
     transition: left .2s ease-in-out;
-    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
 
     a{
         text-decoration: underline;
     }
 
     article{
-        background-color: rgba(0,0,0,.3);
+        background-color: rgba(50,50,50,7);
         border-radius: 10px;
         padding: 10px;
         margin: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        overflow-x: hidden;
+        min-width: 500px;
     }
     .mt-avatar, .mt-user{
         display: none;
@@ -40,6 +41,14 @@ body{
     .img-ratio14_7{
         //aspect-ratio: 16/9;
         overflow: hidden;
+    }
+    .toot-date{
+        font-size: 0.8em;
+        color: rgba(255,255,255,0.5);
+        text-decoration: none;
+    }
+    .toot-media{
+        aspect-ratio: 16/9;
     }
 }
 
@@ -49,8 +58,9 @@ body{
     }
     .pf-main{
         position: relative;
-        left: 350px;
+        //left: 350px;
     }
     overflow-x: hidden;
     width: 100%;
+
 }

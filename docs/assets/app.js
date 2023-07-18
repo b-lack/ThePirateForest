@@ -566,6 +566,11 @@ function initData(){
         toggleFeedBtn.addEventListener("click", toggleFeed);
     }
 
+    const backDrop = document.getElementById("pf-backdrop");
+    if(backDrop){
+        backDrop.addEventListener("click", toggleFeed);
+    }
+
     fetch('/assets/repositories.json')
         .then(response => response.json())
         .then(extData => {

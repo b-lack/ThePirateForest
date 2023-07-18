@@ -1,6 +1,6 @@
 {% include html-header.html %}
 
-{% include mastodon-feed.html %}
+
 
 
 <div class="pf-main {{ page.type }}">
@@ -11,15 +11,21 @@
                     <img src="{{ site.baseurl }}/assets/Export.svg" alt="The Pirate Forest" width="100%">
                 </a>
             </div>
-            <div class="pf-grow pf-hidden-big"></div>
+
+            <div class="pf-grow">
+                {% include the-pirate-forest.html %}
+            </div>
             <div>
                 {% include filter.html %}
             </div>
         </div>
+        <div>
+            
+        </div>
         
-        <main class="pf-column pf-grow">
-            {{ content }}
-        </main>
     </div>
+    <main class="pf-column pf-grow">
+        {{ content }}
+    </main>
 </div>
 {% include html-footer.html %}

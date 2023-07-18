@@ -37,7 +37,7 @@ h1.pf-title{
   margin-bottom: 100px;
 }
 .pf-skelleton-img{
-  min-width: 100px;
+  min-width: 400px;
 }
 .pf-hidden{
   display: none;
@@ -51,8 +51,7 @@ body{
   margin: 0;
 }
 main{
-  margin: 0 10px;
-  max-width: 700px;
+  margin: 0px;
 }
 a, .pf-clickable{
   color: inherit;
@@ -116,6 +115,10 @@ header{
 }
 .pf-ship p{
   margin: 0.2em 0 0.2em;
+}
+.pf-ship-list{
+  margin: 0 auto;
+  max-width: 700px;
 }
 .pf-ship-list > *:last-child .pf-ship{
   border-bottom: none;
@@ -588,6 +591,27 @@ footer > *{
 .pf-ad{
   margin: 50px 0;
 }
+.pf-flag{
+  flex-direction: column;
+  margin-right: 0;
+}
+.pf-flag > *:first-child{
+  width: 100%;
+  flex-direction: row;
+  .pf-filter-col{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    & > *{
+      margin: 10px 10px;
+    }
+  }
+}
+.pf-feed-line{
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
 @media only screen and (max-width: 800px) {
   .pf-hidden-big{
     display: block;
@@ -598,22 +622,8 @@ footer > *{
   .pf-ad{
     display: none;
   }
-  .pf-flag{
-    flex-direction: column;
-    margin-right: 0;
-  }
-  .pf-flag > *:first-child{
-    width: 100%;
-    flex-direction: row;
-    .pf-filter-col{
-      margin: 0;
-      display: flex;
-      flex-direction: row;
-      & > *{
-        margin: 10px 10px;
-      }
-    }
-  }
+  
+  
   .pf-small-column{
     flex-direction: column;
   }
