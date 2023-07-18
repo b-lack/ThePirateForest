@@ -13,12 +13,17 @@ sharing:
 ---
 
 <div class="pf-night-sky-spacer">
-    <div id="pf-night-sky" data-stars="4" data-owner="jperkins12" data-repo="Biomassr"></div>
-    <div class="">
-        <dialog>
-            Inhalt des Dialogs
+    <div id="pf-night-sky" data-stars="4" data-owner="jperkins12" data-repo="Biomassr">
+        <div id="pf-open-dialog" class="pf-meta-star pf-star-todo"></div>
+        <dialog id="pf-star-dialog">
+            Star this Repository to putt a smile on the Developers face.
+            <div class="pf-row">
+                <div class="pf-grow"></div>
+                <div><a class="pf-unterlines" href="https://github.com/jperkins12/Biomassr" target="_blank">VISIT REPOSITORY</a></div>
+            </div>
         </dialog>
     </div>
+    
 </div>
 
 <div class="pf-ship-list">

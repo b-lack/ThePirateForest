@@ -25,7 +25,7 @@ function updateIsland(){
         
         var pId = element.dataset.pirateId;
         
-        if(treasure[pId]) element.classList.add('pf-treasure-selected')
+        if(treasure[pId] && pageType=='default') element.classList.add('pf-treasure-selected')
         else element.classList.remove('pf-treasure-selected')
     }
 
@@ -408,15 +408,15 @@ function createList(id, showSavedOnly){
     chest.innerHTML = '';
 
     var filter = document.getElementById('pf-filter')
-
-    if(!saved.length){
-        chest.parentNode.classList.add('pf-no-data')
-        filter.classList.add('pf-no-data')
-        return ;
-    }else{
-        chest.parentNode.classList.remove('pf-no-data')
-        filter.classList.remove('pf-no-data')
-    }
+    if(filter)
+        if(!saved.length){
+            chest.parentNode.classList.add('pf-no-data')
+            filter.classList.add('pf-no-data')
+            return ;
+        }else{
+            chest.parentNode.classList.remove('pf-no-data')
+            filter.classList.remove('pf-no-data')
+        }
 
     for(var i=0; i<saved.length; i++){
         chest.append(buildPirate(saved[i]));
@@ -557,9 +557,20 @@ function toggleFeed(){
     }
 }
 
+function setStarAd(){
+    const openDialogBtn = document.getElementById('pf-open-dialog');
+    if(!openDialogBtn)  return;
+    document.getElementById('pf-star-dialog').addEventListener('click', function(){
+        document.getElementById('pf-star-dialog').close();
+    });
+    openDialogBtn.addEventListener('click', function(){
+        document.getElementById('pf-star-dialog').showModal();
+    });
+}
 function initData(){
     starsSky();
     setShareLink();
+    setStarAd();
 
     const toggleFeedBtn = document.getElementById("pf-toggle-feed");
     if(toggleFeedBtn){
@@ -571,14 +582,14 @@ function initData(){
         backDrop.addEventListener("click", toggleFeed);
     }
 
-    /*fetch('/assets/repositories.json')
+    fetch('/assets/repositories.json')
         .then(response => response.json())
         .then(extData => {
             data = extData;
             sortPirates(data);
             if(pageType == 'myTreasure') createList('pf-ship-list');
-            else if(pageType == 'default') updateTagFilterMen();
-        });*/
+            //else if(pageType == 'default') updateTagFilterMen();
+        });
 }
 
 if (document.readyState === "complete" || document.readyState === "interactive") {

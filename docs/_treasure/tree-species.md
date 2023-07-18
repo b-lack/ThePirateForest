@@ -4,7 +4,7 @@ title: "tree-species | The Pirate Forest"
 description: tree species with corresponding translation
 tags:  i18n json species translations tree tree-species
 url: /tree-species
-published: 2021-11-29
+published: 2021-11-28
 updated: 2021-08-29T11:42:23Z
 ogimage: 
 
@@ -13,28 +13,33 @@ sharing:
 ---
 
 <div class="pf-night-sky-spacer">
-    <div id="pf-night-sky" data-stars="1" data-owner="b-lack" data-repo="tree-species"></div>
-    <div class="">
-        <dialog>
-            Inhalt des Dialogs
+    <div id="pf-night-sky" data-stars="1" data-owner="b-lack" data-repo="tree-species">
+        <div id="pf-open-dialog" class="pf-meta-star pf-star-todo"></div>
+        <dialog id="pf-star-dialog">
+            Star this Repository to putt a smile on the Developers face.
+            <div class="pf-row">
+                <div class="pf-grow"></div>
+                <div><a class="pf-unterlines" href="https://github.com/b-lack/tree-species" target="_blank">VISIT REPOSITORY</a></div>
+            </div>
         </dialog>
     </div>
+    
 </div>
 
 <div class="pf-ship-list">
-    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="L-IWK50VedW9esj-P7AZM">
+    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="ZXMwoNmcEB1XIN7plJeDv">
     <div>
       <!--<a href="https://github.com/b-lack" target="blank">-->
         <div class="pf-pirate-avatar">
-          <div class="pf-cross pf-clickable"  onclick="collect('L-IWK50VedW9esj-P7AZM'); return false;"></div>
+          <div class="pf-cross pf-clickable"  onclick="collect('ZXMwoNmcEB1XIN7plJeDv'); return false;"></div>
           <img src="https://avatars.githubusercontent.com/u/11278402?v=4" title="b-lack" alt="b-lack"/>
       </div>
       <!--</a>
       <div class="pf-pirate-actions">
-        <a class="pf-treasure-add"  title="save in my treasure chest" onclick="collect('L-IWK50VedW9esj-P7AZM'); return false;" href="#">
+        <a class="pf-treasure-add"  title="save in my treasure chest" onclick="collect('ZXMwoNmcEB1XIN7plJeDv'); return false;" href="#">
           <img src="./assets/coin.svg" alt="treasure"/>
         </a>
-        <a class="pf-treasure-remove" onclick="throwAway('L-IWK50VedW9esj-P7AZM'); return false;">remove</a>
+        <a class="pf-treasure-remove" onclick="throwAway('ZXMwoNmcEB1XIN7plJeDv'); return false;">remove</a>
       </div>-->
     </div>
     <div class="pf-ship">

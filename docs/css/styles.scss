@@ -222,6 +222,22 @@ img{
 .pf-meta-star::before{
   background-image: url('../assets/icons/star.svg');
 }
+.pf-star-todo::before{
+  background-image: url('../assets/icons/star-todo.svg');
+  
+}
+.pf-star-todo{
+  right: 30px;
+  top: 70px;
+  position: absolute;
+  z-index: 4;
+  color:#61d202;
+  transform: scale(3);
+  cursor: pointer;
+}
+.pf-star-todo:hover{
+  transform: scale(4.5);
+}
 .pf-meta-license::before{
   background-image: url('../assets/icons/license.svg');
 }
@@ -351,6 +367,11 @@ hr.gf-seperator{
 }
 .pf-type-index .pf-pirate:hover:not(.pf-treasure-selected) .pf-pirate-avatar::after{
   transform: rotate(0deg);
+}
+.pf-gold{
+  position: absolute;
+  left: -50px;
+  top: 20px;
 }
 .pf-pirate-avatar::before, #pf-treasure-counter{
   position: absolute;

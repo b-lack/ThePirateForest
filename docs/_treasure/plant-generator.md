@@ -13,12 +13,17 @@ sharing:
 ---
 
 <div class="pf-night-sky-spacer">
-    <div id="pf-night-sky" data-stars="12" data-owner="FlorisCreyf" data-repo="plant-generator"></div>
-    <div class="">
-        <dialog>
-            Inhalt des Dialogs
+    <div id="pf-night-sky" data-stars="12" data-owner="FlorisCreyf" data-repo="plant-generator">
+        <div id="pf-open-dialog" class="pf-meta-star pf-star-todo"></div>
+        <dialog id="pf-star-dialog">
+            Star this Repository to putt a smile on the Developers face.
+            <div class="pf-row">
+                <div class="pf-grow"></div>
+                <div><a class="pf-unterlines" href="https://github.com/FlorisCreyf/plant-generator" target="_blank">VISIT REPOSITORY</a></div>
+            </div>
         </dialog>
     </div>
+    
 </div>
 
 <div class="pf-ship-list">

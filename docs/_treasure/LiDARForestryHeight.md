@@ -13,12 +13,17 @@ sharing:
 ---
 
 <div class="pf-night-sky-spacer">
-    <div id="pf-night-sky" data-stars="10" data-owner="PANOimagen" data-repo="LiDARForestryHeight"></div>
-    <div class="">
-        <dialog>
-            Inhalt des Dialogs
+    <div id="pf-night-sky" data-stars="10" data-owner="PANOimagen" data-repo="LiDARForestryHeight">
+        <div id="pf-open-dialog" class="pf-meta-star pf-star-todo"></div>
+        <dialog id="pf-star-dialog">
+            Star this Repository to putt a smile on the Developers face.
+            <div class="pf-row">
+                <div class="pf-grow"></div>
+                <div><a class="pf-unterlines" href="https://github.com/PANOimagen/LiDARForestryHeight" target="_blank">VISIT REPOSITORY</a></div>
+            </div>
         </dialog>
     </div>
+    
 </div>
 
 <div class="pf-ship-list">
