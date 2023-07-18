@@ -117,7 +117,7 @@ header{
   margin: 0.2em 0 0.2em;
 }
 .pf-ship-list{
-  margin: 0 auto;
+  margin: 50px auto;
   max-width: 700px;
 }
 .pf-ship-list > *:last-child .pf-ship{
@@ -322,7 +322,7 @@ hr.gf-seperator{
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 70% 7px;
-  margin: 50px 0;
+  margin: 70px 0;
 }
 .pf-pirate-avatar{
   margin: 0 auto;
@@ -613,6 +613,10 @@ footer > *{
   top: 20px;
 }
 @media only screen and (max-width: 800px) {
+  .pf-ship-list{
+    margin: 0 10px;
+    max-width: 700px;
+  }
   .pf-hidden-big{
     display: block;
   }
