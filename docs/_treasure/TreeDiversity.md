@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">DiversiTree</span> / 
-        <a href="https://github.com/DiversiTree/TreeDiversity" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/DiversiTree/TreeDiversity" target="_blank">
           <span class="h3 pf-openext">TreeDiversity</span>
         </a>
-      </p>
+      </div>
 
       <p>Notebooks to calculate tree diversity indices (Shannon and Simpson) for planners, foresters, and ecologists!</p>
 

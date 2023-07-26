@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">Klemet</span> / 
-        <a href="https://github.com/Klemet/LANDIS-II-Forest-Roads-Simulation-module" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/Klemet/LANDIS-II-Forest-Roads-Simulation-module" target="_blank">
           <span class="h3 pf-openext">LANDIS-II-Forest-Roads-Simulation-module</span>
         </a>
-      </p>
+      </div>
 
       <p>An extension for the spatially explicit forest landscape model LANDIS-II that allows for the dynamic simulation of the construction of forest roads due to forest management.</p>
 

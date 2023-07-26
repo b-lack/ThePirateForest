@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">gcyr</span> / 
-        <a href="https://github.com/gcyr/FMT" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/gcyr/FMT" target="_blank">
           <span class="h3 pf-openext">FMT</span>
         </a>
-      </p>
+      </div>
 
       <p>Forest Management Tool a C++ library for forest planning.</p>
 

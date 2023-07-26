@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">Crghilardi</span> / 
-        <a href="https://github.com/Crghilardi/ForestBiometrics.jl" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/Crghilardi/ForestBiometrics.jl" target="_blank">
           <span class="h3 pf-openext">ForestBiometrics.jl</span>
         </a>
-      </p>
+      </div>
 
       <p>A library for various forest mensuration and biometrics functions in Julia</p>
 

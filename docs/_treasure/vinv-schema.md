@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">vinv-group</span> / 
-        <a href="https://github.com/vinv-group/vinv-schema" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/vinv-group/vinv-schema" target="_blank">
           <span class="h3 pf-openext">vinv-schema</span>
         </a>
-      </p>
+      </div>
 
       <p>Lightweight data standard for single-tree based forest management, visualisation & analytics</p>
 

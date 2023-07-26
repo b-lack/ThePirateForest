@@ -3,7 +3,7 @@
 <div id="pf-ship-list" class="pf-ship-list">
     {% for repository in sorted_repos %}
 
-      {% include list-entry.html repository=repository %}
+      {% include list-preview.html repository=repository standalone=false %}
 
       {% if forloop.last == false %}
         <hr class="gf-seperator"/>

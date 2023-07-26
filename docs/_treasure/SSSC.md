@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">dwang520</span> / 
-        <a href="https://github.com/dwang520/SSSC" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/dwang520/SSSC" target="_blank">
           <span class="h3 pf-openext">SSSC</span>
         </a>
-      </p>
+      </div>
 
       <p>An Unsupervised and Joint Framework for Single Tree Isolation  and Leaf-wood Classification</p>
 

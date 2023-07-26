@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">tudelft3d</span> / 
-        <a href="https://github.com/tudelft3d/AdTree" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/tudelft3d/AdTree" target="_blank">
           <span class="h3 pf-openext">AdTree</span>
         </a>
-      </p>
+      </div>
 
       <p>Accurate, Detailed, and Automatic Modelling of Laser-Scanned Trees</p>
 

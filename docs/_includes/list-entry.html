@@ -14,16 +14,22 @@
       </div>-->
     </div>
     <div class="pf-ship">
-      {% if repository.added %}
-        <span class="pf-timestamp">added {{ repository.added  | divided_by: 1000 | date: '%B %d, %Y' }}</span>
-      {% endif %}
+
+      <div>
+        {% if repository.added %}
+          <span class="pf-timestamp">added {{ repository.added  | divided_by: 1000 | date: '%B %d, %Y' }}</span>
+        {% endif %}
+      </div>
       
-      <p>
+      
+      <div class="pf-grow">
         <span class="pf-owner-name">{{ repository.owner_login }}</span> / 
-        <a href="{{ repository.html_url }}" target="blank">
+      </div>
+      <div>
+        <a href="{{ repository.html_url }}" target="_blank">
           <span class="h3 pf-openext">{{repository.name}}</span>
         </a>
-      </p>
+      </div>
 
       <p>{{ repository.description }}</p>
 

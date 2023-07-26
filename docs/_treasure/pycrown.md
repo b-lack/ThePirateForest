@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">manaakiwhenua</span> / 
-        <a href="https://github.com/manaakiwhenua/pycrown" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/manaakiwhenua/pycrown" target="_blank">
           <span class="h3 pf-openext">pycrown</span>
         </a>
-      </p>
+      </div>
 
       <p>PyCrown - Fast raster-based individual tree segmentation for LiDAR data</p>
 

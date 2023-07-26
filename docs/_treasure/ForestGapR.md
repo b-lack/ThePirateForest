@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">carlos-alberto-silva</span> / 
-        <a href="https://github.com/carlos-alberto-silva/ForestGapR" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/carlos-alberto-silva/ForestGapR" target="_blank">
           <span class="h3 pf-openext">ForestGapR</span>
         </a>
-      </p>
+      </div>
 
       <p>An R Package for Airborne Laser Scanning-derived Tropical Forest Gaps Analysis </p>
 

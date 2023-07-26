@@ -7,9 +7,7 @@ import renderer from 'hexo-renderer-liquid';
 
 var engine = new Liquid.Engine(new Liquid.LocalFileSystem("../docs/_includes"));
 
-
-  
-  engine.registerFileSystem(new Liquid.LocalFileSystem("../docs/_includes"));
+engine.registerFileSystem(new Liquid.LocalFileSystem("../docs/_includes"));
   
 
 /*

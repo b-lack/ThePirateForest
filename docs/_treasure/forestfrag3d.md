@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">wenzeslaus</span> / 
-        <a href="https://github.com/wenzeslaus/forestfrag3d" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/wenzeslaus/forestfrag3d" target="_blank">
           <span class="h3 pf-openext">forestfrag3d</span>
         </a>
-      </p>
+      </div>
 
       <p>Code for Reproducibility of Generalized 3D Fragmentation Index Paper (Petras et al. 2017)</p>
 

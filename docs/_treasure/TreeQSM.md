@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">InverseTampere</span> / 
-        <a href="https://github.com/InverseTampere/TreeQSM" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/InverseTampere/TreeQSM" target="_blank">
           <span class="h3 pf-openext">TreeQSM</span>
         </a>
-      </p>
+      </div>
 
       <p>Quantitative Structure Models of Single Trees from Laser Scanner Data</p>
 

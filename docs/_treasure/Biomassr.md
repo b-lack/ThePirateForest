@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">jperkins12</span> / 
-        <a href="https://github.com/jperkins12/Biomassr" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/jperkins12/Biomassr" target="_blank">
           <span class="h3 pf-openext">Biomassr</span>
         </a>
-      </p>
+      </div>
 
       <p>Shiny app to calculate above ground biomass for forest plots.</p>
 

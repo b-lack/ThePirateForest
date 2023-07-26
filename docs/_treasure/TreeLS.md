@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">tiagodc</span> / 
-        <a href="https://github.com/tiagodc/TreeLS" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/tiagodc/TreeLS" target="_blank">
           <span class="h3 pf-openext">TreeLS</span>
         </a>
-      </p>
+      </div>
 
       <p>R functions for processing individual tree TLS point clouds</p>
 

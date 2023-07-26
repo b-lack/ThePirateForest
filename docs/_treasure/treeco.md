@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">tyluRp</span> / 
-        <a href="https://github.com/tyluRp/treeco" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/tyluRp/treeco" target="_blank">
           <span class="h3 pf-openext">treeco</span>
         </a>
-      </p>
+      </div>
 
       <p>Ecosystem benefits of Trees</p>
 

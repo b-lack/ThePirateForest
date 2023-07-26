@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">dwang520</span> / 
-        <a href="https://github.com/dwang520/LeWoS" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/dwang520/LeWoS" target="_blank">
           <span class="h3 pf-openext">LeWoS</span>
         </a>
-      </p>
+      </div>
 
       <p>Unsupervised leaf-wood classification from laser scanning point clouds</p>
 

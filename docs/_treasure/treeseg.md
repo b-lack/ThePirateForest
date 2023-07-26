@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">brycefrank</span> / 
-        <a href="https://github.com/brycefrank/treeseg" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/brycefrank/treeseg" target="_blank">
           <span class="h3 pf-openext">treeseg</span>
         </a>
-      </p>
+      </div>
 
       <p>A library of tree segmentation and detection algorithms.</p>
 

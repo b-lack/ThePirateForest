@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">SmartForest-no</span> / 
-        <a href="https://github.com/SmartForest-no/wheelRuts_semanticSegmentation" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/SmartForest-no/wheelRuts_semanticSegmentation" target="_blank">
           <span class="h3 pf-openext">wheelRuts_semanticSegmentation</span>
         </a>
-      </p>
+      </div>
 
       <p>semantic segmentation of wheel-ruts caused by forestry machinery</p>
 

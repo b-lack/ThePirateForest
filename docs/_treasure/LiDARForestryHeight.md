@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">PANOimagen</span> / 
-        <a href="https://github.com/PANOimagen/LiDARForestryHeight" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/PANOimagen/LiDARForestryHeight" target="_blank">
           <span class="h3 pf-openext">LiDARForestryHeight</span>
         </a>
-      </p>
+      </div>
 
       <p>Plugin generates heights raster maps from LiDAR classified point clouds (las and laz formats)</p>
 

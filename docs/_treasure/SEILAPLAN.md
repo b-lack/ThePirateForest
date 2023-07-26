@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">piMoll</span> / 
-        <a href="https://github.com/piMoll/SEILAPLAN" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/piMoll/SEILAPLAN" target="_blank">
           <span class="h3 pf-openext">SEILAPLAN</span>
         </a>
-      </p>
+      </div>
 
       <p>SEILAPLAN is a QGIS Plugin to support forest harvest operations by optimizing the layout of cable roads.</p>
 

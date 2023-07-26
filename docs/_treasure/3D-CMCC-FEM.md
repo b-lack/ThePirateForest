@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">Forest-Modelling-Lab</span> / 
-        <a href="https://github.com/Forest-Modelling-Lab/3D-CMCC-FEM" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/Forest-Modelling-Lab/3D-CMCC-FEM" target="_blank">
           <span class="h3 pf-openext">3D-CMCC-FEM</span>
         </a>
-      </p>
+      </div>
 
       <p>3D-CMCC-FEM code</p>
 

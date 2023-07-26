@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">bcgov</span> / 
-        <a href="https://github.com/bcgov/clus" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/bcgov/clus" target="_blank">
           <span class="h3 pf-openext">clus</span>
         </a>
-      </p>
+      </div>
 
       <p>Caribou and land use simulator- decision support model for caribou and forest management </p>
 

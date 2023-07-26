@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">technologiestiftung</span> / 
-        <a href="https://github.com/technologiestiftung/giessdenkiez-de" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/technologiestiftung/giessdenkiez-de" target="_blank">
           <span class="h3 pf-openext">giessdenkiez-de</span>
         </a>
-      </p>
+      </div>
 
       <p>The consequences of climate change, especially the dry and hot summers, are putting a strain on Berlin's ecosystem. Our urban trees are drying out and suffering long-term damage. Gieß den Kiez is made to enable coordinated citizen participation in the irrigation of urban trees. </p>
 

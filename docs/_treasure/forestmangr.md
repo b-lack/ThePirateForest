@@ -43,16 +43,22 @@ sharing:
       </div>-->
     </div>
     <div class="pf-ship">
+
+      <div>
+        
+          <span class="pf-timestamp">added January 20, 1970</span>
+        
+      </div>
       
-        <span class="pf-timestamp">added January 20, 1970</span>
       
-      
-      <p>
+      <div class="pf-grow">
         <span class="pf-owner-name">sollano</span> / 
-        <a href="https://github.com/sollano/forestmangr" target="blank">
+      </div>
+      <div>
+        <a href="https://github.com/sollano/forestmangr" target="_blank">
           <span class="h3 pf-openext">forestmangr</span>
         </a>
-      </p>
+      </div>
 
       <p>R package for forest mensuration and management </p>
 
