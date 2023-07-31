@@ -36,6 +36,7 @@ h1.pf-title{
   font-weight: bold;
 }
 .pf-skelleton-img{
+  margin-top: 100px;
   min-width: 400px;
 }
 .pf-hidden{
@@ -279,6 +280,7 @@ img{
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+
 .pf-openext::after{
   content: ' ';
   display: inline-block;
@@ -629,7 +631,7 @@ footer > *{
 }
 @media only screen and (max-width: 800px) {
   .pf-ship-list{
-    margin: 0 10px;
+    //margin: 0 10px;
     max-width: 700px;
   }
   .pf-hidden-big{
@@ -639,7 +641,9 @@ footer > *{
     display: none;
   }
   .pf-ad{
-    display: none;
+    .pf-title, .pf-under-title{
+      display: none;
+    }
   }
   
   
@@ -652,8 +656,4 @@ footer > *{
     bottom: 0;
   }
 
-
-  #pf-night-sky{
-    top: 75px;
-  }
 }

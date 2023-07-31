@@ -130,6 +130,7 @@
               '" class="btn" target="_blank" rel="nofollow noopener noreferrer">' +
               mapi.LINK_SEE_MORE +
               "</a></div>";
+
             this.mtBodyContainer.parentNode.insertAdjacentHTML(
               "beforeend",
               linkSeeMore
