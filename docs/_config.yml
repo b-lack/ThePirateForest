@@ -29,6 +29,7 @@ url: "https://ThePirateForest.org" # the base hostname & protocol for your site,
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 collections:
   tags:
