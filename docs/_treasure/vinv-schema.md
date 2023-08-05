@@ -1,16 +1,36 @@
 ---
 layout: post
-title: "vinv-schema | The Pirate Forest"
-description: Lightweight data standard for single-tree based forest management, visualisation & analytics
-tags:  exchange forest-inventory forest-management forestry format standard
+type: pf-type-treasure
+permalink: /treasure/vinv-schema
+title: "vinv-schema"
+description: "Lightweight data standard for single-tree based forest management, visualisation & analytics"
+tags:  forest-inventory forest-management standardization
 url: /vinv-schema
 published: 2021-11-29
 updated: 2021-11-29T22:43:08Z
 ogimage: 
+html_url: https://github.com/vinv-group/vinv-schema
+
+owner_avatar_url: https://avatars.githubusercontent.com/u/83590718?v=4
+owner_login: vinv-group
+pirate_id: NT0raUzgXDI3rRiBbAc3p
 
 sharing:
-    mastodon: "New Treasure discovered: vinv-schema, Lightweight data standard for single-tree based forest management, visualisation & analytics"
+    mastodon: "Treasure discovered: vinv-schema, Lightweight data standard for single-tree based forest management, visualisation & analytics"
 ---
+
+<div class="text-center">
+    
+    <a class="pf-outline-btn" href="https://github.com/vinv-group/vinv-schema" target="_blank" rel="noopener noreferrer">
+        source code
+    </a>
+    
+    
+</div>
+
+
+
+
 
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="1" data-owner="vinv-group" data-repo="vinv-schema">
@@ -23,73 +43,6 @@ sharing:
             </div>
         </dialog>
     </div>
-    
 </div>
 
-<div class="pf-ship-list">
-    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="NT0raUzgXDI3rRiBbAc3p">
-    <div>
-      <!--<a href="https://github.com/vinv-group" target="blank">-->
-        <div class="pf-pirate-avatar">
-          <div class="pf-cross pf-clickable"  onclick="collect('NT0raUzgXDI3rRiBbAc3p'); return false;"></div>
-          <img src="https://avatars.githubusercontent.com/u/83590718?v=4" title="vinv-group" alt="vinv-group"/>
-      </div>
-      <!--</a>
-      <div class="pf-pirate-actions">
-        <a class="pf-treasure-add"  title="save in my treasure chest" onclick="collect('NT0raUzgXDI3rRiBbAc3p'); return false;" href="#">
-          <img src="./assets/coin.svg" alt="treasure"/>
-        </a>
-        <a class="pf-treasure-remove" onclick="throwAway('NT0raUzgXDI3rRiBbAc3p'); return false;">remove</a>
-      </div>-->
-    </div>
-    <div class="pf-ship">
-
-      <div>
-        
-          <span class="pf-timestamp">added January 20, 1970</span>
-        
-      </div>
-      
-      
-      <div class="pf-grow">
-        <span class="pf-owner-name">vinv-group</span> / 
-      </div>
-      <div>
-        <a href="https://github.com/vinv-group/vinv-schema" target="_blank">
-          <span class="h3 pf-openext">vinv-schema</span>
-        </a>
-      </div>
-
-      <p>Lightweight data standard for single-tree based forest management, visualisation & analytics</p>
-
-      
-
-      <ul class="pf-topics">
-        
-          <li>exchange</li>
-        
-          <li>forest-inventory</li>
-        
-          <li>forest-management</li>
-        
-          <li>forestry</li>
-        
-          <li>format</li>
-        
-          <li>standard</li>
-        
-      </ul>
-
-      <div class="pf-row pf-meta">
-        <div class="pf-meta-star">1</div>
-        
-          <div class="pf-meta-lang">JavaScript</div>
-        
-        
-          <div class="pf-meta-license">MIT License</div>
-        
-        
-      </div>
-    </div>
-  </div>
-</div>
+<hr class="gf-seperator">

@@ -1,16 +1,46 @@
 ---
 layout: post
-title: "lidR | The Pirate Forest"
-description: R package for airborne LiDAR data manipulation and visualisation for forestry application
-tags:  als forestry las laz lidar point-cloud r
+type: pf-type-treasure
+permalink: /treasure/lidR
+title: "lidR"
+description: "R package for airborne LiDAR data manipulation and visualisation for forestry application"
+tags:  als forestry las laz lidar point-cloud
 url: /lidR
 published: 2021-11-28
 updated: 2021-11-23T03:22:17Z
-ogimage: 
+ogimage: https://raw.githubusercontent.com/Jean-Romain/storage/master/README/chm-Khosravipour.png
+html_url: https://github.com/r-lidar/lidR
+
+owner_avatar_url: https://avatars.githubusercontent.com/u/93974705?v=4
+owner_login: r-lidar
+pirate_id: aJnOMbBzFihijI-bylEMY
 
 sharing:
-    mastodon: "New Treasure discovered: lidR, R package for airborne LiDAR data manipulation and visualisation for forestry application"
+    mastodon: "Treasure discovered: lidR, R package for airborne LiDAR data manipulation and visualisation for forestry application"
 ---
+
+<div class="text-center">
+    
+    <a class="pf-outline-btn" href="https://github.com/r-lidar/lidR" target="_blank" rel="noopener noreferrer">
+        source code
+    </a>
+    
+    
+</div>
+
+
+<div class="pf-pirate-ogimage">
+    
+    <img src="https://raw.githubusercontent.com/Jean-Romain/storage/master/README/chm-Khosravipour.png" alt="Compute a canopy height model" />
+    
+    <img src="https://raw.githubusercontent.com/Jean-Romain/storage/master/README/point-cloud-rotating.gif" alt="Read and display a las file" />
+    
+    <img src="https://raw.githubusercontent.com/Jean-Romain/storage/master/README/its-rotating-tree-segmented.gif" alt="Individual tree segmentation" />
+    
+</div>
+
+
+
 
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="345" data-owner="r-lidar" data-repo="lidR">
@@ -23,75 +53,6 @@ sharing:
             </div>
         </dialog>
     </div>
-    
 </div>
 
-<div class="pf-ship-list">
-    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="aJnOMbBzFihijI-bylEMY">
-    <div>
-      <!--<a href="https://github.com/r-lidar" target="blank">-->
-        <div class="pf-pirate-avatar">
-          <div class="pf-cross pf-clickable"  onclick="collect('aJnOMbBzFihijI-bylEMY'); return false;"></div>
-          <img src="https://avatars.githubusercontent.com/u/93974705?v=4" title="r-lidar" alt="r-lidar"/>
-      </div>
-      <!--</a>
-      <div class="pf-pirate-actions">
-        <a class="pf-treasure-add"  title="save in my treasure chest" onclick="collect('aJnOMbBzFihijI-bylEMY'); return false;" href="#">
-          <img src="./assets/coin.svg" alt="treasure"/>
-        </a>
-        <a class="pf-treasure-remove" onclick="throwAway('aJnOMbBzFihijI-bylEMY'); return false;">remove</a>
-      </div>-->
-    </div>
-    <div class="pf-ship">
-
-      <div>
-        
-          <span class="pf-timestamp">added January 20, 1970</span>
-        
-      </div>
-      
-      
-      <div class="pf-grow">
-        <span class="pf-owner-name">r-lidar</span> / 
-      </div>
-      <div>
-        <a href="https://github.com/r-lidar/lidR" target="_blank">
-          <span class="h3 pf-openext">lidR</span>
-        </a>
-      </div>
-
-      <p>R package for airborne LiDAR data manipulation and visualisation for forestry application</p>
-
-      
-
-      <ul class="pf-topics">
-        
-          <li>als</li>
-        
-          <li>forestry</li>
-        
-          <li>las</li>
-        
-          <li>laz</li>
-        
-          <li>lidar</li>
-        
-          <li>point-cloud</li>
-        
-          <li>r</li>
-        
-      </ul>
-
-      <div class="pf-row pf-meta">
-        <div class="pf-meta-star">345</div>
-        
-          <div class="pf-meta-lang">R</div>
-        
-        
-          <div class="pf-meta-license">GNU General Public License v3.0</div>
-        
-        
-      </div>
-    </div>
-  </div>
-</div>
+<hr class="gf-seperator">

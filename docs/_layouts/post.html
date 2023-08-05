@@ -6,13 +6,38 @@
         <div class="pf-column pf-main-men">
             <div class="pf-skelleton-img">
                 <a href="{{ site.baseurl }}/" title="The Pirate Forest">
-                    <img src="{{ site.baseurl }}/assets/Export.svg" alt="The Pirate Forest" width="100%">
+                    <img src="{{ site.baseurl }}/assets/Export.svg" alt="The Pirate Forest">
                 </a>
             </div>
 
             <div class="pf-grow">
                 {% if page.url == '/' %}
                     {% include the-pirate-forest.html %}
+                {% else %}
+                    <header class="text-center">
+                        {% if page.owner_avatar_url %}
+                            <div class="pf-pirate-avatar">
+                                <div class="pf-cross pf-clickable" onclick="collect('{{ page.pirate_id }}'); return false;"></div>
+                                <img src="{{ page.owner_avatar_url }}" title="{{ page.owner_login }}" alt="{{ page.owner_login }}"/>
+                            </div>
+                            <br/>
+                            <div class="pf-owner-name">{{ page.owner_login }}</div>
+                        {% endif %}
+                        <div class="pf-ad">
+                            <div id="pf-night-sky" data-stars="{{stargazers_count}}" data-owner="b-lack" data-repo="ThePirateForest"></div>
+                            <a href="{{ page.html_url }}" target="_blank" rel="noopener noreferrer">
+                                  
+                                <h1 class="pf-title">
+                                    <span class="pf-openext6">
+                                        {{ page.title }}
+                                    </span>
+                                </h1>
+                            </a>
+                            <p class="pf-under-title">
+                                {{ page.description }}
+                            </p>
+                        </div>
+                    </header>
                 {% endif %}
             </div>
             <div>
@@ -22,7 +47,9 @@
         <div>
             
         </div>
+
         
+
     </div>
     <main class="pf-column pf-grow">
         {{ content }}

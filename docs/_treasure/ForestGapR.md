@@ -1,16 +1,36 @@
 ---
 layout: post
-title: "ForestGapR | The Pirate Forest"
-description: An R Package for Airborne Laser Scanning-derived Tropical Forest Gaps Analysis 
-tags:  laser
+type: pf-type-treasure
+permalink: /treasure/ForestGapR
+title: "ForestGapR"
+description: "An R Package for Airborne Laser Scanning-derived Tropical Forest Gaps Analysis "
+tags:  laser lidar
 url: /ForestGapR
 published: 2021-11-29
 updated: 2021-10-19T09:08:27Z
 ogimage: 
+html_url: https://github.com/carlos-alberto-silva/ForestGapR
+
+owner_avatar_url: https://avatars.githubusercontent.com/u/6352657?v=4
+owner_login: carlos-alberto-silva
+pirate_id: laf-bJy9UyPNDCc_Sbwhy
 
 sharing:
-    mastodon: "New Treasure discovered: ForestGapR, An R Package for Airborne Laser Scanning-derived Tropical Forest Gaps Analysis "
+    mastodon: "Treasure discovered: ForestGapR, An R Package for Airborne Laser Scanning-derived Tropical Forest Gaps Analysis "
 ---
+
+<div class="text-center">
+    
+    <a class="pf-outline-btn" href="https://github.com/carlos-alberto-silva/ForestGapR" target="_blank" rel="noopener noreferrer">
+        source code
+    </a>
+    
+    
+</div>
+
+
+
+
 
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="15" data-owner="carlos-alberto-silva" data-repo="ForestGapR">
@@ -23,61 +43,6 @@ sharing:
             </div>
         </dialog>
     </div>
-    
 </div>
 
-<div class="pf-ship-list">
-    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="laf-bJy9UyPNDCc_Sbwhy">
-    <div>
-      <!--<a href="https://github.com/carlos-alberto-silva" target="blank">-->
-        <div class="pf-pirate-avatar">
-          <div class="pf-cross pf-clickable"  onclick="collect('laf-bJy9UyPNDCc_Sbwhy'); return false;"></div>
-          <img src="https://avatars.githubusercontent.com/u/6352657?v=4" title="carlos-alberto-silva" alt="carlos-alberto-silva"/>
-      </div>
-      <!--</a>
-      <div class="pf-pirate-actions">
-        <a class="pf-treasure-add"  title="save in my treasure chest" onclick="collect('laf-bJy9UyPNDCc_Sbwhy'); return false;" href="#">
-          <img src="./assets/coin.svg" alt="treasure"/>
-        </a>
-        <a class="pf-treasure-remove" onclick="throwAway('laf-bJy9UyPNDCc_Sbwhy'); return false;">remove</a>
-      </div>-->
-    </div>
-    <div class="pf-ship">
-
-      <div>
-        
-          <span class="pf-timestamp">added January 20, 1970</span>
-        
-      </div>
-      
-      
-      <div class="pf-grow">
-        <span class="pf-owner-name">carlos-alberto-silva</span> / 
-      </div>
-      <div>
-        <a href="https://github.com/carlos-alberto-silva/ForestGapR" target="_blank">
-          <span class="h3 pf-openext">ForestGapR</span>
-        </a>
-      </div>
-
-      <p>An R Package for Airborne Laser Scanning-derived Tropical Forest Gaps Analysis </p>
-
-      
-
-      <ul class="pf-topics">
-        
-          <li>laser</li>
-        
-      </ul>
-
-      <div class="pf-row pf-meta">
-        <div class="pf-meta-star">15</div>
-        
-          <div class="pf-meta-lang">R</div>
-        
-        
-        
-      </div>
-    </div>
-  </div>
-</div>
+<hr class="gf-seperator">

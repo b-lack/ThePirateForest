@@ -1,16 +1,36 @@
 ---
 layout: post
-title: "tree_detection | The Pirate Forest"
-description: This package implements a simple tree detector from point cloud data. It makes no assumptions about the ground plane and can handle arbitrary terrains.
-tags:  cpp detection point-cloud ros tree tree-detection
+type: pf-type-treasure
+permalink: /treasure/tree_detection
+title: "tree_detection"
+description: "This package implements a simple tree detector from point cloud data. It makes no assumptions about the ground plane and can handle arbitrary terrains."
+tags:  cpp detection point-cloud ros tree tree-detection lidar
 url: /tree_detection
 published: 2021-12-08
 updated: 2021-11-30T17:34:43Z
 ogimage: 
+html_url: https://github.com/leggedrobotics/tree_detection
+
+owner_avatar_url: https://avatars.githubusercontent.com/u/20533298?v=4
+owner_login: leggedrobotics
+pirate_id: TYYTbzLa4T9Irk-CxgWr-
 
 sharing:
-    mastodon: "New Treasure discovered: tree_detection, This package implements a simple tree detector from point cloud data. It makes no assumptions about the ground plane and can handle arbitrary terrains."
+    mastodon: "Treasure discovered: tree_detection, This package implements a simple tree detector from point cloud data. It makes no assumptions about the ground plane and can handle arbitrary terrains."
 ---
+
+<div class="text-center">
+    
+    <a class="pf-outline-btn" href="https://github.com/leggedrobotics/tree_detection" target="_blank" rel="noopener noreferrer">
+        source code
+    </a>
+    
+    
+</div>
+
+
+
+
 
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="5" data-owner="leggedrobotics" data-repo="tree_detection">
@@ -23,71 +43,6 @@ sharing:
             </div>
         </dialog>
     </div>
-    
 </div>
 
-<div class="pf-ship-list">
-    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="TYYTbzLa4T9Irk-CxgWr-">
-    <div>
-      <!--<a href="https://github.com/leggedrobotics" target="blank">-->
-        <div class="pf-pirate-avatar">
-          <div class="pf-cross pf-clickable"  onclick="collect('TYYTbzLa4T9Irk-CxgWr-'); return false;"></div>
-          <img src="https://avatars.githubusercontent.com/u/20533298?v=4" title="leggedrobotics" alt="leggedrobotics"/>
-      </div>
-      <!--</a>
-      <div class="pf-pirate-actions">
-        <a class="pf-treasure-add"  title="save in my treasure chest" onclick="collect('TYYTbzLa4T9Irk-CxgWr-'); return false;" href="#">
-          <img src="./assets/coin.svg" alt="treasure"/>
-        </a>
-        <a class="pf-treasure-remove" onclick="throwAway('TYYTbzLa4T9Irk-CxgWr-'); return false;">remove</a>
-      </div>-->
-    </div>
-    <div class="pf-ship">
-
-      <div>
-        
-          <span class="pf-timestamp">added January 20, 1970</span>
-        
-      </div>
-      
-      
-      <div class="pf-grow">
-        <span class="pf-owner-name">leggedrobotics</span> / 
-      </div>
-      <div>
-        <a href="https://github.com/leggedrobotics/tree_detection" target="_blank">
-          <span class="h3 pf-openext">tree_detection</span>
-        </a>
-      </div>
-
-      <p>This package implements a simple tree detector from point cloud data. It makes no assumptions about the ground plane and can handle arbitrary terrains.</p>
-
-      
-
-      <ul class="pf-topics">
-        
-          <li>cpp</li>
-        
-          <li>detection</li>
-        
-          <li>point-cloud</li>
-        
-          <li>ros</li>
-        
-          <li>tree</li>
-        
-          <li>tree-detection</li>
-        
-      </ul>
-
-      <div class="pf-row pf-meta">
-        <div class="pf-meta-star">5</div>
-        
-          <div class="pf-meta-lang">C++</div>
-        
-        
-        
-      </div>
-    </div>
-  </div>
-</div>
+<hr class="gf-seperator">

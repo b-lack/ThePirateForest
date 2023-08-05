@@ -1,6 +1,6 @@
 ---
 ---
-
+@import "bib.scss";
 @import "mastodon-feed.scss";
 
 @font-face {
@@ -17,23 +17,28 @@ $water: #111 ;
 $life: #fff ;
 $primary-color: #333;
 
-
-h1, h2, h3, h4, h5, h6, .h4{
+h1{
   font-family: $font-accent;
   font-weight: normal;
   text-align: center;
+}
+h2{
+  font-family: $font-accent;
+  text-align: center;
+  font-size: 2.4em;
 }
 .h4{
   font-size: 1.2rem;
 }
 h1.pf-title{
   margin: 30px 10px 0;
-  font-size: 5em;
-  line-height: 3rem;
+  font-size: 4em;
+  line-height: 1em;
 }
 .pf-under-title{
   font-size: 0.8em;
-  font-weight: bold;
+  max-width: 500px;
+  margin: 0 auto;
 }
 .pf-skelleton-img{
   margin-top: 100px;
@@ -87,14 +92,31 @@ img{
   cursor: url('../assets/saebel.png'), auto;
 }
 .pf-flag{
-  margin: 0px 20px 20px 0;
+  margin: 0px 20px 100px 0;
   flex-direction: column;
 }
 .pf-flag > *:first-child{
   width: 400px;
+  overflow: hidden;
 }
 .pf-ship{
   padding: 0px 0 0px 20px ;
+  .h3{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+}
+.pf-pirate-ogimage{
+  margin: 50px;
+}
+.pf-pirate-ogimage *{
+  border-radius: 10px;
+  background-color: #000;
+  
+  overflow: hidden;
 }
 .pf-timestamp{
   font-size: 0.6em;
@@ -105,7 +127,7 @@ img{
 .pf-ship h3, .pf-ship .h3{
   font-family: $font-accent;
   font-size: 2rem;
-  line-height: 1rem;
+  //line-height: 1rem;
   text-transform: uppercase;
   margin-bottom: 0.2em;
   font-weight: bold;
@@ -234,11 +256,17 @@ img{
   position: absolute;
   z-index: 4;
   color:#61d202;
-  transform: scale(3);
+  transform: scale(1);
   cursor: pointer;
 }
 .pf-star-todo:hover{
-  transform: scale(4.5);
+  transform: scale(1.5);
+}
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+dialog:modal {
+  margin: auto 20px;
 }
 .pf-meta-license::before{
   background-image: url('../assets/icons/license.svg');
@@ -343,7 +371,7 @@ hr.gf-seperator{
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 70% 7px;
-  margin: 70px 0;
+  margin: 90px 0;
 }
 .pf-pirate-avatar{
   margin: 0 auto;
@@ -351,7 +379,10 @@ hr.gf-seperator{
   height: 75px;
   width: 75px;
 }
-.pf-type-index .pf-pirate-avatar:not(.data-star-avatar)::after{
+.pf-pirate-name{
+  text-align: center;
+}
+/*.pf-type-index .pf-pirate-avatar:not(.data-star-avatar)::after{
   position: absolute;
   top: -29px;
   left: -23px;
@@ -370,7 +401,7 @@ hr.gf-seperator{
 }
 .pf-type-index .pf-pirate:hover:not(.pf-treasure-selected) .pf-pirate-avatar::after{
   transform: rotate(0deg);
-}
+}*/
 .pf-gold{
   position: absolute;
   left: -50px;
@@ -392,7 +423,7 @@ hr.gf-seperator{
   display: block;
   background-color: #333;
 }
-.pf-type-index .pf-pirate:hover:not(.pf-treasure-selected) .pf-cross{
+/*.pf-type-index .pf-pirate:hover:not(.pf-treasure-selected) .pf-cross{
   background-color: rgba(238, 238, 238, 1);
   background-image: url('../assets/icons/cross.svg');
   background-position: center;
@@ -406,7 +437,7 @@ hr.gf-seperator{
   height: 100%;
   position: absolute;
   border-radius: 50%;
-}
+}*/
 .pf-nowrap{
   white-space: nowrap;
 }
@@ -589,7 +620,6 @@ footer > *{
   width: 100%;
   height: 100px;
   margin-bottom: 30px;
-  
   pointer-events:none;
   & > *{
     pointer-events: auto;
@@ -629,9 +659,21 @@ footer > *{
     }
   }
 }
+.pf-type-treasure{
+  .pf-flag > *:first-child{
+    flex-direction: column;
+    align-items: center;
+    .pf-skelleton-img{
+      margin-top: 0;
+      align-self: flex-start;
+    }
+  }
+}
 @media only screen and (max-width: 800px) {
   .pf-ship-list{
     //margin: 0 10px;
+    width: 100%;
+    overflow: hidden;
     max-width: 700px;
   }
   .pf-hidden-big{
@@ -641,11 +683,16 @@ footer > *{
     display: none;
   }
   .pf-ad{
-    .pf-title, .pf-under-title{
-      display: none;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .pf-flag>*:first-child{
+    flex-direction: column;
+    align-items: center;
+    header{
+      margin: 50px 0;
     }
   }
-  
   
   .pf-small-column{
     flex-direction: column;
@@ -655,5 +702,54 @@ footer > *{
     position: sticky;
     bottom: 0;
   }
+  .pf-pirate-ogimage{
+    border-radius: 10px;
+    background-color: #000;
+    margin: 50px 10px;
+  }
 
+}
+
+
+.pf-h-island-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0 10px;
+  overflow-x: scroll;
+  // flex-wrap: wrap;
+
+  > *:hover{
+    background-color: #333;
+  }
+  > *{
+    margin: 40px 10px;
+    background-color: #222;
+    
+    min-width: 400px;
+    max-width: 500px;
+    padding: 10px;
+    .pf-pirate-avatar{
+      margin: -50px auto 0;
+    }
+    .pf-ship{
+      text-align: center;
+    }
+  }
+}
+
+
+
+.pf-outline-btn{
+  border: 2px solid #333;
+  border-radius: 50px;
+  padding: 10px 15px;
+  margin: 10px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #222;
+  &:hover{
+    background-color: #333;
+    color: #fff;
+  }
 }

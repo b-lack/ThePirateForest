@@ -97,6 +97,7 @@ const addRepo = async (owner, repo, topics) => {
             await fs.writeFile("docs/_data/repositories.json", JSON.stringify(repositories, null, 2));
             await fs.writeFile("docs/assets/repositories.json", JSON.stringify(repositories, null, 2));
             console.log('ADD REPO SUCCESS');
+            
         }else{
             console.log('ADD REPO ERROR', data);
         }

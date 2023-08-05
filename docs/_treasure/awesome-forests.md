@@ -1,16 +1,36 @@
 ---
 layout: post
-title: "awesome-forests | The Pirate Forest"
-description: 🌳 A curated list of ground-truth forest datasets for the machine learning and forestry community.
-tags:  biodiversity carbon climate-change datasets deep-learning ecosystems forestry machine-learning
+type: pf-type-treasure
+permalink: /treasure/awesome-forests
+title: "awesome-forests"
+description: "🌳 A curated list of ground-truth forest datasets for the machine learning and forestry community."
+tags:  datasets
 url: /awesome-forests
 published: 2021-11-28
 updated: 2021-11-21T22:19:14Z
 ogimage: 
+html_url: https://github.com/blutjens/awesome-forests
+
+owner_avatar_url: https://avatars.githubusercontent.com/u/29470205?v=4
+owner_login: blutjens
+pirate_id: pHUnCo_GWtZ_bdbr06uHG
 
 sharing:
-    mastodon: "New Treasure discovered: awesome-forests, 🌳 A curated list of ground-truth forest datasets for the machine learning and forestry community."
+    mastodon: "Treasure discovered: awesome-forests, 🌳 A curated list of ground-truth forest datasets for the machine learning and forestry community."
 ---
+
+<div class="text-center">
+    
+    <a class="pf-outline-btn" href="https://github.com/blutjens/awesome-forests" target="_blank" rel="noopener noreferrer">
+        source code
+    </a>
+    
+    
+</div>
+
+
+
+
 
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="21" data-owner="blutjens" data-repo="awesome-forests">
@@ -23,75 +43,6 @@ sharing:
             </div>
         </dialog>
     </div>
-    
 </div>
 
-<div class="pf-ship-list">
-    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="pHUnCo_GWtZ_bdbr06uHG">
-    <div>
-      <!--<a href="https://github.com/blutjens" target="blank">-->
-        <div class="pf-pirate-avatar">
-          <div class="pf-cross pf-clickable"  onclick="collect('pHUnCo_GWtZ_bdbr06uHG'); return false;"></div>
-          <img src="https://avatars.githubusercontent.com/u/29470205?v=4" title="blutjens" alt="blutjens"/>
-      </div>
-      <!--</a>
-      <div class="pf-pirate-actions">
-        <a class="pf-treasure-add"  title="save in my treasure chest" onclick="collect('pHUnCo_GWtZ_bdbr06uHG'); return false;" href="#">
-          <img src="./assets/coin.svg" alt="treasure"/>
-        </a>
-        <a class="pf-treasure-remove" onclick="throwAway('pHUnCo_GWtZ_bdbr06uHG'); return false;">remove</a>
-      </div>-->
-    </div>
-    <div class="pf-ship">
-
-      <div>
-        
-          <span class="pf-timestamp">added January 20, 1970</span>
-        
-      </div>
-      
-      
-      <div class="pf-grow">
-        <span class="pf-owner-name">blutjens</span> / 
-      </div>
-      <div>
-        <a href="https://github.com/blutjens/awesome-forests" target="_blank">
-          <span class="h3 pf-openext">awesome-forests</span>
-        </a>
-      </div>
-
-      <p>🌳 A curated list of ground-truth forest datasets for the machine learning and forestry community.</p>
-
-      
-
-      <ul class="pf-topics">
-        
-          <li>biodiversity</li>
-        
-          <li>carbon</li>
-        
-          <li>climate-change</li>
-        
-          <li>datasets</li>
-        
-          <li>deep-learning</li>
-        
-          <li>ecosystems</li>
-        
-          <li>forestry</li>
-        
-          <li>machine-learning</li>
-        
-      </ul>
-
-      <div class="pf-row pf-meta">
-        <div class="pf-meta-star">21</div>
-        
-        
-          <div class="pf-meta-license">Creative Commons Zero v1.0 Universal</div>
-        
-        
-      </div>
-    </div>
-  </div>
-</div>
+<hr class="gf-seperator">

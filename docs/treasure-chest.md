@@ -1,12 +1,12 @@
 ---
 layout: basic
-title: The Pirate Forest
+title: Treasure Chest
+description: The Treasure Chest is a collection of all the Treasures that have been discovered by You.
 type: pf-type-treasure
 filter: false
 ---
 
 <header class="text-center">
-    <h1 class="pf-title">Treasure Chest</h1>
     
     <div id="pf-process-men" class="pf-inline-men">
         <a class="pf-coin-bronze" href="#" onclick="filterProcess('toDo'); return false;">ToDo</a>
@@ -16,4 +16,4 @@ filter: false
 </header>
 
 
-    {% include my-list.html %}
+{% include my-list.html %}

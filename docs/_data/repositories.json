@@ -10,9 +10,9 @@
     "language": "JavaScript",
     "topics": [
       "forestry",
-      "forstwirtschaft",
       "monitoring",
-      "visualization"
+      "visualization",
+      "gis"
     ],
     "stargazers_count": 1,
     "license_name": "MIT License",
@@ -20,13 +20,12 @@
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/11278402?v=4",
     "owner_html_url": "https://github.com/b-lack",
     "updated_at": "2021-10-18T21:22:38Z",
-    "images":[
+    "images": [
       {
         "url": "https://repository-images.githubusercontent.com/405073306/af23bec9-be60-4466-9da2-a5044994ef03",
         "alt": "vwm-brandenburg"
       }
-    ],
-    "ogimage": "https://repository-images.githubusercontent.com/405073306/af23bec9-be60-4466-9da2-a5044994ef03"
+    ]
   },
   {
     "pirate_id": "pHUnCo_GWtZ_bdbr06uHG",
@@ -38,14 +37,7 @@
     "html_url": "https://github.com/blutjens/awesome-forests",
     "language": null,
     "topics": [
-      "biodiversity",
-      "carbon",
-      "climate-change",
-      "datasets",
-      "deep-learning",
-      "ecosystems",
-      "forestry",
-      "machine-learning"
+      "datasets"
     ],
     "stargazers_count": 21,
     "license_name": "Creative Commons Zero v1.0 Universal",
@@ -69,15 +61,28 @@
       "las",
       "laz",
       "lidar",
-      "point-cloud",
-      "r"
+      "point-cloud"
     ],
     "stargazers_count": 345,
     "license_name": "GNU General Public License v3.0",
     "owner_login": "r-lidar",
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/93974705?v=4",
     "owner_html_url": "https://github.com/r-lidar",
-    "updated_at": "2021-11-23T03:22:17Z"
+    "updated_at": "2021-11-23T03:22:17Z",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/Jean-Romain/storage/master/README/chm-Khosravipour.png",
+        "alt": "Compute a canopy height model"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Jean-Romain/storage/master/README/point-cloud-rotating.gif",
+        "alt": "Read and display a las file"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Jean-Romain/storage/master/README/its-rotating-tree-segmented.gif",
+        "alt": "Individual tree segmentation"
+      }
+    ]
   },
   {
     "pirate_id": "0TLY97pCwJUcVygV0vlhe",
@@ -97,14 +102,21 @@
       "point-clouds",
       "reconstruction",
       "tree",
-      "urban-environment"
+      "urban-environment",
+      "visualization"
     ],
     "stargazers_count": 73,
     "license_name": "GNU General Public License v3.0",
     "owner_login": "tudelft3d",
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/1544391?v=4",
     "owner_html_url": "https://github.com/tudelft3d",
-    "updated_at": "2021-11-05T03:45:24Z"
+    "updated_at": "2021-11-05T03:45:24Z",
+    "images": [
+      {
+        "url": "https://github.com/tudelft3d/AdTree/raw/main/resources/images/AdTree.jpg",
+        "alt": "3D tree models reconstructed from point clouds"
+      }
+    ]
   },
   {
     "pirate_id": "D6iFu-_LDRWQ1VGiPquP8",
@@ -169,7 +181,8 @@
     "language": "Python",
     "topics": [
       "forest-inventory",
-      "forestry"
+      "forestry",
+      "lidar"
     ],
     "stargazers_count": 13,
     "license_name": "MIT License",
@@ -189,8 +202,8 @@
     "language": "Jupyter Notebook",
     "topics": [
       "ecology",
-      "forestry",
-      "urban-planning"
+      "urban-forestry",
+      "gis"
     ],
     "stargazers_count": 12,
     "license_name": "Creative Commons Attribution 4.0 International",
@@ -207,12 +220,12 @@
     "full_name": "bcgov/clus",
     "description": "Caribou and land use simulator- decision support model for caribou and forest management ",
     "html_url": "https://github.com/bcgov/clus",
-    "language": "HTML",
+    "language": "R",
     "topics": [
       "caribou",
       "flnr",
       "forest-analysis",
-      "forestry"
+      "forest-management"
     ],
     "stargazers_count": 11,
     "license_name": "Apache License 2.0",
@@ -262,9 +275,8 @@
       "biomass",
       "carbon",
       "climate-change",
-      "django-rest-framework",
       "emissions",
-      "forestry"
+      "urban-forestry"
     ],
     "stargazers_count": 8,
     "license_name": "The Unlicense",
@@ -303,15 +315,14 @@
     "pirate_id": "R4MpS0RPCmbQZRHLaaHry",
     "added": 1638179887556,
     "id": 101954301,
-    "name": "ForestBiometrics.jl",
+    "name": "ForestBiometrics",
     "full_name": "Crghilardi/ForestBiometrics.jl",
     "description": "A library for various forest mensuration and biometrics functions in Julia",
     "html_url": "https://github.com/Crghilardi/ForestBiometrics.jl",
     "language": "Julia",
     "topics": [
       "biometrics",
-      "forestry",
-      "julia"
+      "forest-management"
     ],
     "stargazers_count": 7,
     "license_name": "Other",
@@ -366,12 +377,10 @@
     "topics": [
       "3d-cmcc-fem",
       "climatechange",
-      "forest",
-      "forestry",
-      "management",
+      "forest-management",
       "vegetationmodelling"
     ],
-    "stargazers_count": 6,
+    "stargazers_count": 8,
     "license_name": "GNU General Public License v3.0",
     "owner_login": "Forest-Modelling-Lab",
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/54363140?v=4",
@@ -389,7 +398,7 @@
     "language": "JavaScript",
     "topics": [
       "i18n",
-      "json",
+      "standardization",
       "species",
       "translations",
       "tree",
@@ -412,9 +421,9 @@
     "html_url": "https://github.com/piMoll/SEILAPLAN",
     "language": "Python",
     "topics": [
-      "forestry",
       "qgis",
-      "qgis-plugin"
+      "qgis-plugin",
+      "gis"
     ],
     "stargazers_count": 2,
     "license_name": "GNU General Public License v2.0",
@@ -448,11 +457,11 @@
     "id": 144327733,
     "name": "treeco",
     "full_name": "tyluRp/treeco",
-    "description": "Ecosystem benefits of Trees",
+    "description": "The goal of treeco is to provide R users a tool for calculating the eco benefits of trees.",
     "html_url": "https://github.com/tyluRp/treeco",
     "language": "R",
     "topics": [
-      "forestry",
+      "urban-forestry",
       "r",
       "rstats",
       "trees"
@@ -475,7 +484,7 @@
     "language": "R",
     "topics": [
       "forest-inventory",
-      "forestry"
+      "forest-management"
     ],
     "stargazers_count": 2,
     "license_name": "",
@@ -500,8 +509,7 @@
       "carbon-emissions",
       "dlca",
       "forestry",
-      "modelling-tool",
-      "python"
+      "modelling-tool"
     ],
     "stargazers_count": 1,
     "license_name": "MIT License",
@@ -520,12 +528,9 @@
     "html_url": "https://github.com/vinv-group/vinv-schema",
     "language": "JavaScript",
     "topics": [
-      "exchange",
       "forest-inventory",
       "forest-management",
-      "forestry",
-      "format",
-      "standard"
+      "standardization"
     ],
     "stargazers_count": 1,
     "license_name": "MIT License",
@@ -544,7 +549,8 @@
     "html_url": "https://github.com/carlos-alberto-silva/ForestGapR",
     "language": "R",
     "topics": [
-      "laser"
+      "laser",
+      "lidar"
     ],
     "stargazers_count": 15,
     "license_name": "",
@@ -561,7 +567,7 @@
     "full_name": "weecology/DeepForest",
     "description": "Python Package for Tree Crown Detection in Airborne RGB imagery",
     "html_url": "https://github.com/weecology/DeepForest",
-    "language": "JavaScript",
+    "language": "Python",
     "topics": [
       "remote-sensing",
       "pytorch",
@@ -584,7 +590,7 @@
     "full_name": "weecology/deepforestr",
     "description": "R interface for DeepForest Python package, a deep learning package detecting individual organisms in airborne RGB images.",
     "html_url": "https://github.com/weecology/deepforestr",
-    "language": "TeX",
+    "language": "R",
     "topics": [
       "remote-sensing",
       "deep-learning",
@@ -610,6 +616,7 @@
     "topics": [
       "laser-scanning",
       "sensors",
+      "lidar",
       "segmentation",
       "photogrammetry"
     ],
@@ -632,7 +639,8 @@
     "topics": [
       "classification",
       "laser-scanning",
-      "point-cloud"
+      "point-cloud",
+      "lidar"
     ],
     "stargazers_count": 12,
     "license_name": "MIT License",
@@ -659,7 +667,8 @@
       "tree-detection",
       "laser-scanning",
       "point-cloud",
-      "stem-segmentation"
+      "stem-segmentation",
+      "lidar"
     ],
     "stargazers_count": 41,
     "license_name": "GNU General Public License v3.0",
@@ -684,7 +693,8 @@
       "terrestrial-laser-scanning",
       "single-tree",
       "point-cloud",
-      "stem-segmentation"
+      "stem-segmentation",
+      "lidar"
     ],
     "stargazers_count": 48,
     "license_name": "Other",
@@ -692,30 +702,6 @@
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/27767416?v=4",
     "owner_html_url": "https://github.com/InverseTampere",
     "updated_at": "2021-11-04T07:43:21Z"
-  },
-  {
-    "pirate_id": "ZXMwoNmcEB1XIN7plJeDv",
-    "added": 1638107118827,
-    "id": 372579026,
-    "name": "tree-species",
-    "full_name": "b-lack/tree-species",
-    "description": "tree species with corresponding translation",
-    "html_url": "https://github.com/b-lack/tree-species",
-    "language": "JavaScript",
-    "topics": [
-      "i18n",
-      "json",
-      "species",
-      "translations",
-      "tree",
-      "tree-species"
-    ],
-    "stargazers_count": 1,
-    "license_name": "MIT License",
-    "owner_login": "b-lack",
-    "owner_avatar_url": "https://avatars.githubusercontent.com/u/11278402?v=4",
-    "owner_html_url": "https://github.com/b-lack",
-    "updated_at": "2021-08-29T11:42:23Z"
   },
   {
     "pirate_id": "SEE6Axt3D6S7Ec41F2SH_",
@@ -778,6 +764,7 @@
     "language": "C#",
     "topics": [
       "forest-roads",
+      "forest-management",
       "landis-ii",
       "landscape",
       "road-network"
@@ -826,10 +813,7 @@
     "html_url": "https://github.com/technologiestiftung/giessdenkiez-de",
     "language": "TypeScript",
     "topics": [
-      "berlin",
-      "citylab-berlin",
-      "community",
-      "map",
+      "gis",
       "rain",
       "trees",
       "watering",
@@ -858,11 +842,11 @@
       "randomforest-classification",
       "remote",
       "sensing",
-      "shape",
+      "gis",
       "tree",
       "trees"
     ],
-    "stargazers_count": 42,
+    "stargazers_count": 72,
     "license_name": "GNU General Public License v3.0",
     "owner_login": "florianbeyer",
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/13834280?v=4",
@@ -882,7 +866,7 @@
     "topics": [
       "opengl",
       "plants",
-      "qt5",
+      "visualization",
       "tree-generator",
       "trees"
     ],
@@ -900,7 +884,7 @@
     "id": 167548152,
     "name": "weblidar-treetop",
     "full_name": "carlos-alberto-silva/weblidar-treetop",
-    "description": null,
+    "description": "A Shiny-based Application for Extracting Forest Information from LiDAR data.",
     "html_url": "https://github.com/carlos-alberto-silva/weblidar-treetop",
     "language": "R",
     "topics": [
@@ -925,7 +909,7 @@
     "id": 296934807,
     "name": "TreeTool",
     "full_name": "porteratzo/TreeTool",
-    "description": null,
+    "description": "Estimate the carbon content of trees in a forest plot. Measure their diameters at breast height from point clouds.",
     "html_url": "https://github.com/porteratzo/TreeTool",
     "language": "Jupyter Notebook",
     "topics": [
@@ -958,13 +942,19 @@
       "leaf-wood-classification",
       "single-tree"
     ],
-    "stargazers_count": 6,
+    "stargazers_count": 11,
     "license_name": "GNU General Public License v3.0",
     "owner_login": "dwang520",
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/34278700?v=4",
     "owner_html_url": "https://github.com/dwang520",
     "updated_at": "2021-04-14T08:08:50Z",
-    "homepage": null
+    "homepage": null,
+    "images": [
+      {
+        "url": "https://github.com/tudelft3d/AdTree/raw/main/resources/images/AdTree.jpg",
+        "alt": "3D tree models reconstructed from point clouds"
+      }
+    ]
   },
   {
     "pirate_id": "TYYTbzLa4T9Irk-CxgWr-",
@@ -981,7 +971,8 @@
       "point-cloud",
       "ros",
       "tree",
-      "tree-detection"
+      "tree-detection",
+      "lidar"
     ],
     "stargazers_count": 5,
     "license_name": "",
@@ -1004,9 +995,10 @@
       "StanForD",
       "forest-machines",
       "machine-data",
-      "communication"
+      "communication",
+      "standardization"
     ],
-    "stargazers_count": 1,
+    "stargazers_count": 2,
     "license_name": "Other",
     "owner_login": "hbelbo",
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/61940406?v=4",
@@ -1029,19 +1021,50 @@
       "detection",
       "remote-sensing"
     ],
-    "stargazers_count": 5,
+    "stargazers_count": 8,
     "license_name": "",
     "owner_login": "SmartForest-no",
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/104361828?v=4",
     "owner_html_url": "https://github.com/SmartForest-no",
     "updated_at": "2022-07-05T15:02:07Z",
     "homepage": null,
-    "images":[
+    "images": [
       {
         "url": "https://user-images.githubusercontent.com/5663984/169524083-197f2a17-fbc9-4b87-b0fb-324217caade5.png",
         "alt": "vwm-brandenburg"
       }
     ],
     "ogimage": "https://user-images.githubusercontent.com/5663984/169524083-197f2a17-fbc9-4b87-b0fb-324217caade5.png"
+  },
+  {
+    "pirate_id": "qhIn8Le9HWDN7TRlc6ecL",
+    "added": 1691273790794,
+    "id": 491705537,
+    "name": "PercepTreeV1",
+    "full_name": "norlab-ulaval/PercepTreeV1",
+    "description": "Implementation of Grondin et al. 2022 'Tree Detection and Diameter Estimation Based on Deep Learning'. Also includes datasets and some of the pretrained models.",
+    "html_url": "https://github.com/norlab-ulaval/PercepTreeV1",
+    "language": "Python",
+    "topics": [
+      "computer-vision",
+      "datasets",
+      "forestry",
+      "remote-sensing",
+      "remote-sensing",
+      "deep-learning"
+    ],
+    "stargazers_count": 50,
+    "license_name": "Apache License 2.0",
+    "owner_login": "norlab-ulaval",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/30079365?v=4",
+    "owner_html_url": "https://github.com/norlab-ulaval",
+    "updated_at": "2023-08-03T10:14:28Z",
+    "homepage": "https://norlab.ulaval.ca/",
+    "images": [
+      {
+        "url": "https://github.com/norlab-ulaval/PercepTreeV1/raw/main/.github/figure6.png",
+        "alt": "Tree Detection and Diameter Estimation Based on Deep Learning, published in Forestry"
+      }
+    ]
   }
 ]

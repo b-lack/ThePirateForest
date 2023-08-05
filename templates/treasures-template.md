@@ -1,16 +1,46 @@
 ---
 layout: post
-title: "{{name}} | The Pirate Forest"
-description: {{description}}
+type: pf-type-treasure
+permalink: /treasure/{{name}}
+title: "{{name}}"
+description: "{{description}}"
 tags: {%for v in topics %} {{v}}{% endfor %}
 url: /{{name}}
 published: {{added | date: "%Y-%m-%d"}}
 updated: {{updated_at}}
 ogimage: {{images[0].url}}
+html_url: {{html_url}}
+
+owner_avatar_url: {{owner_avatar_url}}
+owner_login: {{owner_login}}
+pirate_id: {{pirate_id}}
 
 sharing:
-    mastodon: "New Treasure discovered: {{name}}, {{description}}"
+    mastodon: "Treasure discovered: {{name}}, {{description}}"
 ---
+
+<div class="text-center">
+    {% if html_url %}
+    <a class="pf-outline-btn" href="{{ html_url }}" target="_blank" rel="noopener noreferrer">
+        source code
+    </a>
+    {% endif %}
+    {% if homepage %}
+    <a class="pf-outline-btn" href="{{ homepage }}" target="_blank" rel="noopener noreferrer">
+        homepage
+    </a>
+    {% endif %}
+</div>
+
+{% if images %}
+<div class="pf-pirate-ogimage">
+    {% for image in images %}
+    <img src="{{ image.url }}" alt="{{ image.alt }}" />
+    {% endfor %}
+</div>
+{% endif %}
+
+
 
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="{{stargazers_count}}" data-owner="{{owner_login}}" data-repo="{{name}}">
@@ -23,9 +53,6 @@ sharing:
             </div>
         </dialog>
     </div>
-    
 </div>
 
-<div class="pf-ship-list">
-    {% include list-entry repository=repository %}
-</div>
+<hr class="gf-seperator">

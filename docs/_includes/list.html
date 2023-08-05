@@ -1,4 +1,5 @@
-{% assign sorted_repos = site.data.repositories | sort_natural: "added" | reverse %}
+{% assign sorted_repos = site.data.repositories | sort_natural: "added" | where: "topics", include.topic | reverse %}
+
 
 <div id="pf-ship-list" class="pf-ship-list">
     {% for repository in sorted_repos %}

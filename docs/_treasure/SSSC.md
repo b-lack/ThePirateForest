@@ -1,19 +1,45 @@
 ---
 layout: post
-title: "SSSC | The Pirate Forest"
-description: An Unsupervised and Joint Framework for Single Tree Isolation  and Leaf-wood Classification
+type: pf-type-treasure
+permalink: /treasure/SSSC
+title: "SSSC"
+description: "An Unsupervised and Joint Framework for Single Tree Isolation  and Leaf-wood Classification"
 tags:  tree-isolation leaf-wood-classification single-tree
 url: /SSSC
 published: 2021-12-08
 updated: 2021-04-14T08:08:50Z
-ogimage: 
+ogimage: https://github.com/tudelft3d/AdTree/raw/main/resources/images/AdTree.jpg
+html_url: https://github.com/dwang520/SSSC
+
+owner_avatar_url: https://avatars.githubusercontent.com/u/34278700?v=4
+owner_login: dwang520
+pirate_id: 9q6yUS4Rd9UP29vOSTTfh
 
 sharing:
-    mastodon: "New Treasure discovered: SSSC, An Unsupervised and Joint Framework for Single Tree Isolation  and Leaf-wood Classification"
+    mastodon: "Treasure discovered: SSSC, An Unsupervised and Joint Framework for Single Tree Isolation  and Leaf-wood Classification"
 ---
 
+<div class="text-center">
+    
+    <a class="pf-outline-btn" href="https://github.com/dwang520/SSSC" target="_blank" rel="noopener noreferrer">
+        source code
+    </a>
+    
+    
+</div>
+
+
+<div class="pf-pirate-ogimage">
+    
+    <img src="https://github.com/tudelft3d/AdTree/raw/main/resources/images/AdTree.jpg" alt="3D tree models reconstructed from point clouds" />
+    
+</div>
+
+
+
+
 <div class="pf-night-sky-spacer">
-    <div id="pf-night-sky" data-stars="6" data-owner="dwang520" data-repo="SSSC">
+    <div id="pf-night-sky" data-stars="11" data-owner="dwang520" data-repo="SSSC">
         <div id="pf-open-dialog" class="pf-meta-star pf-star-todo"></div>
         <dialog id="pf-star-dialog">
             Star this Repository to putt a smile on the Developers face.
@@ -23,67 +49,6 @@ sharing:
             </div>
         </dialog>
     </div>
-    
 </div>
 
-<div class="pf-ship-list">
-    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="9q6yUS4Rd9UP29vOSTTfh">
-    <div>
-      <!--<a href="https://github.com/dwang520" target="blank">-->
-        <div class="pf-pirate-avatar">
-          <div class="pf-cross pf-clickable"  onclick="collect('9q6yUS4Rd9UP29vOSTTfh'); return false;"></div>
-          <img src="https://avatars.githubusercontent.com/u/34278700?v=4" title="dwang520" alt="dwang520"/>
-      </div>
-      <!--</a>
-      <div class="pf-pirate-actions">
-        <a class="pf-treasure-add"  title="save in my treasure chest" onclick="collect('9q6yUS4Rd9UP29vOSTTfh'); return false;" href="#">
-          <img src="./assets/coin.svg" alt="treasure"/>
-        </a>
-        <a class="pf-treasure-remove" onclick="throwAway('9q6yUS4Rd9UP29vOSTTfh'); return false;">remove</a>
-      </div>-->
-    </div>
-    <div class="pf-ship">
-
-      <div>
-        
-          <span class="pf-timestamp">added January 20, 1970</span>
-        
-      </div>
-      
-      
-      <div class="pf-grow">
-        <span class="pf-owner-name">dwang520</span> / 
-      </div>
-      <div>
-        <a href="https://github.com/dwang520/SSSC" target="_blank">
-          <span class="h3 pf-openext">SSSC</span>
-        </a>
-      </div>
-
-      <p>An Unsupervised and Joint Framework for Single Tree Isolation  and Leaf-wood Classification</p>
-
-      
-
-      <ul class="pf-topics">
-        
-          <li>tree-isolation</li>
-        
-          <li>leaf-wood-classification</li>
-        
-          <li>single-tree</li>
-        
-      </ul>
-
-      <div class="pf-row pf-meta">
-        <div class="pf-meta-star">6</div>
-        
-          <div class="pf-meta-lang">MATLAB</div>
-        
-        
-          <div class="pf-meta-license">GNU General Public License v3.0</div>
-        
-        
-      </div>
-    </div>
-  </div>
-</div>
+<hr class="gf-seperator">

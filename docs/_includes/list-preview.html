@@ -1,5 +1,5 @@
 <div class="pf-row pf-pirate pf-small-column" data-pirate-id="{{repository.pirate_id}}">
-  <a href="treasure/{{ repository.name }}.html">
+  <a href="{{ site.baseurl }}/treasure/{{ repository.name }}">
     <div>
         <div class="pf-pirate-avatar">
           <div class="pf-cross pf-clickable"  onclick="collect('{{ repository.pirate_id }}'); return false;"></div>
@@ -8,7 +8,7 @@
     </div>
     <div class="pf-ship">
 
-      <div class="pf-grow">
+      <div class="pf-grow pf-pirate">
         <span class="pf-owner-name">{{ repository.owner_login }}</span>
       </div>
       <div>

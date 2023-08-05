@@ -1,16 +1,40 @@
 ---
 layout: post
-title: "pycrown | The Pirate Forest"
-description: PyCrown - Fast raster-based individual tree segmentation for LiDAR data
+type: pf-type-treasure
+permalink: /treasure/pycrown
+title: "pycrown"
+description: "PyCrown - Fast raster-based individual tree segmentation for LiDAR data"
 tags:  crowns lidar numba python segmentation tree trees
 url: /pycrown
 published: 2021-12-05
 updated: 2021-11-26T07:45:45Z
 ogimage: 
+html_url: https://github.com/manaakiwhenua/pycrown
+
+owner_avatar_url: https://avatars.githubusercontent.com/u/47998937?v=4
+owner_login: manaakiwhenua
+pirate_id: t3ImgPW5ojxqejdF1rnxG
 
 sharing:
-    mastodon: "New Treasure discovered: pycrown, PyCrown - Fast raster-based individual tree segmentation for LiDAR data"
+    mastodon: "Treasure discovered: pycrown, PyCrown - Fast raster-based individual tree segmentation for LiDAR data"
 ---
+
+<div class="text-center">
+    
+    <a class="pf-outline-btn" href="https://github.com/manaakiwhenua/pycrown" target="_blank" rel="noopener noreferrer">
+        source code
+    </a>
+    
+    
+    <a class="pf-outline-btn" href="https://datastore.landcareresearch.co.nz/dataset/pycrown" target="_blank" rel="noopener noreferrer">
+        homepage
+    </a>
+    
+</div>
+
+
+
+
 
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="74" data-owner="manaakiwhenua" data-repo="pycrown">
@@ -23,75 +47,6 @@ sharing:
             </div>
         </dialog>
     </div>
-    
 </div>
 
-<div class="pf-ship-list">
-    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="t3ImgPW5ojxqejdF1rnxG">
-    <div>
-      <!--<a href="https://github.com/manaakiwhenua" target="blank">-->
-        <div class="pf-pirate-avatar">
-          <div class="pf-cross pf-clickable"  onclick="collect('t3ImgPW5ojxqejdF1rnxG'); return false;"></div>
-          <img src="https://avatars.githubusercontent.com/u/47998937?v=4" title="manaakiwhenua" alt="manaakiwhenua"/>
-      </div>
-      <!--</a>
-      <div class="pf-pirate-actions">
-        <a class="pf-treasure-add"  title="save in my treasure chest" onclick="collect('t3ImgPW5ojxqejdF1rnxG'); return false;" href="#">
-          <img src="./assets/coin.svg" alt="treasure"/>
-        </a>
-        <a class="pf-treasure-remove" onclick="throwAway('t3ImgPW5ojxqejdF1rnxG'); return false;">remove</a>
-      </div>-->
-    </div>
-    <div class="pf-ship">
-
-      <div>
-        
-          <span class="pf-timestamp">added January 20, 1970</span>
-        
-      </div>
-      
-      
-      <div class="pf-grow">
-        <span class="pf-owner-name">manaakiwhenua</span> / 
-      </div>
-      <div>
-        <a href="https://github.com/manaakiwhenua/pycrown" target="_blank">
-          <span class="h3 pf-openext">pycrown</span>
-        </a>
-      </div>
-
-      <p>PyCrown - Fast raster-based individual tree segmentation for LiDAR data</p>
-
-      
-
-      <ul class="pf-topics">
-        
-          <li>crowns</li>
-        
-          <li>lidar</li>
-        
-          <li>numba</li>
-        
-          <li>python</li>
-        
-          <li>segmentation</li>
-        
-          <li>tree</li>
-        
-          <li>trees</li>
-        
-      </ul>
-
-      <div class="pf-row pf-meta">
-        <div class="pf-meta-star">74</div>
-        
-          <div class="pf-meta-lang">Python</div>
-        
-        
-          <div class="pf-meta-license">GNU General Public License v3.0</div>
-        
-        
-      </div>
-    </div>
-  </div>
-</div>
+<hr class="gf-seperator">

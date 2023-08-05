@@ -1,16 +1,36 @@
 ---
 layout: post
-title: "LeWoS | The Pirate Forest"
-description: Unsupervised leaf-wood classification from laser scanning point clouds
-tags:  classification laser-scanning point-cloud
+type: pf-type-treasure
+permalink: /treasure/LeWoS
+title: "LeWoS"
+description: "Unsupervised leaf-wood classification from laser scanning point clouds"
+tags:  classification laser-scanning point-cloud lidar
 url: /LeWoS
 published: 2021-12-01
 updated: 2021-07-08T08:17:46Z
 ogimage: 
+html_url: https://github.com/dwang520/LeWoS
+
+owner_avatar_url: https://avatars.githubusercontent.com/u/34278700?v=4
+owner_login: dwang520
+pirate_id: r2nxT9qpvKkN47bQMS5kW
 
 sharing:
-    mastodon: "New Treasure discovered: LeWoS, Unsupervised leaf-wood classification from laser scanning point clouds"
+    mastodon: "Treasure discovered: LeWoS, Unsupervised leaf-wood classification from laser scanning point clouds"
 ---
+
+<div class="text-center">
+    
+    <a class="pf-outline-btn" href="https://github.com/dwang520/LeWoS" target="_blank" rel="noopener noreferrer">
+        source code
+    </a>
+    
+    
+</div>
+
+
+
+
 
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="12" data-owner="dwang520" data-repo="LeWoS">
@@ -23,67 +43,6 @@ sharing:
             </div>
         </dialog>
     </div>
-    
 </div>
 
-<div class="pf-ship-list">
-    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="r2nxT9qpvKkN47bQMS5kW">
-    <div>
-      <!--<a href="https://github.com/dwang520" target="blank">-->
-        <div class="pf-pirate-avatar">
-          <div class="pf-cross pf-clickable"  onclick="collect('r2nxT9qpvKkN47bQMS5kW'); return false;"></div>
-          <img src="https://avatars.githubusercontent.com/u/34278700?v=4" title="dwang520" alt="dwang520"/>
-      </div>
-      <!--</a>
-      <div class="pf-pirate-actions">
-        <a class="pf-treasure-add"  title="save in my treasure chest" onclick="collect('r2nxT9qpvKkN47bQMS5kW'); return false;" href="#">
-          <img src="./assets/coin.svg" alt="treasure"/>
-        </a>
-        <a class="pf-treasure-remove" onclick="throwAway('r2nxT9qpvKkN47bQMS5kW'); return false;">remove</a>
-      </div>-->
-    </div>
-    <div class="pf-ship">
-
-      <div>
-        
-          <span class="pf-timestamp">added January 20, 1970</span>
-        
-      </div>
-      
-      
-      <div class="pf-grow">
-        <span class="pf-owner-name">dwang520</span> / 
-      </div>
-      <div>
-        <a href="https://github.com/dwang520/LeWoS" target="_blank">
-          <span class="h3 pf-openext">LeWoS</span>
-        </a>
-      </div>
-
-      <p>Unsupervised leaf-wood classification from laser scanning point clouds</p>
-
-      
-
-      <ul class="pf-topics">
-        
-          <li>classification</li>
-        
-          <li>laser-scanning</li>
-        
-          <li>point-cloud</li>
-        
-      </ul>
-
-      <div class="pf-row pf-meta">
-        <div class="pf-meta-star">12</div>
-        
-          <div class="pf-meta-lang">MATLAB</div>
-        
-        
-          <div class="pf-meta-license">MIT License</div>
-        
-        
-      </div>
-    </div>
-  </div>
-</div>
+<hr class="gf-seperator">

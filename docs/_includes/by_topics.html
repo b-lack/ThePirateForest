@@ -1,0 +1,19 @@
+{% assign sorted_repos = site.data.repositories | sort_natural: "added" | where: "topics", include.topic | reverse %}
+
+
+
+<div id="pf-ship-list" class="pf-ship-list">
+    {% for repository in sorted_repos %}
+
+      {% include list-entry.html repository=repository standalone=false %}
+
+      {% if forloop.last == false %}
+        <hr class="gf-seperator"/>
+      {% endif %}
+    
+    {% endfor %}
+</div>
+
+<script type="text/javascript">
+  var pageType = 'default';
+</script>

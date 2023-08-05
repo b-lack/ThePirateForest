@@ -459,7 +459,7 @@ function createStars(sky, stars){
         var star = document.createElement('div');
         
         star.classList.add('pf-meta-star');
-        star.style.left = Math.random() * 100 + '%';
+        star.style.left = Math.random() * 95 + '%';
         star.style.top = Math.random() * 100 + '%';
         star.style.position = 'absolute';
         star.style.scale = Math.random() * 1+0.5;

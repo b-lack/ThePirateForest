@@ -31,7 +31,9 @@
         </a>
       </div>
 
-      <p>{{ repository.description }}</p>
+      <a href="{{ site.baseurl }}/treasure/{{ repository.name }}" target="_blank">
+        <p>{{ repository.description }}</p>
+      </a>
 
       {% if repository.images %}
         <div class="pf-repo-image">
@@ -46,7 +48,7 @@
       </ul>
 
       <div class="pf-row pf-meta">
-        <div class="pf-meta-star">{{ repository.stargazers_count }}</div>
+        <!--<div class="pf-meta-star">{{ repository.stargazers_count }}</div>-->
         {% if repository.language %}
           <div class="pf-meta-lang">{{ repository.language }}</div>
         {% endif %}

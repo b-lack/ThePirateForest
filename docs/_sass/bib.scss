@@ -1,0 +1,16 @@
+.bibliography{
+    margin: 50px auto;
+    max-width: 700px;
+    list-style: none;
+    h2{
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+    .pf-scholar-abstract{
+        margin: 20px;
+        padding: 0;
+        font-size: 0.9em;
+        font-style: italic;
+        display: none;
+    }
+}

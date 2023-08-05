@@ -1,0 +1,37 @@
+---
+---
+
+{% if entry.doi %}
+    {% if entry.author %}
+    <div>
+        <div class="pf-grow">
+            <span class="pf-owner-name">{{ entry.author }}</span> / 
+        </div>
+    </div>
+    {% endif %}
+
+    {% if entry.title %}
+        <h2>{{ entry.title }}</h2>
+    {% endif %}
+
+    {% if entry.abstract %}
+        <p class="pf-scholar-abstract">
+            {{ entry.abstract }}
+        </p>
+        <p>
+            <a href="https://doi.org/{{ entry.doi }}" target="_blank">
+                {{ reference }}
+            </a>
+        </p>
+        
+    {% endif %}
+
+    {% if entry.pirate-forest-image %}
+        <div class="pf-scholar-image pf-pirate-ogimage">
+            <img src="{{ entry.pirate-forest-image }}" alt="{{ entry.title }}" />
+        </div>
+    {% endif %}
+{% endif %}
+    
+
+<hr class="gf-seperator"/>

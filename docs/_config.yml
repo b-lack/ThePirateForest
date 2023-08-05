@@ -31,12 +31,17 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+scholar:
+  style: modern-language-association
+  bibliography_template: bib
+
 collections:
-  tags:
-    output: true
-  journeys:
+  journeys: # Tutorials
     output: true
   treasure:
+    permalink: /:collection/:title
+    output: true
+  islands:
     permalink: /:collection/:title
     output: true
 

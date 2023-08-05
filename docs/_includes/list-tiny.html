@@ -1,0 +1,41 @@
+{% assign sorted_repos = site.data.repositories | sort_natural: "added" | where: "topics", include.topic | reverse %}
+
+
+<div class="pf-h-island-list">
+   
+      {% for repository in sorted_repos %}
+      <div class="pf-pirate pf-small-column" data-pirate-id="{{repository.pirate_id}}">
+        <a href="{{ site.baseurl }}/treasure/{{ repository.name }}">
+          <div>
+              <div class="pf-pirate-avatar">
+                <div class="pf-cross pf-clickable"  onclick="collect('{{ repository.pirate_id }}'); return false;"></div>
+                <img src="{{ repository.owner_avatar_url}}" title="{{ repository.owner_login }}" alt="{{ repository.owner_login }}"/>
+            </div>
+          </div>
+          <div class="pf-ship">
+      
+            <div class="pf-grow pf-pirate">
+              <span class="pf-owner-name">{{ repository.owner_login }}</span>
+            </div>
+            <div>
+              <span class="h3">{{repository.name}}</span>
+            </div>
+      
+            <p>{{ repository.description }}</p>
+      
+            {% if repository.images %}
+              <div class="pf-repo-image">
+                  <img src="{{images[0].url}}" alt="{{name}}">
+              </div>
+            {% endif %}
+      
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+   
+</div>
+
+<script type="text/javascript">
+  var pageType = 'default';
+</script>

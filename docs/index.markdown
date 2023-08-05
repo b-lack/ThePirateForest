@@ -7,6 +7,7 @@ title: The Pirate Forest
 filter: true
 type: pf-type-index
 ---
+<!--
 <div class="pf-feed">
     <div class="pf-row pf-feed-line">
         <div><img style="max-width:50px;" src="/assets/birdy.svg" alt="Birdy"></div>
@@ -14,18 +15,52 @@ type: pf-type-index
         <div class="pf-grow"></div>
     </div>
     {% include mastodon-feed.html %}
-</div>
-<!--
-<div class="h4">Filter by Topic</div>
-<div id="pf-tag-men" class="pf-inline-men"></div>
-<div id="gf-sorting" class="pf-column">
-    <div class="h4">
-        Sort by
-    </div>
-    <div class="pf-grow pf-inline-men">
-        <a class="m-2 pf-meta-timeglass" title="Filter By Time added" onclick="setSorting('time'); return false;" >Time Added</a>
-        <a class="m-2 pf-meta-star" title="Filter By Stars" onclick="setSorting('stars'); return false;" >Stars</a>
-    </div>
-</div> -->
+</div>-->
 
-{% include list.html %}
+<h2 class="pf-grow pf-pirate-name">LiDAR</h2>
+
+{% include list-tiny.html topic="lidar" count=5 %}
+
+<div class="pf-pirate-name">
+    <a href="/islands/lidar">...all "LiDAR" repositories</a>
+</div>
+
+<hr class="gf-seperator"/>
+
+## Remote Sensing
+
+{% include list-tiny.html topic="remote-sensing" count=5 %}
+
+<div class="pf-pirate-name">
+    <a href="/islands/remote-sensing">...all "Remote Sensing" repositories</a>
+</div>
+
+<hr class="gf-seperator"/>
+
+## Urban Forestry
+
+{% include list-tiny.html topic="urban-forestry" count=5 %}
+
+<div class="pf-pirate-name">
+    <a href="/islands/urban-forestry">...all "Urban Forestry" repositories</a>
+</div>
+
+<hr class="gf-seperator"/>
+
+## forest-management
+
+{% include list-tiny.html topic="forest-management" count=5 %}
+
+<div class="pf-pirate-name">
+    <a href="/islands/forest-management">...all "Forest Management" repositories</a>
+</div>
+
+<hr class="gf-seperator"/>
+
+## GIS
+
+{% include list-tiny.html topic="gis" count=5 %}
+
+<div class="pf-pirate-name">
+    <a href="/islands/gis">...all "GIS" repositories</a>
+</div>

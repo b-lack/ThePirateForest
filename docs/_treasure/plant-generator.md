@@ -1,16 +1,36 @@
 ---
 layout: post
-title: "plant-generator | The Pirate Forest"
-description: Plant generator
-tags:  opengl plants qt5 tree-generator trees
+type: pf-type-treasure
+permalink: /treasure/plant-generator
+title: "plant-generator"
+description: "Plant generator"
+tags:  opengl plants visualization tree-generator trees
 url: /plant-generator
 published: 2021-12-05
 updated: 2021-10-21T17:49:26Z
 ogimage: 
+html_url: https://github.com/FlorisCreyf/plant-generator
+
+owner_avatar_url: https://avatars.githubusercontent.com/u/11012029?v=4
+owner_login: FlorisCreyf
+pirate_id: oiI7MuIfajgtCYnD9WxAe
 
 sharing:
-    mastodon: "New Treasure discovered: plant-generator, Plant generator"
+    mastodon: "Treasure discovered: plant-generator, Plant generator"
 ---
+
+<div class="text-center">
+    
+    <a class="pf-outline-btn" href="https://github.com/FlorisCreyf/plant-generator" target="_blank" rel="noopener noreferrer">
+        source code
+    </a>
+    
+    
+</div>
+
+
+
+
 
 <div class="pf-night-sky-spacer">
     <div id="pf-night-sky" data-stars="12" data-owner="FlorisCreyf" data-repo="plant-generator">
@@ -23,71 +43,6 @@ sharing:
             </div>
         </dialog>
     </div>
-    
 </div>
 
-<div class="pf-ship-list">
-    <div class="pf-row pf-pirate pf-small-column" data-pirate-id="oiI7MuIfajgtCYnD9WxAe">
-    <div>
-      <!--<a href="https://github.com/FlorisCreyf" target="blank">-->
-        <div class="pf-pirate-avatar">
-          <div class="pf-cross pf-clickable"  onclick="collect('oiI7MuIfajgtCYnD9WxAe'); return false;"></div>
-          <img src="https://avatars.githubusercontent.com/u/11012029?v=4" title="FlorisCreyf" alt="FlorisCreyf"/>
-      </div>
-      <!--</a>
-      <div class="pf-pirate-actions">
-        <a class="pf-treasure-add"  title="save in my treasure chest" onclick="collect('oiI7MuIfajgtCYnD9WxAe'); return false;" href="#">
-          <img src="./assets/coin.svg" alt="treasure"/>
-        </a>
-        <a class="pf-treasure-remove" onclick="throwAway('oiI7MuIfajgtCYnD9WxAe'); return false;">remove</a>
-      </div>-->
-    </div>
-    <div class="pf-ship">
-
-      <div>
-        
-          <span class="pf-timestamp">added January 20, 1970</span>
-        
-      </div>
-      
-      
-      <div class="pf-grow">
-        <span class="pf-owner-name">FlorisCreyf</span> / 
-      </div>
-      <div>
-        <a href="https://github.com/FlorisCreyf/plant-generator" target="_blank">
-          <span class="h3 pf-openext">plant-generator</span>
-        </a>
-      </div>
-
-      <p>Plant generator</p>
-
-      
-
-      <ul class="pf-topics">
-        
-          <li>opengl</li>
-        
-          <li>plants</li>
-        
-          <li>qt5</li>
-        
-          <li>tree-generator</li>
-        
-          <li>trees</li>
-        
-      </ul>
-
-      <div class="pf-row pf-meta">
-        <div class="pf-meta-star">12</div>
-        
-          <div class="pf-meta-lang">C++</div>
-        
-        
-          <div class="pf-meta-license">GNU General Public License v3.0</div>
-        
-        
-      </div>
-    </div>
-  </div>
-</div>
+<hr class="gf-seperator">
