@@ -6,13 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         
-        <title>The Pirate Forest</title>
-        <meta property="og:title" content="The Pirate Forest" />
+        <title>Treasure Chest</title>
+        <meta property="og:title" content="Treasure Chest" />
         
 
         
-        <meta name="description" content="Discover Treasures of Forest-related Open Source Software.">
-        <meta property="og:description" content="Discover Treasures of Forest-related Open Source Software." />
+        <meta name="description" content="The Treasure Chest is a collection of all the Treasures that have been discovered by You.">
+        <meta property="og:description" content="The Treasure Chest is a collection of all the Treasures that have been discovered by You." />
         
         
         
@@ -36,7 +36,7 @@
 
 
 
-<div class="pf-main ">
+<div class="pf-main pf-type-treasure">
     <div class="pf-flag pf-row">
         <div class="pf-column pf-main-men">
             <div class="pf-skelleton-img">
@@ -51,9 +51,9 @@
                     <header class="text-center">
                         <div class="pf-ad">
                             <div id="pf-night-sky" data-stars="" data-owner="b-lack" data-repo="ThePirateForest"></div>
-                            <h1 class="pf-title"></h1>
+                            <h1 class="pf-title">Treasure Chest</h1>
                             <p class="pf-under-title">
-                                
+                                The Treasure Chest is a collection of all the Treasures that have been discovered by You.
                             </p>
                         </div>
                     </header>
@@ -95,26 +95,24 @@
     </div>
     <main class="pf-column pf-grow">
         
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <header class="text-center">
+    
+    <div id="pf-process-men" class="pf-inline-men">
+        <a class="pf-coin-bronze" href="#" onclick="filterProcess('toDo'); return false;">ToDo</a>
+        <a class="pf-coin-silver" href="#" onclick="filterProcess('inProcess'); return false;">Checking out</a>
+        <a class="pf-coin-gold" href="#" onclick="filterProcess('done'); return false;">Approved</a>
+    </div>
+</header>
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div class="pf-has-fallback pf-no-data pf-ship-list">
+    <div id="pf-ship-list"></div>
+    <p class="pf-fallback">You haven't found any treasures yet? Discover new repositories regularly and save them with the <img class="pf-inline-icon" src="/assets/coin.svg" alt="treasure" />.</p>
 </div>
+
+<script type="text/javascript">
+    var pageType = 'myTreasure';
+</script>
+
 
     </main>
 </div>
