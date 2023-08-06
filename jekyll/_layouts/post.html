@@ -14,7 +14,9 @@
                 {% if page.url == '/' %}
                     {% include the-pirate-forest.html %}
                 {% else %}
+               
                     <header class="text-center">
+                        
                         {% if page.owner_avatar_url %}
                             <div class="pf-pirate-avatar">
                                 <div class="pf-cross pf-clickable" onclick="collect('{{ page.pirate_id }}'); return false;"></div>
@@ -23,8 +25,10 @@
                             <br/>
                             <div class="pf-owner-name">{{ page.owner_login }}</div>
                         {% endif %}
+                        
                         <div class="pf-ad">
-                            <div id="pf-night-sky" data-stars="{{stargazers_count}}" data-owner="b-lack" data-repo="ThePirateForest"></div>
+                            gggg
+                            <div id="pf-night-sky" data-stars="{{stargazers_count}}" data-owner="{{ page.owner_login }}" data-repo="{{ page.title }}"></div>
                             <a href="{{ page.html_url }}" target="_blank" rel="noopener noreferrer">
                                   
                                 <h1 class="pf-title">
