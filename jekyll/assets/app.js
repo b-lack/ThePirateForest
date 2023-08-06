@@ -524,9 +524,11 @@ async function setShareLink(){
         return;
     }
 
+    var description = document.querySelector('meta[name="description"]').content;
+
     const shareData = {
         title: document.title,
-        text: "🏴‍☠️ Discovered treasure of #OpenSource #Forestry #Software 🏴‍☠️ ",
+        text: "🏴‍☠️ Discovered treasure of #OpenSource #Forestry #Software 🏴‍☠️ \n\n" + description + "\n\n",
         url: window.location.href,
     };
 

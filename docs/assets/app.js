@@ -526,7 +526,7 @@ async function setShareLink(){
 
     const shareData = {
         title: document.title,
-        text: "🏴‍☠️ Discovered treasure of #OpenSource #Forestry #Software 🏴‍☠️ ",
+        text: "🏴‍☠️ Discovered treasure of #OpenSource #Forestry #Software 🏴‍☠️ \n\n Description",
         url: window.location.href,
     };
 
