@@ -1062,6 +1062,10 @@
     "homepage": "https://norlab.ulaval.ca/",
     "images": [
       {
+        "url": "https://raw.githubusercontent.com/norlab-ulaval/PercepTreeV1/main/.github/detection_synth.jpg",
+        "alt": "Training Deep Learning Algorithms on Synthetic Forest Images for Tree Detection"
+      },
+      {
         "url": "https://github.com/norlab-ulaval/PercepTreeV1/raw/main/.github/figure6.png",
         "alt": "Tree Detection and Diameter Estimation Based on Deep Learning, published in Forestry"
       }

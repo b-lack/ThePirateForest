@@ -5,9 +5,9 @@ import Liquid  from 'liquid';
 import renderer from 'hexo-renderer-liquid';
 //const engine = new Liquid.Engine("../docs")
 
-var engine = new Liquid.Engine(new Liquid.LocalFileSystem("../docs/_includes"));
+var engine = new Liquid.Engine(new Liquid.LocalFileSystem("../jekyll/_includes"));
 
-engine.registerFileSystem(new Liquid.LocalFileSystem("../docs/_includes"));
+engine.registerFileSystem(new Liquid.LocalFileSystem("../jekyll/_includes"));
   
 
 /*
@@ -16,7 +16,7 @@ engine.registerFileSystem(new Liquid.LocalFileSystem("../docs"));
 */
 
 const loadJson = () => {
-    let rawdata = fs.readFileSync("../docs/_data/repositories.json");
+    let rawdata = fs.readFileSync("../jekyll/_data/repositories.json");
     return JSON.parse(rawdata);
 }
 
@@ -40,7 +40,7 @@ for (let i = 0; i < jsonObj.length; i++) {
     engine
         .parseAndRender(template, element)
         .then(result => {
-            fs.writeFileSync(`../docs/_treasure/${element.name}.md`, result);
+            fs.writeFileSync(`../jekyll/_treasure/${element.name}.md`, result);
      })
     
 }

@@ -8,7 +8,7 @@ tags:  computer-vision datasets forestry remote-sensing remote-sensing deep-lear
 url: /PercepTreeV1
 published: 2023-08-06
 updated: 2023-08-03T10:14:28Z
-ogimage: https://github.com/norlab-ulaval/PercepTreeV1/raw/main/.github/figure6.png
+ogimage: https://raw.githubusercontent.com/norlab-ulaval/PercepTreeV1/main/.github/detection_synth.jpg
 html_url: https://github.com/norlab-ulaval/PercepTreeV1
 
 owner_avatar_url: https://avatars.githubusercontent.com/u/30079365?v=4
@@ -34,6 +34,8 @@ sharing:
 
 
 <div class="pf-pirate-ogimage">
+    
+    <img src="https://raw.githubusercontent.com/norlab-ulaval/PercepTreeV1/main/.github/detection_synth.jpg" alt="Training Deep Learning Algorithms on Synthetic Forest Images for Tree Detection" />
     
     <img src="https://github.com/norlab-ulaval/PercepTreeV1/raw/main/.github/figure6.png" alt="Tree Detection and Diameter Estimation Based on Deep Learning, published in Forestry" />
     
