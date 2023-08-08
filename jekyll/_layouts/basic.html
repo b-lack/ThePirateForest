@@ -15,6 +15,10 @@
             <div class="pf-grow">
                 {% if page.url == '/' %}
                     {% include the-pirate-forest.html %}
+                    <hr class="gf-seperator">
+                    <div class="margin-big ">
+                        {% include sponsors.html %}
+                    </div>
                 {% else %}
                     <header class="text-center">
                         <div class="pf-ad">
@@ -30,10 +34,9 @@
             <div>
                 {% include filter.html %}
             </div>
-        </div>
-        <div>
             
         </div>
+        
         
     </div>
     <main class="pf-column pf-grow">

@@ -1,5 +1,6 @@
 ---
 ---
+@import "sponsors.scss";
 @import "bib.scss";
 @import "mastodon-feed.scss";
 
@@ -355,6 +356,12 @@ dialog:modal {
   overflow-x: hidden;
   margin-top: 50px;
 }
+.margin-big{
+  margin: 50px;
+}
+.margin-v-big{
+  margin: 50px 0;
+}
 .pf-ship-sailing{
   position: absolute;
   display: block;
@@ -601,6 +608,10 @@ footer > *{
   100% {
     left: 110%;
   }
+}
+
+.pf-ad{
+  margin-top: 100px
 }
 
 .data-star-avatar{
