@@ -5,6 +5,12 @@ var treasureStr, treasure, treasureCounter;
 function saveTreasure(){
     localStorage.setItem('treasure', JSON.stringify(treasure));
 }
+function toggleTreasure(id){
+    if(treasure[id]) throwAway(id);
+    else collect(id);
+
+    updateAddTreasureBtn();
+}
 function collect(id){
     treasure[id] = {
         time: (new Date()).getTime(),
@@ -18,6 +24,13 @@ function throwAway(id){
     delete treasure[id];
     updateIsland();
     saveTreasure();
+}
+
+function updateAddTreasureBtn(){
+    var btn = document.getElementById('pf-addTreasureBtn');
+    if(!btn) return;
+    console.log(btn.dataset.pirateId);
+    btn.textContent = treasure[btn.dataset.pirateId] ? 'Remove from My Treasure Chest' : 'Add to My Treasure Chest';
 }
 
 function updateIsland(){
@@ -574,6 +587,8 @@ function initData(){
     starsSky();
     setShareLink();
     setStarAd();
+
+    updateAddTreasureBtn();
 
     const toggleFeedBtn = document.getElementById("pf-toggle-feed");
     if(toggleFeedBtn){

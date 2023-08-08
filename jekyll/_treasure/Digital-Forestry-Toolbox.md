@@ -20,11 +20,14 @@ sharing:
 ---
 
 <div class="text-center">
+
     
-    <a class="pf-outline-btn" href="https://github.com/mparkan/Digital-Forestry-Toolbox" target="_blank" rel="noopener noreferrer">
+    <a class="pf-outline-btn pf-openext pf-github" href="https://github.com/mparkan/Digital-Forestry-Toolbox" target="_blank" rel="noopener noreferrer">
         source code
     </a>
     
+    
+
     
 </div>
 
@@ -37,6 +40,7 @@ sharing:
         <div id="pf-open-dialog" class="pf-meta-star pf-star-todo"></div>
         <dialog id="pf-star-dialog">
             Star this Repository to putt a smile on the Developers face.
+            <br/>
             <div class="pf-row">
                 <div class="pf-grow"></div>
                 <div><a class="pf-unterlines" href="https://github.com/mparkan/Digital-Forestry-Toolbox" target="_blank">VISIT REPOSITORY</a></div>

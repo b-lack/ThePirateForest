@@ -47,6 +47,7 @@ h1.pf-title{
 .pf-hidden{
   display: none;
 }
+
 body{
   font-family: $font-stack;
   letter-spacing: 0.1em;
@@ -210,9 +211,7 @@ img{
 #gf-to-chest, #gf-to-list{
   font-size: 0.6em;
 }
-.pf-type-treasure #gf-to-chest{
-  display: none;
-}
+
 .pf-type-index #gf-to-list{
   display: none;
 }
@@ -266,7 +265,7 @@ dialog::backdrop {
   background-color: rgba(0, 0, 0, 0.8);
 }
 dialog:modal {
-  margin: auto 20px;
+  padding: 50px;
 }
 .pf-meta-license::before{
   background-image: url('../assets/icons/license.svg');
@@ -317,6 +316,12 @@ dialog:modal {
   height: 1rem;
   background-size: 1rem 1rem;
   background-image: url('../assets/icons/openext.svg');
+}
+.pf-openext.pf-github::after{
+  background-image: url('../assets/icons/github-mark-white.svg');
+}
+.pf-openext.pf-coin::after{
+  background-image: url('../assets/icons/coin-bronce.svg');
 }
 .pf-footer-wave, .pf-footer-wave::before, .pf-footer-wave::after{
   content: '.';

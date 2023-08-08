@@ -39,6 +39,11 @@
                             <p class="pf-under-title">
                                 {{ page.description }}
                             </p>
+                            <p>
+                                <a id="pf-addTreasureBtn" data-pirate-id="{{ page.pirate_id }}" class="pf-outline-btn pf-openext pf-coin" onclick="toggleTreasure('{{ page.pirate_id }}')" rel="noopener noreferrer">
+                                    add to My Treasure Chest
+                                </a>
+                            </p>
                         </div>
                     </header>
                 {% endif %}

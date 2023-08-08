@@ -20,8 +20,9 @@ sharing:
 ---
 
 <div class="text-center">
+
     {% if html_url %}
-    <a class="pf-outline-btn" href="{{ html_url }}" target="_blank" rel="noopener noreferrer">
+    <a class="pf-outline-btn pf-openext pf-github" href="{{ html_url }}" target="_blank" rel="noopener noreferrer">
         source code
     </a>
     {% endif %}
@@ -30,6 +31,8 @@ sharing:
         homepage
     </a>
     {% endif %}
+
+    
 </div>
 
 {% if images %}
@@ -47,6 +50,7 @@ sharing:
         <div id="pf-open-dialog" class="pf-meta-star pf-star-todo"></div>
         <dialog id="pf-star-dialog">
             Star this Repository to putt a smile on the Developers face.
+            <br/>
             <div class="pf-row">
                 <div class="pf-grow"></div>
                 <div><a class="pf-unterlines" href="{{ repository.html_url }}" target="_blank">VISIT REPOSITORY</a></div>
