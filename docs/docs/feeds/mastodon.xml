@@ -1,0 +1,970 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <id>https://thepirateforest.org/feeds/mastodon.xml</id>
+    <title>The Pirate Forest</title>
+    <link href="https://ThePirateForest.org/"/>
+    <updated>2023-08-09T00:59:41+02:00</updated>
+    <link rel="self" type="application/atom+xml" href="https://thepirateforest.org/feeds/mastodon.xml"/>
+    <link rel="alternate" type="text/html" href="https://ThePirateForest.org/"/>
+
+    
+    
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/3D-CMCC-FEM</id>
+        <title>3D-CMCC-FEM</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: 3D-CMCC-FEM, 3D-CMCC-FEM code</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-10-28T14:37:06+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/3D-CMCC-FEM"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/AdTree</id>
+        <title>AdTree</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: AdTree, Accurate, Detailed, and Automatic Modelling of Laser-Scanned Trees</p> ]]>
+        </summary>
+        <published>2021-11-28T00:00:00+01:00</published>
+        <updated>2021-11-05T04:45:24+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/AdTree"/>
+        
+
+        
+          <content type="text/plain"><![CDATA[https://github.com/tudelft3d/AdTree/raw/main/resources/images/AdTree.jpg]]></content>
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/Biomassr</id>
+        <title>Biomassr</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: Biomassr, Shiny app to calculate above ground biomass for forest plots.</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-08-10T05:39:31+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/Biomassr"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/DeepForest</id>
+        <title>DeepForest</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: DeepForest, Python Package for Tree Crown Detection in Airborne RGB imagery</p> ]]>
+        </summary>
+        <published>2021-11-30T00:00:00+01:00</published>
+        <updated>2021-11-27T08:17:50+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/DeepForest"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/Digital-Forestry-Toolbox</id>
+        <title>Digital-Forestry-Toolbox</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: Digital-Forestry-Toolbox, A collection of digital forestry tools for Matlab/Octave</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-09-30T19:50:41+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/Digital-Forestry-Toolbox"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/FMT</id>
+        <title>FMT</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: FMT, Forest Management Tool a C++ library for forest planning.</p> ]]>
+        </summary>
+        <published>2021-12-05T00:00:00+01:00</published>
+        <updated>2021-12-02T22:01:26+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/FMT"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/FSCT</id>
+        <title>FSCT</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: FSCT, Allow plot scale measurements to be extracted automatically from most high-resolution forest point clouds.</p> ]]>
+        </summary>
+        <published>2021-11-30T00:00:00+01:00</published>
+        <updated>2021-11-30T09:01:28+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/FSCT"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/ForestBiometrics</id>
+        <title>ForestBiometrics</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: ForestBiometrics, A library for various forest mensuration and biometrics functions in Julia</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-11-21T10:37:35+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/ForestBiometrics"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/ForestGapR</id>
+        <title>ForestGapR</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: ForestGapR, An R Package for Airborne Laser Scanning-derived Tropical Forest Gaps Analysis </p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-10-19T11:08:27+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/ForestGapR"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/LANDIS-II-Forest-Roads-Simulation-module</id>
+        <title>LANDIS-II-Forest-Roads-Simulation-module</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: LANDIS-II-Forest-Roads-Simulation-module, An extension for the spatially explicit forest landscape model LANDIS-II that allows for the dynamic simulation of the construction of forest roads due to forest management.</p> ]]>
+        </summary>
+        <published>2021-12-05T00:00:00+01:00</published>
+        <updated>2021-09-27T17:26:16+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/LANDIS-II-Forest-Roads-Simulation-module"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/LeWoS</id>
+        <title>LeWoS</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: LeWoS, Unsupervised leaf-wood classification from laser scanning point clouds</p> ]]>
+        </summary>
+        <published>2021-12-01T00:00:00+01:00</published>
+        <updated>2021-07-08T10:17:46+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/LeWoS"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/LiDARForestryHeight</id>
+        <title>LiDARForestryHeight</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: LiDARForestryHeight, Plugin generates heights raster maps from LiDAR classified point clouds (las and laz formats)</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-11-26T10:29:59+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/LiDARForestryHeight"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/PercepTreeV1</id>
+        <title>PercepTreeV1</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: PercepTreeV1, Implementation of Grondin et al. 2022 'Tree Detection and Diameter Estimation Based on Deep Learning'. Also includes datasets and some of the pretrained models.</p> ]]>
+        </summary>
+        <published>2023-08-06T00:00:00+02:00</published>
+        <updated>2023-08-03T12:14:28+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/PercepTreeV1"/>
+        
+
+        
+          <content type="text/plain"><![CDATA[https://raw.githubusercontent.com/norlab-ulaval/PercepTreeV1/main/.github/detection_synth.jpg]]></content>
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/RandomForest-Classification</id>
+        <title>RandomForest-Classification</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: RandomForest-Classification, Classifying remote sensing data with random forest</p> ]]>
+        </summary>
+        <published>2021-12-05T00:00:00+01:00</published>
+        <updated>2021-11-06T07:48:38+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/RandomForest-Classification"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/SBCM</id>
+        <title>SBCM</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: SBCM, The Simple Biomass Comparison Model</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-03-03T16:15:56+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/SBCM"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/SEILAPLAN</id>
+        <title>SEILAPLAN</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: SEILAPLAN, SEILAPLAN is a QGIS Plugin to support forest harvest operations by optimizing the layout of cable roads.</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-06-30T16:21:47+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/SEILAPLAN"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/SSSC</id>
+        <title>SSSC</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: SSSC, An Unsupervised and Joint Framework for Single Tree Isolation  and Leaf-wood Classification</p> ]]>
+        </summary>
+        <published>2021-12-08T00:00:00+01:00</published>
+        <updated>2021-04-14T10:08:50+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/SSSC"/>
+        
+
+        
+          <content type="text/plain"><![CDATA[https://github.com/tudelft3d/AdTree/raw/main/resources/images/AdTree.jpg]]></content>
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/TreeDiversity</id>
+        <title>TreeDiversity</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: TreeDiversity, Notebooks to calculate tree diversity indices (Shannon and Simpson) for planners, foresters, and ecologists!</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-09-22T05:12:45+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/TreeDiversity"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/TreeLS</id>
+        <title>TreeLS</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: TreeLS, R functions for processing individual tree TLS point clouds</p> ]]>
+        </summary>
+        <published>2021-12-01T00:00:00+01:00</published>
+        <updated>2021-11-25T16:44:30+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/TreeLS"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/TreeQSM</id>
+        <title>TreeQSM</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: TreeQSM, Quantitative Structure Models of Single Trees from Laser Scanner Data</p> ]]>
+        </summary>
+        <published>2021-12-01T00:00:00+01:00</published>
+        <updated>2021-11-04T08:43:21+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/TreeQSM"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/TreeTool</id>
+        <title>TreeTool</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: TreeTool, Estimate the carbon content of trees in a forest plot. Measure their diameters at breast height from point clouds.</p> ]]>
+        </summary>
+        <published>2021-12-08T00:00:00+01:00</published>
+        <updated>2021-12-08T02:02:16+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/TreeTool"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/awesome-forests</id>
+        <title>awesome-forests</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: awesome-forests, 🌳 A curated list of ground-truth forest datasets for the machine learning and forestry community.</p> ]]>
+        </summary>
+        <published>2021-11-28T00:00:00+01:00</published>
+        <updated>2021-11-21T23:19:14+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/awesome-forests"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/carboncalc</id>
+        <title>carboncalc</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: carboncalc, Tools to calculate growth statistics for individual urban trees such as for estimating carbon storage.</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-11-25T11:50:39+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/carboncalc"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/clus</id>
+        <title>clus</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: clus, Caribou and land use simulator- decision support model for caribou and forest management </p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-11-24T23:33:40+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/clus"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/deepforestr</id>
+        <title>deepforestr</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: deepforestr, R interface for DeepForest Python package, a deep learning package detecting individual organisms in airborne RGB images.</p> ]]>
+        </summary>
+        <published>2021-11-30T00:00:00+01:00</published>
+        <updated>2021-10-04T22:55:54+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/deepforestr"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/forestfrag3d</id>
+        <title>forestfrag3d</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: forestfrag3d, Code for Reproducibility of Generalized 3D Fragmentation Index Paper (Petras et al. 2017)</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2020-04-17T15:03:28+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/forestfrag3d"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/forestmangr</id>
+        <title>forestmangr</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: forestmangr, R package for forest mensuration and management </p> ]]>
+        </summary>
+        <published>2021-12-05T00:00:00+01:00</published>
+        <updated>2021-11-24T18:19:17+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/forestmangr"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/forvol</id>
+        <title>forvol</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: forvol, An R package for tree volume equations.</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-01-27T17:28:16+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/forvol"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/giessdenkiez-de</id>
+        <title>giessdenkiez-de</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: giessdenkiez-de, The consequences of climate change, especially the dry and hot summers, are putting a strain on Berlin's ecosystem. Our urban trees are drying out and suffering long-term damage. Gieß den Kiez is made to enable coordinated citizen participation in the irrigation of urban trees. </p> ]]>
+        </summary>
+        <published>2021-12-05T00:00:00+01:00</published>
+        <updated>2021-11-28T04:01:02+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/giessdenkiez-de"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/laselva</id>
+        <title>laselva</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: laselva, Fetch Forest Inventory data from many countries</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-07-16T17:40:02+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/laselva"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/lidR</id>
+        <title>lidR</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: lidR, R package for airborne LiDAR data manipulation and visualisation for forestry application</p> ]]>
+        </summary>
+        <published>2021-11-28T00:00:00+01:00</published>
+        <updated>2021-11-23T04:22:17+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/lidR"/>
+        
+
+        
+          <content type="text/plain"><![CDATA[https://raw.githubusercontent.com/Jean-Romain/storage/master/README/chm-Khosravipour.png]]></content>
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/plant-generator</id>
+        <title>plant-generator</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: plant-generator, Plant generator</p> ]]>
+        </summary>
+        <published>2021-12-05T00:00:00+01:00</published>
+        <updated>2021-10-21T19:49:26+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/plant-generator"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/pycrown</id>
+        <title>pycrown</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: pycrown, PyCrown - Fast raster-based individual tree segmentation for LiDAR data</p> ]]>
+        </summary>
+        <published>2021-12-05T00:00:00+01:00</published>
+        <updated>2021-11-26T08:45:45+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/pycrown"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/pyfor</id>
+        <title>pyfor</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: pyfor, Tools for analyzing aerial point clouds of forest data.</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-11-10T15:50:57+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/pyfor"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/stanfordclassicr</id>
+        <title>stanfordclassicr</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: stanfordclassicr, Functions to read StanForD classic forest machine reports</p> ]]>
+        </summary>
+        <published>2021-12-12T00:00:00+01:00</published>
+        <updated>2021-02-15T15:12:01+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/stanfordclassicr"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/tree-species</id>
+        <title>tree-species</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: tree-species, tree species with corresponding translation</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-08-29T13:42:23+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/tree-species"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/tree_detection</id>
+        <title>tree_detection</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: tree_detection, This package implements a simple tree detector from point cloud data. It makes no assumptions about the ground plane and can handle arbitrary terrains.</p> ]]>
+        </summary>
+        <published>2021-12-08T00:00:00+01:00</published>
+        <updated>2021-11-30T18:34:43+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/tree_detection"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/treeco</id>
+        <title>treeco</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: treeco, The goal of treeco is to provide R users a tool for calculating the eco benefits of trees.</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-10-21T08:49:27+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/treeco"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/treeseg</id>
+        <title>treeseg</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: treeseg, A library of tree segmentation and detection algorithms.</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-09-23T09:44:15+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/treeseg"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/vinv-schema</id>
+        <title>vinv-schema</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: vinv-schema, Lightweight data standard for single-tree based forest management, visualisation &amp; analytics</p> ]]>
+        </summary>
+        <published>2021-11-29T00:00:00+01:00</published>
+        <updated>2021-11-29T23:43:08+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/vinv-schema"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/vwm-brandenburg</id>
+        <title>vwm-brandenburg</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: vwm-brandenburg, Illustration of regeneration condition and wildlife impact monitoring.</p> ]]>
+        </summary>
+        <published>2021-11-28T00:00:00+01:00</published>
+        <updated>2021-10-18T23:22:38+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/vwm-brandenburg"/>
+        
+
+        
+          <content type="text/plain"><![CDATA[https://repository-images.githubusercontent.com/405073306/af23bec9-be60-4466-9da2-a5044994ef03]]></content>
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/weblidar-treetop</id>
+        <title>weblidar-treetop</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: weblidar-treetop, A Shiny-based Application for Extracting Forest Information from LiDAR data.</p> ]]>
+        </summary>
+        <published>2021-12-08T00:00:00+01:00</published>
+        <updated>2021-12-06T12:16:05+01:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/weblidar-treetop"/>
+        
+
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>https://thepirateforest.org/treasure/wheelRuts_semanticSegmentation</id>
+        <title>wheelRuts_semanticSegmentation</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: wheelRuts_semanticSegmentation, semantic segmentation of wheel-ruts caused by forestry machinery</p> ]]>
+        </summary>
+        <published>2022-07-05T00:00:00+02:00</published>
+        <updated>2022-07-05T17:02:07+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/wheelRuts_semanticSegmentation"/>
+        
+
+        
+          <content type="text/plain"><![CDATA[https://user-images.githubusercontent.com/5663984/169524083-197f2a17-fbc9-4b87-b0fb-324217caade5.png]]></content>
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+</feed>
