@@ -1,16 +1,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-    <id>https://thepirateforest.org/feeds/mastodon.xml</id>
+    <id>http://localhost:4000/feeds/mastodon.xml</id>
     <title>The Pirate Forest</title>
-    <link href="https://ThePirateForest.org/"/>
-    <updated>2023-08-09T01:00:04+02:00</updated>
-    <link rel="self" type="application/atom+xml" href="https://thepirateforest.org/feeds/mastodon.xml"/>
-    <link rel="alternate" type="text/html" href="https://ThePirateForest.org/"/>
+    <link href="http://localhost:4000/"/>
+    <updated>2023-08-13T23:51:39+02:00</updated>
+    <link rel="self" type="application/atom+xml" href="http://localhost:4000/feeds/mastodon.xml"/>
+    <link rel="alternate" type="text/html" href="http://localhost:4000/"/>
 
     
     
     
       <entry>
-        <id>https://thepirateforest.org/treasure/3D-CMCC-FEM</id>
+        <id>http://localhost:4000/treasure/3D-CMCC-FEM</id>
         <title>3D-CMCC-FEM</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: 3D-CMCC-FEM, 3D-CMCC-FEM code</p> ]]>
@@ -21,7 +21,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/3D-CMCC-FEM"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/3D-CMCC-FEM"/>
         
 
         
@@ -32,7 +32,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/AdTree</id>
+        <id>http://localhost:4000/treasure/AdTree</id>
         <title>AdTree</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: AdTree, Accurate, Detailed, and Automatic Modelling of Laser-Scanned Trees</p> ]]>
@@ -43,7 +43,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/AdTree"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/AdTree"/>
         
 
         
@@ -56,7 +56,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/Biomassr</id>
+        <id>http://localhost:4000/treasure/Biomassr</id>
         <title>Biomassr</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: Biomassr, Shiny app to calculate above ground biomass for forest plots.</p> ]]>
@@ -67,7 +67,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/Biomassr"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/Biomassr"/>
         
 
         
@@ -78,7 +78,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/DeepForest</id>
+        <id>http://localhost:4000/treasure/DeepForest</id>
         <title>DeepForest</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: DeepForest, Python Package for Tree Crown Detection in Airborne RGB imagery</p> ]]>
@@ -89,7 +89,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/DeepForest"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/DeepForest"/>
         
 
         
@@ -100,7 +100,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/Digital-Forestry-Toolbox</id>
+        <id>http://localhost:4000/treasure/Digital-Forestry-Toolbox</id>
         <title>Digital-Forestry-Toolbox</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: Digital-Forestry-Toolbox, A collection of digital forestry tools for Matlab/Octave</p> ]]>
@@ -111,7 +111,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/Digital-Forestry-Toolbox"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/Digital-Forestry-Toolbox"/>
         
 
         
@@ -122,7 +122,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/FMT</id>
+        <id>http://localhost:4000/treasure/FMT</id>
         <title>FMT</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: FMT, Forest Management Tool a C++ library for forest planning.</p> ]]>
@@ -133,7 +133,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/FMT"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/FMT"/>
         
 
         
@@ -144,7 +144,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/FSCT</id>
+        <id>http://localhost:4000/treasure/FSCT</id>
         <title>FSCT</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: FSCT, Allow plot scale measurements to be extracted automatically from most high-resolution forest point clouds.</p> ]]>
@@ -155,7 +155,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/FSCT"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/FSCT"/>
         
 
         
@@ -166,7 +166,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/ForestBiometrics</id>
+        <id>http://localhost:4000/treasure/ForestBiometrics</id>
         <title>ForestBiometrics</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: ForestBiometrics, A library for various forest mensuration and biometrics functions in Julia</p> ]]>
@@ -177,7 +177,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/ForestBiometrics"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/ForestBiometrics"/>
         
 
         
@@ -188,7 +188,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/ForestGapR</id>
+        <id>http://localhost:4000/treasure/ForestGapR</id>
         <title>ForestGapR</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: ForestGapR, An R Package for Airborne Laser Scanning-derived Tropical Forest Gaps Analysis </p> ]]>
@@ -199,7 +199,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/ForestGapR"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/ForestGapR"/>
         
 
         
@@ -210,7 +210,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/LANDIS-II-Forest-Roads-Simulation-module</id>
+        <id>http://localhost:4000/treasure/LANDIS-II-Forest-Roads-Simulation-module</id>
         <title>LANDIS-II-Forest-Roads-Simulation-module</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: LANDIS-II-Forest-Roads-Simulation-module, An extension for the spatially explicit forest landscape model LANDIS-II that allows for the dynamic simulation of the construction of forest roads due to forest management.</p> ]]>
@@ -221,7 +221,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/LANDIS-II-Forest-Roads-Simulation-module"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/LANDIS-II-Forest-Roads-Simulation-module"/>
         
 
         
@@ -232,7 +232,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/LeWoS</id>
+        <id>http://localhost:4000/treasure/LeWoS</id>
         <title>LeWoS</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: LeWoS, Unsupervised leaf-wood classification from laser scanning point clouds</p> ]]>
@@ -243,7 +243,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/LeWoS"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/LeWoS"/>
         
 
         
@@ -254,7 +254,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/LiDARForestryHeight</id>
+        <id>http://localhost:4000/treasure/LiDARForestryHeight</id>
         <title>LiDARForestryHeight</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: LiDARForestryHeight, Plugin generates heights raster maps from LiDAR classified point clouds (las and laz formats)</p> ]]>
@@ -265,7 +265,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/LiDARForestryHeight"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/LiDARForestryHeight"/>
         
 
         
@@ -276,7 +276,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/PercepTreeV1</id>
+        <id>http://localhost:4000/treasure/PercepTreeV1</id>
         <title>PercepTreeV1</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: PercepTreeV1, Implementation of Grondin et al. 2022 'Tree Detection and Diameter Estimation Based on Deep Learning'. Also includes datasets and some of the pretrained models.</p> ]]>
@@ -287,7 +287,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/PercepTreeV1"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/PercepTreeV1"/>
         
 
         
@@ -300,7 +300,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/RandomForest-Classification</id>
+        <id>http://localhost:4000/treasure/RandomForest-Classification</id>
         <title>RandomForest-Classification</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: RandomForest-Classification, Classifying remote sensing data with random forest</p> ]]>
@@ -311,7 +311,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/RandomForest-Classification"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/RandomForest-Classification"/>
         
 
         
@@ -322,7 +322,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/SBCM</id>
+        <id>http://localhost:4000/treasure/SBCM</id>
         <title>SBCM</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: SBCM, The Simple Biomass Comparison Model</p> ]]>
@@ -333,7 +333,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/SBCM"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/SBCM"/>
         
 
         
@@ -344,7 +344,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/SEILAPLAN</id>
+        <id>http://localhost:4000/treasure/SEILAPLAN</id>
         <title>SEILAPLAN</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: SEILAPLAN, SEILAPLAN is a QGIS Plugin to support forest harvest operations by optimizing the layout of cable roads.</p> ]]>
@@ -355,7 +355,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/SEILAPLAN"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/SEILAPLAN"/>
         
 
         
@@ -366,7 +366,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/SSSC</id>
+        <id>http://localhost:4000/treasure/SSSC</id>
         <title>SSSC</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: SSSC, An Unsupervised and Joint Framework for Single Tree Isolation  and Leaf-wood Classification</p> ]]>
@@ -377,7 +377,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/SSSC"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/SSSC"/>
         
 
         
@@ -390,7 +390,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/TreeDiversity</id>
+        <id>http://localhost:4000/treasure/TreeDiversity</id>
         <title>TreeDiversity</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: TreeDiversity, Notebooks to calculate tree diversity indices (Shannon and Simpson) for planners, foresters, and ecologists!</p> ]]>
@@ -401,7 +401,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/TreeDiversity"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/TreeDiversity"/>
         
 
         
@@ -412,7 +412,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/TreeLS</id>
+        <id>http://localhost:4000/treasure/TreeLS</id>
         <title>TreeLS</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: TreeLS, R functions for processing individual tree TLS point clouds</p> ]]>
@@ -423,7 +423,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/TreeLS"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/TreeLS"/>
         
 
         
@@ -434,7 +434,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/TreeQSM</id>
+        <id>http://localhost:4000/treasure/TreeQSM</id>
         <title>TreeQSM</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: TreeQSM, Quantitative Structure Models of Single Trees from Laser Scanner Data</p> ]]>
@@ -445,7 +445,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/TreeQSM"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/TreeQSM"/>
         
 
         
@@ -456,7 +456,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/TreeTool</id>
+        <id>http://localhost:4000/treasure/TreeTool</id>
         <title>TreeTool</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: TreeTool, Estimate the carbon content of trees in a forest plot. Measure their diameters at breast height from point clouds.</p> ]]>
@@ -467,7 +467,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/TreeTool"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/TreeTool"/>
         
 
         
@@ -478,7 +478,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/awesome-forests</id>
+        <id>http://localhost:4000/treasure/awesome-forests</id>
         <title>awesome-forests</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: awesome-forests, 🌳 A curated list of ground-truth forest datasets for the machine learning and forestry community.</p> ]]>
@@ -489,7 +489,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/awesome-forests"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/awesome-forests"/>
         
 
         
@@ -500,7 +500,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/carboncalc</id>
+        <id>http://localhost:4000/treasure/carboncalc</id>
         <title>carboncalc</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: carboncalc, Tools to calculate growth statistics for individual urban trees such as for estimating carbon storage.</p> ]]>
@@ -511,7 +511,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/carboncalc"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/carboncalc"/>
         
 
         
@@ -522,7 +522,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/clus</id>
+        <id>http://localhost:4000/treasure/clus</id>
         <title>clus</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: clus, Caribou and land use simulator- decision support model for caribou and forest management </p> ]]>
@@ -533,7 +533,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/clus"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/clus"/>
         
 
         
@@ -544,7 +544,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/deepforestr</id>
+        <id>http://localhost:4000/treasure/deepforestr</id>
         <title>deepforestr</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: deepforestr, R interface for DeepForest Python package, a deep learning package detecting individual organisms in airborne RGB images.</p> ]]>
@@ -555,7 +555,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/deepforestr"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/deepforestr"/>
         
 
         
@@ -566,7 +566,31 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/forestfrag3d</id>
+        <id>http://localhost:4000/treasure/forester</id>
+        <title>forester</title>
+        <summary type="html">
+          <![CDATA[ <p>Treasure discovered: forester, A collection of forest science and forestry functions, data and vignettes. Intended to follow a standardised form of structures, variable names. Do you want to add something, but don't have a GitHub? Contact carl.vigren@slu.se</p> ]]>
+        </summary>
+        <published>2023-08-13T00:00:00+02:00</published>
+        <updated>2023-07-31T12:57:35+02:00</updated>
+
+        
+
+        
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/forester"/>
+        
+
+        
+          <content type="text/plain"><![CDATA[https://user-images.githubusercontent.com/52540997/168085155-6f80ea54-b34d-47c3-a067-d5cc2674a93e.png]]></content>
+        
+        <author>
+          <name>The Pirate Forest</name>
+        </author>
+        
+      </entry>
+    
+      <entry>
+        <id>http://localhost:4000/treasure/forestfrag3d</id>
         <title>forestfrag3d</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: forestfrag3d, Code for Reproducibility of Generalized 3D Fragmentation Index Paper (Petras et al. 2017)</p> ]]>
@@ -577,7 +601,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/forestfrag3d"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/forestfrag3d"/>
         
 
         
@@ -588,7 +612,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/forestmangr</id>
+        <id>http://localhost:4000/treasure/forestmangr</id>
         <title>forestmangr</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: forestmangr, R package for forest mensuration and management </p> ]]>
@@ -599,7 +623,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/forestmangr"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/forestmangr"/>
         
 
         
@@ -610,7 +634,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/forvol</id>
+        <id>http://localhost:4000/treasure/forvol</id>
         <title>forvol</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: forvol, An R package for tree volume equations.</p> ]]>
@@ -621,7 +645,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/forvol"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/forvol"/>
         
 
         
@@ -632,7 +656,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/giessdenkiez-de</id>
+        <id>http://localhost:4000/treasure/giessdenkiez-de</id>
         <title>giessdenkiez-de</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: giessdenkiez-de, The consequences of climate change, especially the dry and hot summers, are putting a strain on Berlin's ecosystem. Our urban trees are drying out and suffering long-term damage. Gieß den Kiez is made to enable coordinated citizen participation in the irrigation of urban trees. </p> ]]>
@@ -643,7 +667,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/giessdenkiez-de"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/giessdenkiez-de"/>
         
 
         
@@ -654,7 +678,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/laselva</id>
+        <id>http://localhost:4000/treasure/laselva</id>
         <title>laselva</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: laselva, Fetch Forest Inventory data from many countries</p> ]]>
@@ -665,7 +689,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/laselva"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/laselva"/>
         
 
         
@@ -676,7 +700,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/lidR</id>
+        <id>http://localhost:4000/treasure/lidR</id>
         <title>lidR</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: lidR, R package for airborne LiDAR data manipulation and visualisation for forestry application</p> ]]>
@@ -687,7 +711,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/lidR"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/lidR"/>
         
 
         
@@ -700,7 +724,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/plant-generator</id>
+        <id>http://localhost:4000/treasure/plant-generator</id>
         <title>plant-generator</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: plant-generator, Plant generator</p> ]]>
@@ -711,7 +735,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/plant-generator"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/plant-generator"/>
         
 
         
@@ -722,7 +746,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/pycrown</id>
+        <id>http://localhost:4000/treasure/pycrown</id>
         <title>pycrown</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: pycrown, PyCrown - Fast raster-based individual tree segmentation for LiDAR data</p> ]]>
@@ -733,7 +757,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/pycrown"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/pycrown"/>
         
 
         
@@ -744,7 +768,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/pyfor</id>
+        <id>http://localhost:4000/treasure/pyfor</id>
         <title>pyfor</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: pyfor, Tools for analyzing aerial point clouds of forest data.</p> ]]>
@@ -755,7 +779,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/pyfor"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/pyfor"/>
         
 
         
@@ -766,7 +790,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/stanfordclassicr</id>
+        <id>http://localhost:4000/treasure/stanfordclassicr</id>
         <title>stanfordclassicr</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: stanfordclassicr, Functions to read StanForD classic forest machine reports</p> ]]>
@@ -777,7 +801,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/stanfordclassicr"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/stanfordclassicr"/>
         
 
         
@@ -788,7 +812,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/tree-species</id>
+        <id>http://localhost:4000/treasure/tree-species</id>
         <title>tree-species</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: tree-species, tree species with corresponding translation</p> ]]>
@@ -799,7 +823,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/tree-species"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/tree-species"/>
         
 
         
@@ -810,7 +834,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/tree_detection</id>
+        <id>http://localhost:4000/treasure/tree_detection</id>
         <title>tree_detection</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: tree_detection, This package implements a simple tree detector from point cloud data. It makes no assumptions about the ground plane and can handle arbitrary terrains.</p> ]]>
@@ -821,7 +845,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/tree_detection"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/tree_detection"/>
         
 
         
@@ -832,7 +856,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/treeco</id>
+        <id>http://localhost:4000/treasure/treeco</id>
         <title>treeco</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: treeco, The goal of treeco is to provide R users a tool for calculating the eco benefits of trees.</p> ]]>
@@ -843,7 +867,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/treeco"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/treeco"/>
         
 
         
@@ -854,7 +878,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/treeseg</id>
+        <id>http://localhost:4000/treasure/treeseg</id>
         <title>treeseg</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: treeseg, A library of tree segmentation and detection algorithms.</p> ]]>
@@ -865,7 +889,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/treeseg"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/treeseg"/>
         
 
         
@@ -876,7 +900,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/vinv-schema</id>
+        <id>http://localhost:4000/treasure/vinv-schema</id>
         <title>vinv-schema</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: vinv-schema, Lightweight data standard for single-tree based forest management, visualisation &amp; analytics</p> ]]>
@@ -887,7 +911,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/vinv-schema"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/vinv-schema"/>
         
 
         
@@ -898,7 +922,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/vwm-brandenburg</id>
+        <id>http://localhost:4000/treasure/vwm-brandenburg</id>
         <title>vwm-brandenburg</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: vwm-brandenburg, Illustration of regeneration condition and wildlife impact monitoring.</p> ]]>
@@ -909,7 +933,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/vwm-brandenburg"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/vwm-brandenburg"/>
         
 
         
@@ -922,7 +946,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/weblidar-treetop</id>
+        <id>http://localhost:4000/treasure/weblidar-treetop</id>
         <title>weblidar-treetop</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: weblidar-treetop, A Shiny-based Application for Extracting Forest Information from LiDAR data.</p> ]]>
@@ -933,7 +957,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/weblidar-treetop"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/weblidar-treetop"/>
         
 
         
@@ -944,7 +968,7 @@
       </entry>
     
       <entry>
-        <id>https://thepirateforest.org/treasure/wheelRuts_semanticSegmentation</id>
+        <id>http://localhost:4000/treasure/wheelRuts_semanticSegmentation</id>
         <title>wheelRuts_semanticSegmentation</title>
         <summary type="html">
           <![CDATA[ <p>Treasure discovered: wheelRuts_semanticSegmentation, semantic segmentation of wheel-ruts caused by forestry machinery</p> ]]>
@@ -955,7 +979,7 @@
         
 
         
-        <link rel="alternate" type="text/html" href="https://thepirateforest.org/treasure/wheelRuts_semanticSegmentation"/>
+        <link rel="alternate" type="text/html" href="http://localhost:4000/treasure/wheelRuts_semanticSegmentation"/>
         
 
         

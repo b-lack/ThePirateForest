@@ -315,7 +315,7 @@
     "pirate_id": "R4MpS0RPCmbQZRHLaaHry",
     "added": 1638179887556,
     "id": 101954301,
-    "name": "ForestBiometrics.jl",
+    "name": "ForestBiometrics",
     "full_name": "Crghilardi/ForestBiometrics.jl",
     "description": "A library for various forest mensuration and biometrics functions in Julia",
     "html_url": "https://github.com/Crghilardi/ForestBiometrics.jl",
@@ -1042,14 +1042,16 @@
     "id": 491705537,
     "name": "PercepTreeV1",
     "full_name": "norlab-ulaval/PercepTreeV1",
-    "description": "Implementation of Grondin et al. 2022 \"Tree Detection and Diameter Estimation Based on Deep Learning\". Also includes datasets and some of the pretrained models.",
+    "description": "Implementation of Grondin et al. 2022 'Tree Detection and Diameter Estimation Based on Deep Learning'. Also includes datasets and some of the pretrained models.",
     "html_url": "https://github.com/norlab-ulaval/PercepTreeV1",
     "language": "Python",
     "topics": [
       "computer-vision",
       "datasets",
       "forestry",
-      "remote-sensing"
+      "remote-sensing",
+      "remote-sensing",
+      "deep-learning"
     ],
     "stargazers_count": 50,
     "license_name": "Apache License 2.0",
@@ -1057,6 +1059,38 @@
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/30079365?v=4",
     "owner_html_url": "https://github.com/norlab-ulaval",
     "updated_at": "2023-08-03T10:14:28Z",
+    "homepage": "https://norlab.ulaval.ca/",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/norlab-ulaval/PercepTreeV1/main/.github/detection_synth.jpg",
+        "alt": "Training Deep Learning Algorithms on Synthetic Forest Images for Tree Detection"
+      },
+      {
+        "url": "https://github.com/norlab-ulaval/PercepTreeV1/raw/main/.github/figure6.png",
+        "alt": "Tree Detection and Diameter Estimation Based on Deep Learning, published in Forestry"
+      }
+    ]
+  },
+  {
+    "pirate_id": "n6YTYvRDJV5a2aqQ5Eg4L",
+    "added": 1691962687419,
+    "id": 333763966,
+    "name": "forester",
+    "full_name": "Silviculturalist/forester",
+    "description": "A collection of forest science and forestry functions, data and vignettes. Intended to follow a standardised form of structures, variable names. Do you want to add something, but don't have a GitHub? Contact carl.vigren@slu.se",
+    "html_url": "https://github.com/Silviculturalist/forester",
+    "language": "R",
+    "topics": [
+      "open-source",
+      " functions",
+      " forest-management"
+    ],
+    "stargazers_count": 9,
+    "license_name": "",
+    "owner_login": "Silviculturalist",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/52540997?v=4",
+    "owner_html_url": "https://github.com/Silviculturalist",
+    "updated_at": "2023-07-31T10:57:35Z",
     "homepage": ""
   }
 ]

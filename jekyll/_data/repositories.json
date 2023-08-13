@@ -1070,5 +1070,33 @@
         "alt": "Tree Detection and Diameter Estimation Based on Deep Learning, published in Forestry"
       }
     ]
+  },
+  {
+    "pirate_id": "n6YTYvRDJV5a2aqQ5Eg4L",
+    "added": 1691962687419,
+    "id": 333763966,
+    "name": "forester",
+    "full_name": "Silviculturalist/forester",
+    "description": "A collection of forest science and forestry functions, data and vignettes. Intended to follow a standardised form of structures, variable names. Do you want to add something, but don't have a GitHub? Contact carl.vigren@slu.se",
+    "html_url": "https://github.com/Silviculturalist/forester",
+    "language": "R",
+    "topics": [
+      "open-source",
+      " functions",
+      " forest-management"
+    ],
+    "stargazers_count": 9,
+    "license_name": "",
+    "owner_login": "Silviculturalist",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/52540997?v=4",
+    "owner_html_url": "https://github.com/Silviculturalist",
+    "updated_at": "2023-07-31T10:57:35Z",
+    "homepage": "",
+    "images": [
+      {
+        "url": "https://user-images.githubusercontent.com/52540997/168085155-6f80ea54-b34d-47c3-a067-d5cc2674a93e.png",
+        "alt": "A collection of forest science and forestry functions, data and vignettes."
+      }
+    ]
   }
 ]

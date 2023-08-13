@@ -71,7 +71,7 @@ const addRepo = async (owner, repo, topics) => {
 
             //if(data.private === true || data.data.visibility !== 'public') throw 'repository is private';
 
-            const rawdata = await fs.readFile("docs/_data/repositories.json");
+            const rawdata = await fs.readFile("jekyll/_data/repositories.json");
             let repositories = JSON.parse(rawdata);
 
             const exists = await checkRepoExists(data.data.id, repositories);
@@ -94,8 +94,8 @@ const addRepo = async (owner, repo, topics) => {
             }
             
 
-            await fs.writeFile("docs/_data/repositories.json", JSON.stringify(repositories, null, 2));
-            await fs.writeFile("docs/assets/repositories.json", JSON.stringify(repositories, null, 2));
+            await fs.writeFile("jekyll/_data/repositories.json", JSON.stringify(repositories, null, 2));
+            await fs.writeFile("jekyll/assets/repositories.json", JSON.stringify(repositories, null, 2));
             console.log('ADD REPO SUCCESS');
             
         }else{
@@ -109,7 +109,7 @@ const addRepo = async (owner, repo, topics) => {
 
 const checkIfExists =  async () => {
     try{
-        const rawdata = await fs.readFile("docs/_data/repositories.json");
+        const rawdata = await fs.readFile("jekyll/_data/repositories.json");
         JSON.parse(rawdata);
         return true;
     }catch(error){
