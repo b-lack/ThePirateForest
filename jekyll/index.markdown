@@ -15,7 +15,8 @@ type: pf-type-index
         <div class="pf-grow"></div>
     </div>
     {% include mastodon-feed.html %}
-</div>-->
+</div>
+-->
 
 <h2 class="pf-grow pf-pirate-name">LiDAR</h2>
 

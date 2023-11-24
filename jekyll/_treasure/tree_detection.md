@@ -8,7 +8,7 @@ tags:  cpp detection point-cloud ros tree tree-detection lidar
 url: /tree_detection
 published: 2021-12-08
 updated: 2021-11-30T17:34:43Z
-ogimage: 
+ogimage: https://raw.githubusercontent.com/leggedrobotics/tree_detection/main/doc/forest2.jpg
 html_url: https://github.com/leggedrobotics/tree_detection
 
 owner_avatar_url: https://avatars.githubusercontent.com/u/20533298?v=4
@@ -31,6 +31,14 @@ sharing:
     
 </div>
 
+
+<div class="pf-pirate-ogimage">
+    
+    <img src="https://raw.githubusercontent.com/leggedrobotics/tree_detection/main/doc/forest2.jpg" alt="forest ground removed" />
+    
+    <img src="https://raw.githubusercontent.com/leggedrobotics/tree_detection/main/doc/forest3.jpg" alt="forest 3" />
+    
+</div>
 
 
 
