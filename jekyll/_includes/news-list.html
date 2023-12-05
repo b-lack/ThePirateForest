@@ -1,0 +1,66 @@
+{% assign sorted_news = site.data.news | sort_natural: "datetime" | reverse %}
+
+<div id="pf-ship-list" class="pf-ship-list">
+   
+      {% for news in sorted_news %}
+      <div class="pf-row pf-pirate pf-small-column">
+            {% if news.image-embed != "" %}
+                <div>
+                    <div class="pf-pirate-avatar">
+                        <div class="pf-cross pf-clickable"></div>
+                        <img src="{{ news.image-embed}}" alt="{{ news.title }}"/>
+                    </div>
+                </div>
+            {% endif %}
+            
+        
+        <div class="pf-ship">
+        
+            <span class="pf-owner-name pf-text-center">{{ news.datetime | date: "%-d %B %Y" }}</span>
+
+            {% if news.url %}
+                {{ news.url | prepend: '<a href="' | append: '" rel="noreferrer" target="_blank">' }}
+            {% endif %}
+            
+            
+        
+                <div class="pf-grow pf-pirate">
+                <span class="pf-owner-name">by: {{ news.author }}</span>
+                </div>
+                <div>
+                <h3 class="pf-openext-wrap">
+                    {{news.title}}
+                </h3>
+                </div>
+        
+                <p>{{ news.description }} ...</p>
+        
+                {% if news.images %}
+                <div class="pf-repo-image">
+                    <img src="{{images[0].url}}" alt="{{name}}">
+                </div>
+                {% endif %}
+        
+            
+
+            
+            {% if news.url %}
+                </a>
+            {% endif %}
+        </div>
+      </div>
+
+      {% if forloop.last == false %}
+        <hr class="gf-seperator"/>
+      {% endif %}
+
+      {% endfor %}
+
+   
+</div>
+
+
+
+<script type="text/javascript">
+  var pageType = 'default';
+</script>

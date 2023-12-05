@@ -134,6 +134,9 @@ img{
   margin-bottom: 0.2em;
   font-weight: bold;
 }
+.pf-ship h3{
+  line-height: 1em;
+}
 .pf-ship p{
   margin: 0.2em 0 0.2em;
 }
@@ -309,7 +312,7 @@ dialog:modal {
   text-overflow: ellipsis;
 }
 
-.pf-openext::after{
+.pf-openext::after, .pf-openext-wrap::after{
   content: ' ';
   display: inline-block;
   margin-left: 10px;
@@ -434,6 +437,7 @@ hr.gf-seperator{
   border-radius: 50%;
   display: block;
   background-color: #333;
+  height: 100%;
 }
 /*.pf-type-index .pf-pirate:hover:not(.pf-treasure-selected) .pf-cross{
   background-color: rgba(238, 238, 238, 1);

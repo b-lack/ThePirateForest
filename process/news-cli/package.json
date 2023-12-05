@@ -1,0 +1,22 @@
+{
+  "name": "news-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "4.0",
+    "chalk": "2.4",
+    "inquirer": "^9.2.12"
+  },
+  "bin": {
+    "addNews": "./bin/index.js",
+    "TPFnews": "./bin/index.js"
+  }
+}

@@ -1,0 +1,43 @@
+{% assign sorted_news = site.data.news | sort_natural: "datetime" | reverse %}
+
+
+<div class="pf-h-island-list">
+   
+      {% for news in sorted_news %}
+      <div class="pf-pirate pf-small-column">
+        <span class="pf-owner-name pf-text-center">{{ news.datetime | date: "%-d %B %Y" }}</span>
+        {% if news.url %}
+            {{ news.url | prepend: '<a href="' | append: '" rel="noreferrer" target="_blank">' }}
+        {% endif %}
+            
+            <div class="pf-ship">
+        
+                <div class="pf-grow pf-pirate">
+                <span class="pf-owner-name">{{ news.author }}</span>
+                </div>
+                <div>
+                <span class="h3">{{news.title}}</span>
+                </div>
+        
+                <p>{{ news.description }}</p>
+        
+                {% if news.images %}
+                <div class="pf-repo-image">
+                    <img src="{{images[0].url}}" alt="{{name}}">
+                </div>
+                {% endif %}
+        
+            </div>
+
+            
+        {% if news.url %}
+            </a>
+        {% endif %}
+      </div>
+      {% endfor %}
+   
+</div>
+
+<script type="text/javascript">
+  var pageType = 'default';
+</script>

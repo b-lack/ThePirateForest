@@ -1,0 +1,1 @@
+cd /Users/b-mac/sites/thepirateforest/ThePirateForest/process && node build-repo-pages.js

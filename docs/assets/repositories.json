@@ -980,7 +980,17 @@
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/20533298?v=4",
     "owner_html_url": "https://github.com/leggedrobotics",
     "updated_at": "2021-11-30T17:34:43Z",
-    "homepage": ""
+    "homepage": "",
+    "images": [
+      {
+        "url": "https://raw.githubusercontent.com/leggedrobotics/tree_detection/main/doc/forest2.jpg",
+        "alt": "forest ground removed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/leggedrobotics/tree_detection/main/doc/forest3.jpg",
+        "alt": "forest 3"
+      }
+    ]
   },
   {
     "pirate_id": "7SZ4Ojghsbd3TuZarR8xg",
@@ -1091,6 +1101,40 @@
     "owner_avatar_url": "https://avatars.githubusercontent.com/u/52540997?v=4",
     "owner_html_url": "https://github.com/Silviculturalist",
     "updated_at": "2023-07-31T10:57:35Z",
+    "homepage": "",
+    "images": [
+      {
+        "url": "https://user-images.githubusercontent.com/52540997/168085155-6f80ea54-b34d-47c3-a067-d5cc2674a93e.png",
+        "alt": "A collection of forest science and forestry functions, data and vignettes."
+      }
+    ]
+  },
+  {
+    "pirate_id": "yA439dgxNpnx7nTMBY9Ue",
+    "added": 1700862626475,
+    "id": 579421992,
+    "name": "allometric",
+    "full_name": "allometric/allometric",
+    "description": "Structured Allometric Models for Trees",
+    "html_url": "https://github.com/allometric/allometric",
+    "language": "R",
+    "topics": [
+      "carbon",
+      "forest-inventory",
+      "forestry",
+      "forestry",
+      " carbon",
+      " forest-inventory",
+      "forestry",
+      " carbon",
+      " forest-inventory"
+    ],
+    "stargazers_count": 48,
+    "license_name": "Other",
+    "owner_login": "allometric",
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/142178884?v=4",
+    "owner_html_url": "https://github.com/allometric",
+    "updated_at": "2023-11-15T23:18:11Z",
     "homepage": ""
   }
 ]
